@@ -1,7 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0f766e,50:0891b2,100:1d4ed8&text=Syed%20Muhammad%20Ali%20Naqvi&fontColor=ffffff&fontSize=34&fontAlignY=35" alt="Header" />
 
 <p align="center">
-	<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=21&duration=2800&pause=900&center=true&vCenter=true&width=980&lines=FAST+University+%7C+BSCS+8th+Semester+Student;CS+Student+and+Educator+%7C+Building+Practical+Learning+Resources;Experienced+with+Frontend%2C+Backend%2C+and+Project-Based+Teaching" alt="Typing Intro" />
+	<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=21&duration=2800&pause=900&center=true&vCenter=true&width=980&lines=FAST+University+%7C+BSCS+Student;CS+Student+and+Educator+%7C+Building+Practical+Learning+Resources;Experienced+with+Frontend%2C+Backend%2C+and+Project-Based+Teaching" alt="Typing Intro" />
 </p>
 
 <p align="center">
@@ -16,12 +16,13 @@
 - [Learning Paths](#learning-paths)
 - [Featured Repositories](#featured-repositories)
 - [Languages and Tech Stack](#languages-and-tech-stack)
+- [Core CS Coursework](#core-cs-coursework)
 - [GitHub Dashboard](#github-dashboard)
 - [Study Repositories](#study-repositories)
 - [Collaboration](#collaboration)
 
 ## Student and Educator Profile
-- FAST University BSCS student currently in 8th semester
+- FAST University BSCS student
 - Focused on teaching CS concepts through project-based learning
 - Building beginner-to-advanced repositories with clear guidance
 - Strong interest in web engineering, API development, and CS fundamentals
@@ -74,6 +75,13 @@ This profile is built like a mini learning portal for students who want structur
 - VS Code
 - Documentation-first project workflow
 
+## Core CS Coursework
+- Data Structures and Algorithms (DSA)
+- Object-Oriented Programming (OOP)
+- Database Systems (DB)
+- Operating Systems (OS)
+- Computer Networks
+
 ## GitHub Dashboard
 <p align="center">
 	<img src="https://github-readme-stats.vercel.app/api?username=AliShah1029384756&show_icons=true&hide_border=true&rank_icon=github" alt="GitHub Stats" height="165" />
@@ -110,6 +118,6 @@ This profile is built like a mini learning portal for students who want structur
 
 ## Connect
 - GitHub: https://github.com/AliShah1029384756
-- FAST University: BSCS, 8th Semester (Batch 2022)
+- FAST University: BSCS (Batch 2022)
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0f766e,50:0891b2,100:1d4ed8" alt="Footer" />
