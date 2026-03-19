@@ -18,6 +18,10 @@ Learning track repository: https://github.com/AliShah1029384756/web-dev-learning
 3. Use the checklist and curated resources after each project
 4. Improve documentation and share better implementations
 
+## Featured Resources
+- High-Impact Student Projects: https://github.com/AliShah1029384756/high-impact-student-projects
+- Web Development Learning Track: https://github.com/AliShah1029384756/web-dev-learning-track
+
 ## Learning Roadmap
 1. Foundations: HTML, CSS, JavaScript
 2. Interactive Frontend: DOM, state, local storage
