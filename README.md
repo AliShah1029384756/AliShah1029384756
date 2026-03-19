@@ -17,6 +17,7 @@
 - [Featured Repositories](#featured-repositories)
 - [Languages and Tech Stack](#languages-and-tech-stack)
 - [Core CS Coursework](#core-cs-coursework)
+- [Academic Projects by Subject](#academic-projects-by-subject)
 - [GitHub Dashboard](#github-dashboard)
 - [Study Repositories](#study-repositories)
 - [Collaboration](#collaboration)
@@ -81,6 +82,19 @@ This profile is built like a mini learning portal for students who want structur
 - Database Systems (DB)
 - Operating Systems (OS)
 - Computer Networks
+
+## Academic Projects by Subject
+| Subject | Project | Summary |
+|---|---|---|
+| File Management | File Management System | Implemented core file handling and record organization workflows. |
+| OOP / ICT | Student Management System | Built a system to manage student records, updates, and basic operations. |
+| Database Systems | Database Project | Designed and implemented relational database operations for structured data management. |
+| Operating Systems | Banking System | Developed process-oriented banking operations with transaction-focused logic. |
+| Computer Networks | Chess Game | Built a network-based chess game with communication and gameplay flow. |
+| Software Engineering | Transportation Management System | Developed a management system for transport data, routing, and operational tracking. |
+| Web Development | EduConnect | Built a student-focused platform with forum, peer consultation, senior guidance, and subject resource sharing through WhatsApp links. |
+| Operations Research | OR Problem Solver Project | Implemented solution workflows for major operations research problem types. |
+| ICT Fundamentals | Library System | Built a basic library management project for book records and issue/return tracking. |
 
 ## GitHub Dashboard
 <p align="center">
