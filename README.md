@@ -1,7 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0f766e,50:0891b2,100:1d4ed8&text=Syed%20Muhammad%20Ali%20Naqvi&fontColor=ffffff&fontSize=34&fontAlignY=35" alt="Header" />
 
 <p align="center">
-	<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=21&duration=2800&pause=900&center=true&vCenter=true&width=950&lines=Computer+Science+Student+%7C+Building+Practical+Learning+Resources;Project-Based+Learning+%7C+Beginner+to+Advanced;Helping+Students+Learn+By+Building+Real+Projects" alt="Typing Intro" />
+	<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=21&duration=2800&pause=900&center=true&vCenter=true&width=980&lines=FAST+University+%7C+BSCS+8th+Semester+Student;CS+Student+and+Educator+%7C+Building+Practical+Learning+Resources;Experienced+with+Frontend%2C+Backend%2C+and+Project-Based+Teaching" alt="Typing Intro" />
 </p>
 
 <p align="center">
@@ -11,13 +11,20 @@
 </p>
 
 ## Navigation
+- [Student and Educator Profile](#student-and-educator-profile)
 - [Start Here](#start-here)
 - [Learning Paths](#learning-paths)
 - [Featured Repositories](#featured-repositories)
-- [Tech Stack](#tech-stack)
+- [Languages and Tech Stack](#languages-and-tech-stack)
 - [GitHub Dashboard](#github-dashboard)
 - [Study Repositories](#study-repositories)
 - [Collaboration](#collaboration)
+
+## Student and Educator Profile
+- FAST University BSCS student currently in 8th semester
+- Focused on teaching CS concepts through project-based learning
+- Building beginner-to-advanced repositories with clear guidance
+- Strong interest in web engineering, API development, and CS fundamentals
 
 ## Start Here
 This profile is built like a mini learning portal for students who want structure, not random content.
@@ -44,10 +51,28 @@ This profile is built like a mini learning portal for students who want structur
 	</a>
 </p>
 
-## Tech Stack
+## Languages and Tech Stack
 <p align="center">
-	<img src="https://skillicons.dev/icons?i=html,css,js,nodejs,express,git,github,vscode" alt="Tech Stack Icons" />
+	<img src="https://skillicons.dev/icons?i=c,cpp,java,python,js,html,css,nodejs,express,mongodb,mysql,git,github,vscode" alt="Languages and Tech Stack Icons" />
 </p>
+
+### Programming Languages
+- C
+- C++
+- Java
+- Python
+- JavaScript
+- SQL
+
+### Web and Backend
+- HTML, CSS, JavaScript
+- Node.js, Express.js
+- REST APIs, asynchronous programming, error handling
+
+### Tools and Workflow
+- Git and GitHub
+- VS Code
+- Documentation-first project workflow
 
 ## GitHub Dashboard
 <p align="center">
@@ -85,6 +110,6 @@ This profile is built like a mini learning portal for students who want structur
 
 ## Connect
 - GitHub: https://github.com/AliShah1029384756
-- Location: FAST University CS Student (Batch 2022)
+- FAST University: BSCS, 8th Semester (Batch 2022)
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0f766e,50:0891b2,100:1d4ed8" alt="Footer" />
