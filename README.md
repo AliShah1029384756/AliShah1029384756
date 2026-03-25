@@ -21,13 +21,15 @@
 ---
 
 ## 👤 About Me
-🎓 **FAST University BSCS Student** | 👨‍🏫 **CS Educator** | 💻 **Full-Stack Developer**
+🎓 **FAST University BSCS Student** | 👨‍🏫 **CS Educator** | 💻 **Full-Stack Developer** | 🤖 **AI-Assisted Development**
 
 > Building practical learning resources for students who prefer structure over randomness
 
 - ✨ Focused on teaching CS concepts through real project implementations
 - 🔧 Creating beginner-to-advanced repositories with clear progression
 - 🌐 Strong expertise in web engineering, APIs, and CS fundamentals
+- 🤖 Proficient in AI-assisted development with strong prompt engineering skills
+- 🤖 Proficient in AI-assisted development with strong prompt engineering skills
 - 🎯 Passionate about making computer science accessible and engaging
 
 ---
@@ -163,6 +165,11 @@ Anaconda (Python environment)  •  mingw (C/C++ compilation)
 **Productivity & Design:**
 ```
 Draw.io (diagramming)  •  Proteus (circuit simulation)  •  MS Office  •  Zoom
+```
+
+**AI-Assisted Development:**
+```
+GitHub Copilot  •  Claude AI  •  ChatGPT  •  Prompt Engineering for Code Quality
 ```
 
 ---
