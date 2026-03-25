@@ -52,12 +52,17 @@ This profile is built like a mini learning portal for students who want structur
 	<a href="https://github.com/AliShah1029384756/web-dev-learning-track">
 		<img src="https://github-readme-stats.vercel.app/api/pin/?username=AliShah1029384756&repo=web-dev-learning-track&hide_border=true" alt="Web Dev Learning Track" />
 	</a>
+	<a href="https://github.com/AliShah1029384756/university-course-projects">
+		<img src="https://github-readme-stats.vercel.app/api/pin/?username=AliShah1029384756&repo=university-course-projects&hide_border=true" alt="University Course Projects" />
+	</a>
 </p>
 
 ## University Projects Repository
 I maintain a dedicated collection of my university subject projects in one place with clean documentation and setup notes.
 
 Repository link: [university-course-projects](https://github.com/AliShah1029384756/university-course-projects)
+
+Latest update: University subject projects were uploaded and organized in this repository today with documentation.
 
 ### Focus of this repository
 - Academic projects grouped by subject/course
