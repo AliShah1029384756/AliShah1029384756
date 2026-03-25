@@ -126,6 +126,43 @@ HTML, CSS, JavaScript  •  Node.js, Express.js  •  REST APIs  •  Async Prog
 Git & GitHub  •  VS Code  •  Documentation-First Development
 ```
 
+### 🛠️ Development Tools & Environment
+
+**IDEs & Editors:**
+```
+Visual Studio  •  Sublime Text  •  VS Code
+```
+
+**Databases & Backend:**
+```
+Oracle  •  MongoDB  •  MySQL
+```
+
+**API & Testing:**
+```
+Postman  •  git (version control)
+```
+
+**Virtualization & System Tools:**
+```
+VMware Workstation Pro  •  VirtualBox  •  WSL (Windows Subsystem for Linux)
+```
+
+**Learning & Security:**
+```
+Kali Linux (penetration testing)  •  Ubuntu (testing & learning)
+```
+
+**Development & Analysis:**
+```
+Anaconda (Python environment)  •  mingw (C/C++ compilation)
+```
+
+**Productivity & Design:**
+```
+Draw.io (diagramming)  •  Proteus (circuit simulation)  •  MS Office  •  Zoom
+```
+
 ---
 
 ## 🎓 Core CS Coursework
