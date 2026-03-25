@@ -32,6 +32,18 @@
 - 🤖 Proficient in AI-assisted development with strong prompt engineering skills
 - 🎯 Passionate about making computer science accessible and engaging
 
+### 👨‍🏫 Teaching & Mentoring
+- **Hostel Teacher & Warden** at FAST University: Guide 20+ students on academics and personal development
+- **Private Educator**: Teach CS and programming at local institutions (2022–Present)
+- **University Mentor**: Assist junior CS students with coursework, projects, and career guidance
+- **Documentation Focus**: Create clear learning guides and resources for students at all levels
+
+### 🤝 Open To
+- ✅ **Collaborations** on educational projects and open-source contributions
+- ✅ **Mentorship** opportunities (helping junior developers and students)
+- ✅ **Project Partners** for full-stack, systems, or algorithm-focused work
+- ✅ **Teaching & Resource Building** to help make CS education more accessible
+
 ---
 
 ## 🚀 Start Here
@@ -207,7 +219,7 @@ Curated collection of university coursework implementations:
 | 🧮 Discrete Mathematics | Discrete Project | Algorithm analysis, design | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Discrete%20Project) |
 | 📊 Probability & Statistics | Probability Semester Project | Statistical analysis, R + Shiny visualization | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Probability%20Semester%20Project) |
 | 💻 Full-Stack Development | ECommerce Website | MERN stack, real-time features | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/ECommerce%20Website) |
-| 🔐 Final Year Project | AutiSmart Showcase (implementation kept private) | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/AutiSmart-Showcase) |
+| 🔐 **Final Year Project** | **AutiSmart** – Full-stack autism-care platform (React + Node.js) | Role-based workflows, assessments, therapy activities | Private implementation / [Showcase](https://github.com/AliShah1029384756/university-course-projects/tree/main/AutiSmart-Showcase) |
 | 💻 Full-Stack Development | EduConnect | Forums, consulting, resources | [View](https://github.com/AliShah1029384756/EduConnect) |
 
 ---
@@ -263,6 +275,13 @@ Curated external repositories for continuous learning:
 - 💡 **Suggestions and improvements** are always welcome
 - 🐛 **Found a bug?** Open an issue with clear details
 - 🔧 **Want to contribute?** Check CONTRIBUTING.md in respective repos
+- 🎓 **Interested in mentoring or collaboration?** I'm actively open to partnerships
+
+### 📚 Current Focus
+- 🎯 Refining FYP (AutiSmart) for robust autism-care workflows
+- 📖 Building comprehensive CS learning resources
+- 🤝 Mentoring junior developers and students
+- 💻 Exploring advanced backend architectures and AI integration
 
 ### 📬 Let's Connect
 - 🌐 **GitHub**: [AliShah1029384756](https://github.com/AliShah1029384756)
