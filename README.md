@@ -107,7 +107,7 @@ This profile is built like a mini learning portal for students who want **struct
 
 📦 **Repository:** [university-course-projects](https://github.com/AliShah1029384756/university-course-projects)
 🔐 **Private FYP Repository:** FYP-autismart (private access)
-🌐 **Public FYP Showcase:** [AutiSmart-Showcase](https://github.com/AliShah1029384756/university-course-projects/tree/main/AutiSmart-Showcase)
+🌐 **Public FYP Showcase:** [AutiSmart Live Demo](https://htmlpreview.github.io/?https://github.com/AliShah1029384756/university-course-projects/blob/main/AutiSmart-Showcase/index.html)
 
 ### 📂 Project Organization by Subject
 
@@ -229,7 +229,7 @@ Curated collection of university coursework implementations:
 | 🧮 Discrete Mathematics | Discrete Project | Algorithm analysis, design | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Discrete%20Project) |
 | 📊 Probability & Statistics | Probability Semester Project | Statistical analysis, R + Shiny visualization | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Probability%20Semester%20Project) |
 | 💻 Full-Stack Development | ECommerce Website | MERN stack, real-time features | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/ECommerce%20Website) |
-| 🔐 **Final Year Project** | **AutiSmart** – Full-stack autism-care platform (React + Node.js) | Role-based workflows, assessments, therapy activities | Private implementation / [Showcase](https://github.com/AliShah1029384756/university-course-projects/tree/main/AutiSmart-Showcase) |
+| 🔐 **Final Year Project** | **AutiSmart** – Full-stack autism-care platform (React + Node.js) | Role-based workflows, assessments, therapy activities | Private implementation / [Live Demo](https://htmlpreview.github.io/?https://github.com/AliShah1029384756/university-course-projects/blob/main/AutiSmart-Showcase/index.html) |
 | 💻 Full-Stack Development | EduConnect | Forums, consulting, resources | [View](https://github.com/AliShah1029384756/EduConnect) |
 
 ---
