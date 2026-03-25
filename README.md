@@ -90,12 +90,13 @@ This profile is built like a mini learning portal for students who want **struct
 
 | Category | Projects | Tech Stack | Level |
 |---|---|---|---|
-| 🖥️ **Systems** | Banking System • Student Management System | C++ | Intermediate |
-| 🌐 **Networking** | Chess Game • Computer Networks | Node.js, Socket.IO | Intermediate |
-| 🗄️ **Databases** | ECommerce Database • ECommerce Website | C#/Oracle, MongoDB | Advanced |
+| 🖥️ **Systems** | Banking System • Student Management System • Inventory Management System | C++ | Intermediate |
+| 🌐 **Networking** | Chess Game • Computer Networks • P2P Communication System | Node.js, React, Socket.IO | Intermediate |
+| 🗄️ **Databases** | ECommerce Database • ECommerce Website • Retail Management System | C#/Oracle, MERN | Advanced |
 | ⚙️ **Compilers** | Multi-stage Compiler | Lex/Yacc, C, Python | Advanced |
 | 🔧 **Low-Level** | Snake Game | x86 Assembly | Advanced |
-| 🧮 **Algorithms** | Discrete Project | C++ | Intermediate |
+| 🧮 **Algorithms** | Discrete Project • Operations Research • Bus Schedule Optimizer | C++, Python | Intermediate |
+| 📊 **Statistics** | Probability Semester Project | R, Shiny | Intermediate |
 
 Each project includes:
 - ✅ Complete source code
@@ -145,15 +146,22 @@ Curated collection of university coursework implementations:
 
 | Subject | 📦 Project | 🎯 Key Concepts | 🔗 Link |
 |---|---|---|---|
-| 🖥️ Operating Systems | Banking System | Process management, transactions | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Banking%20System) |
+| 🖥️ Operating Systems | Banking System | Process management, transactions, concurrency | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Banking%20System) |
+| 📚 OOP / Software Engineering | Inventory Management System | Role-based design, inheritance, polymorphism | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Inventory%20Management%20System) |
 | 📚 OOP / Software Engineering | Student Management System | Data structures, CRUD operations | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Student%20Management%20System) |
-| 🗄️ Database Systems | ECommerce Database | Relational design, normalization | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/ECommerce%20Database) |
-| 🌐 Computer Networks | Chess Game | Real-time communication, protocols | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Chess%20Game) |
+| 🗄️ Database Systems | ECommerce Database | Relational design, normalization, Oracle | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/ECommerce%20Database) |
+| 🗄️ Database Systems | Retail Management System | WinForms UI, Oracle integration, business logic | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Retail%20Management%20System) |
+| 🌐 Computer Networks | Chess Game | Real-time communication, WebSockets, protocols | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Chess%20Game) |
+| 🌐 Computer Networks | Computer Networks | Network protocols, real-time messaging | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Computer%20Networks) |
+| 🌐 Computer Networks | P2P Communication System | Peer-to-peer architecture, file sharing, React | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/P2P%20Communication%20System) |
 | ⚙️ Compiler Construction | Compiler Project | Lexing, parsing, semantic analysis | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Compiler%20Project) |
 | 🔧 Low-Level Programming | Snake Game | x86 Assembly, memory management | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Snake%20Game) |
-| 💻 Full-Stack Development | EduConnect | Forums, consulting, resources | [View](https://github.com/AliShah1029384756/EduConnect) |
+| 🧮 Algorithms & Optimization | Operations Research | Algorithm suite (Python + C++) | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Operations%20Research) |
+| 🧮 Algorithms & Optimization | Bus Schedule Optimizer | OR algorithms, Pygame GUI, transportation problems | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Bus%20Schedule%20Optimizer) |
 | 🧮 Discrete Mathematics | Discrete Project | Algorithm analysis, design | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Discrete%20Project) |
-| 🌍 Networks & Systems | Network Systems | Real-time protocols, architecture | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Computer%20Networks) |
+| 📊 Probability & Statistics | Probability Semester Project | Statistical analysis, R + Shiny visualization | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Probability%20Semester%20Project) |
+| 💻 Full-Stack Development | ECommerce Website | MERN stack, real-time features | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/ECommerce%20Website) |
+| 💻 Full-Stack Development | EduConnect | Forums, consulting, resources | [View](https://github.com/AliShah1029384756/EduConnect) |
 
 ---
 
