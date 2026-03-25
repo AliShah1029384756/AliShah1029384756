@@ -32,10 +32,16 @@
 ## Start Here
 This profile is built like a mini learning portal for students who want structure, not random content.
 
-1. Choose a learning level below.
-2. Build one project completely.
-3. Review mistakes and improve the same project.
-4. Move to the next level.
+**Choose your path:**
+1. **Learning projects**: Start with beginner-friendly projects to build real skills.
+2. **University coursework**: Explore comprehensive implementations from CS subjects.
+3. **Comprehensive guides**: Deep-dive into learning resources and structured curriculum.
+
+**How to use:**
+1. Pick a project level matched to your experience.
+2. Complete one project end-to-end.
+3. Review common mistakes and improvements included in each project.
+4. Move to the next difficulty level.
 
 ## Learning Paths
 | Level | Projects | Outcome |
@@ -58,38 +64,20 @@ This profile is built like a mini learning portal for students who want structur
 </p>
 
 ## University Projects Repository
-I maintain a dedicated collection of my university subject projects in one place with clean documentation and setup notes.
+I maintain a dedicated collection of my university subject projects with professional documentation and complete implementations.
 
-Repository link: [university-course-projects](https://github.com/AliShah1029384756/university-course-projects)
+**Repository:** [university-course-projects](https://github.com/AliShah1029384756/university-course-projects)
 
-Latest update: University subject projects were uploaded and organized in this repository today with documentation.
+### Project Collection Overview
+This repository contains 10+ academic projects across:
+- **Systems & OS**: Banking System, Student Management System
+- **Networking**: Chess Game (Socket.IO), Computer Networks
+- **Databases**: ECommerce Database (Oracle), ECommerce Website (MongoDB)
+- **Compilers**: Multi-stage compiler with lexical, syntax, and semantic analysis
+- **Low-Level Programming**: Snake Game in x86 Assembly
+- **Discrete Math & Algorithms**: Implementation-focused projects
 
-### Focus of this repository
-- Academic projects grouped by subject/course
-- Source code with project-level README documentation
-- Practical implementations from systems, networks, databases, web, and low-level programming coursework
-
-### Included project types
-- C++ console projects (for OS/OOP style coursework)
-- Real-time Node.js projects (Computer Networks, Chess)
-- C# WinForms + database project (ECommerce Database)
-- Compiler construction deliverables (Lex/Yacc pipeline)
-- Assembly-level project (Snake game)
-
-This repository is prepared with a professional structure suitable for academic portfolio review.
-
-### University project collection
-| Project | Link |
-|---|---|
-| Banking System | [Banking System](https://github.com/AliShah1029384756/university-course-projects/tree/main/Banking%20System) |
-| Chess Game | [Chess Game](https://github.com/AliShah1029384756/university-course-projects/tree/main/Chess%20Game) |
-| Compiler Project | [Compiler Project](https://github.com/AliShah1029384756/university-course-projects/tree/main/Compiler%20Project) |
-| Computer Networks | [Computer Networks](https://github.com/AliShah1029384756/university-course-projects/tree/main/Computer%20Networks) |
-| Discrete Project | [Discrete Project](https://github.com/AliShah1029384756/university-course-projects/tree/main/Discrete%20Project) |
-| ECommerce Database | [ECommerce Database](https://github.com/AliShah1029384756/university-course-projects/tree/main/ECommerce%20Database) |
-| ECommerce Website | [ECommerce Website](https://github.com/AliShah1029384756/university-course-projects/tree/main/ECommerce%20Website) |
-| Snake Game | [Snake Game](https://github.com/AliShah1029384756/university-course-projects/tree/main/Snake%20Game) |
-| Student Management System | [Student Management System](https://github.com/AliShah1029384756/university-course-projects/tree/main/Student%20Management%20System) |
+Each project includes setup instructions, complete source code, and learning outcomes.
 
 ## Languages and Tech Stack
 <p align="center">
@@ -121,20 +109,18 @@ This repository is prepared with a professional structure suitable for academic 
 - Operating Systems (OS)
 - Computer Networks
 
-## Academic Projects by Subject
-| Subject | Project | Summary |
-|---|---|---|
-| File Management | File Management System | Implemented core file handling and record organization workflows. |
-| OOP / ICT | Student Management System | Built a system to manage student records, updates, and basic operations. |
-| Database Systems | Database Project | Designed and implemented relational database operations for structured data management. |
-| Operating Systems | Banking System | Developed process-oriented banking operations with transaction-focused logic. |
-| Computer Networks | Chess Game | Built a network-based chess game with communication and gameplay flow. |
-| Compiler Construction | Compiler Project | Built lexical, syntax, semantic, AST, and intermediate-code stages through deliverables. |
-| Low-Level Programming | Snake Game | Implemented assembly-level game logic and rendering flow. |
-| Software Engineering | Transportation Management System | Developed a management system for transport data, routing, and operational tracking. |
-| Web Development | EduConnect | Built a student-focused platform with forum, peer consultation, senior guidance, and subject resource sharing through WhatsApp links. |
-| Operations Research | OR Problem Solver Project | Implemented solution workflows for major operations research problem types. |
-| ICT Fundamentals | Library System | Built a basic library management project for book records and issue/return tracking. |
+## Academic Projects Portfolio
+| Subject | Project | Key Learning | Link |
+|---|---|---|---|
+| Operating Systems | Banking System | Process management, transaction logic | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Banking%20System) |
+| OOP / Software Engineering | Student Management System | Data management, system design | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Student%20Management%20System) |
+| Database Systems | ECommerce Database | Relational design, CRUD operations | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/ECommerce%20Database) |
+| Computer Networks | Chess Game | Real-time communication, Socket.IO | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Chess%20Game) |
+| Compiler Construction | Compiler Project | Lexical/syntax/semantic analysis, AST | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Compiler%20Project) |
+| Low-Level Programming | Snake Game | x86 Assembly, memory management | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Snake%20Game) |
+| Web Development | EduConnect | Full-stack platform with forums, consultation, resource sharing | [View](https://github.com/AliShah1029384756/EduConnect) |
+| Discrete Mathematics | Discrete Project | Algorithm design, implementation | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Discrete%20Project) |
+| Computer Networks | Network Systems | Real-time systems, communication protocols | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Computer%20Networks) |
 
 ## GitHub Dashboard
 <p align="center">
@@ -165,13 +151,21 @@ This repository is prepared with a professional structure suitable for academic 
 - https://github.com/sindresorhus/awesome
 - https://github.com/TheAlgorithms/Python
 
+## Quick Links to Major Repositories
+- **Profile Hub**: [AliShah1029384756](https://github.com/AliShah1029384756/AliShah1029384756) - This profile repository
+- **Educational Content Guides**: [high-impact-student-projects](https://github.com/AliShah1029384756/high-impact-student-projects) - Comprehensive resource hub
+- **Learning Structured Path**: [web-dev-learning-track](https://github.com/AliShah1029384756/web-dev-learning-track) - Week-by-week curriculum
+- **University Projects**: [university-course-projects](https://github.com/AliShah1029384756/university-course-projects) - Academic coursework collection
+
 ## Collaboration
-- If these resources help you, you can use and share them.
-- Suggestions and documentation improvements are welcome.
-- If you find an issue, open it with clear reproduction details.
+- If these resources help you, feel free to use and share them.
+- Suggestions and documentation improvements are always welcome.
+- Found a bug or issue? Open an issue with clear reproduction details.
+- Interested in contributing? Check CONTRIBUTING.md in the respective repositories.
 
 ## Connect
-- GitHub: https://github.com/AliShah1029384756
-- FAST University: BSCS (Batch 2022)
+- **GitHub Profile**: https://github.com/AliShah1029384756
+- **University**: FAST University BSCS (Batch 2022)
+- **Focus Areas**: CS Education, Project-Based Learning, Full-Stack Development
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0f766e,50:0891b2,100:1d4ed8" alt="Footer" />
