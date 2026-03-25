@@ -128,6 +128,8 @@ Git & GitHub  •  VS Code  •  Documentation-First Development
 
 ### 🛠️ Development Tools & Environment
 
+*Standard toolkit used across FAST computer science curriculum and professional development*
+
 **IDEs & Editors:**
 ```
 Visual Studio  •  Sublime Text  •  VS Code
@@ -148,9 +150,9 @@ Postman  •  git (version control)
 VMware Workstation Pro  •  VirtualBox  •  WSL (Windows Subsystem for Linux)
 ```
 
-**Learning & Security:**
+**Networking & Learning:**
 ```
-Kali Linux (penetration testing)  •  Ubuntu (testing & learning)
+Cisco Packet Tracer (network simulation)  •  Kali Linux (penetration testing)  •  Ubuntu (testing & learning)
 ```
 
 **Development & Analysis:**
