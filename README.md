@@ -74,6 +74,16 @@ This profile is built like a mini learning portal for students who want **struct
 | **Intermediate** | [Quiz App](https://github.com/AliShah1029384756/quiz-app) • [Expense Tracker](https://github.com/AliShah1029384756/expense-tracker) • [Portfolio](https://github.com/AliShah1029384756/portfolio) | State management, logic flow, UI design | 3-4 weeks |
 | **Advanced** | [Weather App](https://github.com/AliShah1029384756/weather-app) • [REST API](https://github.com/AliShah1029384756/rest-api) | API integration, async programming, backend | 4-5 weeks |
 
+### 🎨 Frontend Demo Access
+
+- [Calculator Demo](https://github.com/AliShah1029384756/calculator/blob/main/index.html)
+- [Todo App Demo](https://github.com/AliShah1029384756/todo-app/blob/main/index.html)
+- [Weather App Demo](https://github.com/AliShah1029384756/weather-app/blob/main/index.html)
+- [Quiz App Demo](https://github.com/AliShah1029384756/quiz-app/blob/main/index.html)
+- [Expense Tracker Demo](https://github.com/AliShah1029384756/expense-tracker/blob/main/index.html)
+- [Notes App Demo](https://github.com/AliShah1029384756/notes-app/blob/main/index.html)
+- [Portfolio Demo](https://github.com/AliShah1029384756/portfolio/blob/main/index.html)
+
 ---
 
 ## ⭐ Featured Repositories
