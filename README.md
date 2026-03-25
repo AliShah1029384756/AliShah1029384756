@@ -99,6 +99,7 @@ This profile is built like a mini learning portal for students who want **struct
 | 🔧 **Low-Level** | Snake Game | x86 Assembly | Advanced |
 | 🧮 **Algorithms** | Discrete Project • Operations Research • Bus Schedule Optimizer | C++, Python | Intermediate |
 | 📊 **Statistics** | Probability Semester Project | R, Shiny | Intermediate |
+| 🔐 **Private FYP Showcase** | AutiSmart Showcase (public summary, private implementation) | HTML, CSS | Portfolio |
 
 Each project includes:
 - ✅ Complete source code
@@ -207,6 +208,7 @@ Curated collection of university coursework implementations:
 | 🧮 Discrete Mathematics | Discrete Project | Algorithm analysis, design | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Discrete%20Project) |
 | 📊 Probability & Statistics | Probability Semester Project | Statistical analysis, R + Shiny visualization | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Probability%20Semester%20Project) |
 | 💻 Full-Stack Development | ECommerce Website | MERN stack, real-time features | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/ECommerce%20Website) |
+| 🔐 Final Year Project | AutiSmart Showcase (implementation kept private) | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/AutiSmart-Showcase) |
 | 💻 Full-Stack Development | EduConnect | Forums, consulting, resources | [View](https://github.com/AliShah1029384756/EduConnect) |
 
 ---
