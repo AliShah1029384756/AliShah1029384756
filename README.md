@@ -84,6 +84,8 @@ This profile is built like a mini learning portal for students who want **struct
 🎓 **Professional collection of academic coursework** with complete implementations and documentation
 
 📦 **Repository:** [university-course-projects](https://github.com/AliShah1029384756/university-course-projects)
+🔐 **Private FYP Repository:** FYP-autismart (private access)
+🌐 **Public FYP Showcase:** [AutiSmart-Showcase](https://github.com/AliShah1029384756/university-course-projects/tree/main/AutiSmart-Showcase)
 
 ### 📂 Project Organization by Subject
 
