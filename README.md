@@ -15,6 +15,7 @@
 - [Start Here](#start-here)
 - [Learning Paths](#learning-paths)
 - [Featured Repositories](#featured-repositories)
+- [University Projects Repository](#university-projects-repository)
 - [Languages and Tech Stack](#languages-and-tech-stack)
 - [Core CS Coursework](#core-cs-coursework)
 - [Academic Projects by Subject](#academic-projects-by-subject)
@@ -52,6 +53,38 @@ This profile is built like a mini learning portal for students who want structur
 		<img src="https://github-readme-stats.vercel.app/api/pin/?username=AliShah1029384756&repo=web-dev-learning-track&hide_border=true" alt="Web Dev Learning Track" />
 	</a>
 </p>
+
+## University Projects Repository
+I maintain a dedicated collection of my university subject projects in one place with clean documentation and setup notes.
+
+Repository link: [university-course-projects](https://github.com/AliShah1029384756/university-course-projects)
+
+### Focus of this repository
+- Academic projects grouped by subject/course
+- Source code with project-level README documentation
+- Practical implementations from systems, networks, databases, web, and low-level programming coursework
+
+### Included project types
+- C++ console projects (for OS/OOP style coursework)
+- Real-time Node.js projects (Computer Networks, Chess)
+- C# WinForms + database project (ECommerce Database)
+- Compiler construction deliverables (Lex/Yacc pipeline)
+- Assembly-level project (Snake game)
+
+This repository is prepared with a professional structure suitable for academic portfolio review.
+
+### University project collection
+| Project | Link |
+|---|---|
+| Banking System | [Banking System](https://github.com/AliShah1029384756/university-course-projects/tree/main/Banking%20System) |
+| Chess Game | [Chess Game](https://github.com/AliShah1029384756/university-course-projects/tree/main/Chess%20Game) |
+| Compiler Project | [Compiler Project](https://github.com/AliShah1029384756/university-course-projects/tree/main/Compiler%20Project) |
+| Computer Networks | [Computer Networks](https://github.com/AliShah1029384756/university-course-projects/tree/main/Computer%20Networks) |
+| Discrete Project | [Discrete Project](https://github.com/AliShah1029384756/university-course-projects/tree/main/Discrete%20Project) |
+| ECommerce Database | [ECommerce Database](https://github.com/AliShah1029384756/university-course-projects/tree/main/ECommerce%20Database) |
+| ECommerce Website | [ECommerce Website](https://github.com/AliShah1029384756/university-course-projects/tree/main/ECommerce%20Website) |
+| Snake Game | [Snake Game](https://github.com/AliShah1029384756/university-course-projects/tree/main/Snake%20Game) |
+| Student Management System | [Student Management System](https://github.com/AliShah1029384756/university-course-projects/tree/main/Student%20Management%20System) |
 
 ## Languages and Tech Stack
 <p align="center">
@@ -91,6 +124,8 @@ This profile is built like a mini learning portal for students who want structur
 | Database Systems | Database Project | Designed and implemented relational database operations for structured data management. |
 | Operating Systems | Banking System | Developed process-oriented banking operations with transaction-focused logic. |
 | Computer Networks | Chess Game | Built a network-based chess game with communication and gameplay flow. |
+| Compiler Construction | Compiler Project | Built lexical, syntax, semantic, AST, and intermediate-code stages through deliverables. |
+| Low-Level Programming | Snake Game | Implemented assembly-level game logic and rendering flow. |
 | Software Engineering | Transportation Management System | Developed a management system for transport data, routing, and operational tracking. |
 | Web Development | EduConnect | Built a student-focused platform with forum, peer consultation, senior guidance, and subject resource sharing through WhatsApp links. |
 | Operations Research | OR Problem Solver Project | Implemented solution workflows for major operations research problem types. |
