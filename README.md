@@ -76,13 +76,13 @@ This profile is built like a mini learning portal for students who want **struct
 
 ### 🎨 Frontend Demo Access
 
-- [Calculator Demo](https://github.com/AliShah1029384756/calculator/blob/main/index.html)
-- [Todo App Demo](https://github.com/AliShah1029384756/todo-app/blob/main/index.html)
-- [Weather App Demo](https://github.com/AliShah1029384756/weather-app/blob/main/index.html)
-- [Quiz App Demo](https://github.com/AliShah1029384756/quiz-app/blob/main/index.html)
-- [Expense Tracker Demo](https://github.com/AliShah1029384756/expense-tracker/blob/main/index.html)
-- [Notes App Demo](https://github.com/AliShah1029384756/notes-app/blob/main/index.html)
-- [Portfolio Demo](https://github.com/AliShah1029384756/portfolio/blob/main/index.html)
+- [Calculator Demo](https://htmlpreview.github.io/?https://github.com/AliShah1029384756/calculator/blob/main/index.html)
+- [Todo App Demo](https://htmlpreview.github.io/?https://github.com/AliShah1029384756/todo-app/blob/main/index.html)
+- [Weather App Demo](https://htmlpreview.github.io/?https://github.com/AliShah1029384756/weather-app/blob/main/index.html)
+- [Quiz App Demo](https://htmlpreview.github.io/?https://github.com/AliShah1029384756/quiz-app/blob/main/index.html)
+- [Expense Tracker Demo](https://htmlpreview.github.io/?https://github.com/AliShah1029384756/expense-tracker/blob/main/index.html)
+- [Notes App Demo](https://htmlpreview.github.io/?https://github.com/AliShah1029384756/notes-app/blob/main/index.html)
+- [Portfolio Demo](https://htmlpreview.github.io/?https://github.com/AliShah1029384756/portfolio/blob/main/index.html)
 
 ---
 
