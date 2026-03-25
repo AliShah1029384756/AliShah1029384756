@@ -26,9 +26,9 @@
 > Building practical learning resources for students who prefer structure over randomness
 
 - ✨ Focused on teaching CS concepts through real project implementations
+- 🎓 FAST University BSCS (5th Semester), focused on practical and ethical CS development
 - 🔧 Creating beginner-to-advanced repositories with clear progression
 - 🌐 Strong expertise in web engineering, APIs, and CS fundamentals
-- 🤖 Proficient in AI-assisted development with strong prompt engineering skills
 - 🤖 Proficient in AI-assisted development with strong prompt engineering skills
 - 🎯 Passionate about making computer science accessible and engaging
 
@@ -55,10 +55,7 @@ This profile is built like a mini learning portal for students who want **struct
 ---
 
 ## 📚 Learning Paths
-| Level | Projects | Outcome |
-|---|---|---|
-| Beginner | [Calculator](https://github.com/AliShah1029384756/calculator), [Todo App](https://github.com/AliShah1029384756/todo-app), [Notes App](https://github.com/AliShah1029384756/notes-app) | Strong JavaScript and DOM fundamentals |
-📚 Learning Paths
+
 | 🌱 Level | 🎯 Projects | 💡 Key Outcomes | ⏱️ Duration |
 |---|---|---|---|
 | **Beginner** | [Calculator](https://github.com/AliShah1029384756/calculator) • [Todo App](https://github.com/AliShah1029384756/todo-app) • [Notes App](https://github.com/AliShah1029384756/notes-app) | JavaScript fundamentals, DOM handling | 2-3 weeks |
@@ -140,12 +137,12 @@ Visual Studio  •  Sublime Text  •  VS Code
 
 **Databases & Backend:**
 ```
-Oracle  •  MongoDB  •  MySQL
+Oracle  •  MongoDB  •  MySQL  •  Entity Framework
 ```
 
 **API & Testing:**
 ```
-Postman  •  git (version control)
+Postman (API testing)  •  Git (version control)
 ```
 
 **Virtualization & System Tools:**
@@ -160,7 +157,7 @@ Cisco Packet Tracer (network simulation)  •  Kali Linux (penetration testing) 
 
 **Development & Analysis:**
 ```
-Anaconda (Python environment)  •  mingw (C/C++ compilation)
+Anaconda (Python environment)  •  mingw (C/C++ compilation)  •  RStudio  •  R + Shiny
 ```
 
 **Productivity & Design:**
@@ -219,7 +216,6 @@ Curated collection of university coursework implementations:
 	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliShah1029384756&layout=compact&hide_border=true" alt="Top Languages" height="165" />
 </p>
 
-<p align="center">
 <p align="center">
 	<img src="https://streak-stats.demolab.com?user=AliShah1029384756&hide_border=true" alt="GitHub Streak" />
 </p>
