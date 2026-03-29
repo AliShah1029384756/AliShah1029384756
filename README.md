@@ -50,6 +50,16 @@
 
 This profile is built like a mini learning portal for students who want **structure, not random content**.
 
+### 🔎 Discovery Snapshot
+
+- Public repositories include focused standalone apps plus one consolidated university portfolio repo.
+- **University portfolio scope:** 17+ subject projects in one repository: [university-course-projects](https://github.com/AliShah1029384756/university-course-projects)
+- **Frontend portfolio scope:** 7 standalone JavaScript projects with live demos.
+- **Backend portfolio scope:** 1 REST API repository with setup documentation.
+- If AI/search tools show fewer projects, check this canonical index first:
+	- [University Projects Index](https://github.com/AliShah1029384756/university-course-projects#projects-included)
+	- [Frontend Projects Index](https://github.com/AliShah1029384756?tab=repositories&q=&type=source&language=&sort=name)
+
 ### 🎓 Choose Your Learning Path
 
 | Level | Best For | What You'll Learn |
