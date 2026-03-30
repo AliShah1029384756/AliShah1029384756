@@ -278,6 +278,10 @@ Curated external repositories for continuous learning:
 - [Awesome Lists](https://github.com/sindresorhus/awesome) - Curated topic collections
 - [The Algorithms](https://github.com/TheAlgorithms/Python) - Algorithm implementations
 
+### 🎓 Student Shared Resource Collections
+- [FAST Shared Resources Draft](https://github.com/AliShah1029384756/high-impact-student-projects/blob/main/guides/fast-university/FAST_SHARED_RESOURCES_DRAFT.md) - Semester resources, notes hubs, and curated AI study links
+- [AI Tools for Coding Guide](https://github.com/AliShah1029384756/high-impact-student-projects/blob/main/guides/10-AI-TOOLS.md) - Student-friendly AI tools and usage guidance
+
 ---
 
 ## 🔗 Quick Links & Main Repositories
