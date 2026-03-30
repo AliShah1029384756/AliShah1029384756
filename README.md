@@ -281,6 +281,11 @@ Curated external repositories for continuous learning:
 ### 🎓 Student Shared Resource Collections
 - [FAST Shared Resources Draft](https://github.com/AliShah1029384756/high-impact-student-projects/blob/main/guides/fast-university/FAST_SHARED_RESOURCES_DRAFT.md) - Semester resources, notes hubs, and curated AI study links
 - [AI Tools for Coding Guide](https://github.com/AliShah1029384756/high-impact-student-projects/blob/main/guides/10-AI-TOOLS.md) - Student-friendly AI tools and usage guidance
+- [Role-Based Career Tracks](https://github.com/AliShah1029384756/high-impact-student-projects/blob/main/guides/20-ROLE-BASED-CAREER-TRACKS.md) - Frontend, backend, data, cyber, and QA learning tracks
+- [30-60-90 Day Skill Plans](https://github.com/AliShah1029384756/high-impact-student-projects/blob/main/guides/21-30-60-90-DAY-SKILL-PLANS.md) - Practical execution timelines and milestones
+- [Internship and Job Hunt Kit](https://github.com/AliShah1029384756/high-impact-student-projects/blob/main/guides/23-INTERNSHIP-AND-JOB-HUNT-KIT.md) - Application cycle, outreach, and follow-up templates
+- [Interview Prep Packs](https://github.com/AliShah1029384756/high-impact-student-projects/blob/main/guides/26-INTERVIEW-PREP-PACKS.md) - Topic-wise prep packs and mock workflow
+- [Industry-Ready Checklists](https://github.com/AliShah1029384756/high-impact-student-projects/blob/main/guides/31-INDUSTRY-READY-CHECKLISTS.md) - Readiness rubrics for internships and junior roles
 
 ---
 
