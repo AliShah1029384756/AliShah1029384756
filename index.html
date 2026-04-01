@@ -19,7 +19,7 @@
         <a href="projects.html" class="nav-link">Projects</a>
         <a href="cv.html" class="nav-link">CV</a>
         <a href="about.html" class="nav-link">About</a>
-        <a href="https://github.com/AliShah1029384756" target="_blank" rel="noreferrer" class="nav-link external">GitHub →</a>
+        <a href="https://github.com/AliShah1029384756" target="_blank" rel="noreferrer noopener" class="nav-link external">GitHub →</a>
       </div>
       <button class="nav-toggle" aria-label="Toggle menu">☰</button>
     </div>
@@ -31,8 +31,9 @@
     <p class="lead" id="rotating-lead">Full-stack project portfolio focused on practical systems and education-impact products.</p>
     <div class="cta-row">
       <a class="btn" href="projects.html" rel="noreferrer">→ View Projects</a>
-      <a class="btn btn-ghost" href="https://github.com/AliShah1029384756" target="_blank" rel="noreferrer">← GitHub</a>
+      <a class="btn btn-ghost" href="https://github.com/AliShah1029384756" target="_blank" rel="noreferrer noopener">← GitHub</a>
     </div>
+    <div class="command-hint">Press <strong>?</strong> for quick navigation shortcuts</div>
   </header>
 
   <main>
@@ -47,10 +48,16 @@
     </section>
 
     <!-- Featured Projects Preview -->
-    <section class="featured">
+    <section class="featured" id="featured-projects">
       <h2>Featured Projects</h2>
+      <div class="filter-row" aria-label="Project filters">
+        <button class="filter-btn active" data-filter="all" type="button">All</button>
+        <button class="filter-btn" data-filter="education" type="button">Education</button>
+        <button class="filter-btn" data-filter="health" type="button">Health</button>
+        <button class="filter-btn" data-filter="systems" type="button">Systems</button>
+      </div>
       <div class="projects-grid">
-        <article class="project-card" onclick="location.href='projects/educonnect.html'" style="cursor: pointer;">
+        <article class="project-card" data-tags="education systems" onclick="location.href='projects/educonnect.html'">
           <div class="badge public">Public</div>
           <h3>EduConnect</h3>
           <p class="desc">Student support platform with forums, counseling flows, resources, and admin dashboard.</p>
@@ -60,7 +67,7 @@
           <p class="card-cta">View Details →</p>
         </article>
         
-        <article class="project-card" onclick="location.href='projects/autismart.html'" style="cursor: pointer;">
+        <article class="project-card" data-tags="health systems" onclick="location.href='projects/autismart.html'">
           <div class="badge private">Private</div>
           <h3>AutiSmart</h3>
           <p class="desc">Full-stack autism-care platform with role-based workflows and AI-assisted assessments.</p>
@@ -70,7 +77,7 @@
           <p class="card-cta">View Details →</p>
         </article>
         
-        <article class="project-card" onclick="location.href='projects/university.html'" style="cursor: pointer;">
+        <article class="project-card" data-tags="systems" onclick="location.href='projects/university.html'">
           <div class="badge academic">Academic</div>
           <h3>University Portfolio</h3>
           <p class="desc">17+ course projects: systems, networking, databases, compilers, algorithms.</p>
@@ -80,7 +87,7 @@
           <p class="card-cta">View Details →</p>
         </article>
         
-        <article class="project-card" onclick="location.href='projects/webtrack.html'" style="cursor: pointer;">
+        <article class="project-card" data-tags="education" onclick="location.href='projects/webtrack.html'">
           <div class="badge learning">Curriculum</div>
           <h3>Web Dev Track</h3>
           <p class="desc">Professional learning roadmap: frontend, backend, databases, system design.</p>
@@ -95,26 +102,26 @@
       </div>
     </section>
 
-    <section class="panel">
+    <section class="panel" id="focus-areas">
       <h2>Professional Focus</h2>
-      <div class="timeline">
-        <div class="log-entry">
-          <span class="date">Product Engineering</span>
+      <div class="focus-grid">
+        <div class="focus-card">
+          <h3>Product Engineering</h3>
           <p>Designing and implementing full-stack platforms with clear architecture and practical workflows.</p>
         </div>
-        <div class="log-entry">
-          <span class="date">Education Technology</span>
+        <div class="focus-card">
+          <h3>Education Technology</h3>
           <p>Building systems that support learners, teachers, and institutions through better digital processes.</p>
         </div>
-        <div class="log-entry">
-          <span class="date">Academic Leadership</span>
+        <div class="focus-card">
+          <h3>Academic Leadership</h3>
           <p>Supporting school and college environments through teaching, mentorship, and structured technical guidance.</p>
         </div>
       </div>
     </section>
 
     <!-- Tech Stack -->
-    <section class="panel tech">
+    <section class="panel tech" id="tech-stack">
       <h2>Tech Stack</h2>
       <div class="tech-grid">
         <div class="tech-group">
@@ -146,6 +153,28 @@ Refinement: code quality, backend depth, architecture notes
 
 $ mission
 build solid products + maintain clean docs + support people through teaching</code></pre>
+    </section>
+
+    <section class="panel" id="quick-actions">
+      <h2>Quick Navigation</h2>
+      <div class="quick-actions-grid">
+        <a class="quick-action" href="projects.html">
+          <h3>Project Deep Dive</h3>
+          <p>Explore all flagship and academic projects with full technical context.</p>
+        </a>
+        <a class="quick-action" href="cv.html">
+          <h3>CV Snapshot</h3>
+          <p>View structured resume format optimized for recruiter-friendly review.</p>
+        </a>
+        <a class="quick-action" href="about.html">
+          <h3>About & Philosophy</h3>
+          <p>See engineering mindset, mentoring approach, and long-term direction.</p>
+        </a>
+        <a class="quick-action" href="https://github.com/AliShah1029384756" target="_blank" rel="noreferrer noopener">
+          <h3>GitHub Profile</h3>
+          <p>Check active repositories, commit history, and technical project breadth.</p>
+        </a>
+      </div>
     </section>
   </main>
 
