@@ -239,8 +239,10 @@ Curated collection of university coursework implementations:
 | 🧮 Discrete Mathematics | Discrete Project | Algorithm analysis, design | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Discrete%20Project) |
 | 📊 Probability & Statistics | Probability Semester Project | Statistical analysis, R + Shiny visualization | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/Probability%20Semester%20Project) |
 | 💻 Full-Stack Development | ECommerce Website | MERN stack, real-time features | [View](https://github.com/AliShah1029384756/university-course-projects/tree/main/ECommerce%20Website) |
-| 🔐 **Final Year Project** | **AutiSmart** – Full-stack autism-care platform (React + Node.js) | Role-based workflows, assessments, therapy activities | Private implementation / [Live Demo](https://htmlpreview.github.io/?https://github.com/AliShah1029384756/university-course-projects/blob/main/AutiSmart-Showcase/index.html) |
-| 💻 Full-Stack Development | EduConnect | Forums, consulting, resources | [View](https://github.com/AliShah1029384756/EduConnect) |
+| 🔐 **Final Year Project** | **AutiSmart** – Full-stack autism-care platform (React + Node.js) | Role-based workflows, AI-assisted assessments, therapy workflows | Private implementation / [Repository](https://github.com/AliShah1029384756/AutiSmart) |
+| 🏥 FYP Strategic Extension | **ClinicOS** – Therapy and clinic operations system | Therapist workflow, session/treatment plan management, protected APIs | Private repository: [ClinicOS](https://github.com/AliShah1029384756/ClinicOS) |
+| 🏫 FYP Strategic Extension | **SchoolIEP** – School IEP lifecycle management system | IEP planning, goal tracking, student progress monitoring, role-based modules | Private repository: [SchoolIEP](https://github.com/AliShah1029384756/SchoolIEP) |
+| 💻 Full-Stack Development | **EduConnect** – Student support and academic community platform | Auth, discussion forums, counseling flows, resources, progress tracker, admin dashboard | [View](https://github.com/AliShah1029384756/EduConnect) |
 
 ---
 
