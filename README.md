@@ -30,11 +30,20 @@ I also support academic environments through:
 
 ---
 
+## Open This First
+
+1. [Portfolio Website Home](https://alishah1029384756.github.io/AliShah1029384756/index.html)
+2. [Projects Directory](https://alishah1029384756.github.io/AliShah1029384756/projects.html)
+3. [Professional CV](https://alishah1029384756.github.io/AliShah1029384756/cv.html)
+4. [Profile Summary](https://alishah1029384756.github.io/AliShah1029384756/about.html)
+
+---
+
 ## Flagship Projects
 
 1. [AutiSmart](https://github.com/AliShah1029384756/AutiSmart) - Autism care platform (private)
-2. [ClinicOS](https://github.com/AliShah1029384756/ClinicOS) - Clinic operations platform (private)
-3. [SchoolIEP](https://github.com/AliShah1029384756/SchoolIEP) - IEP lifecycle management platform (private)
+2. [ClinicOS](https://github.com/AliShah1029384756/ClinicOS) - Private clinic operations platform with scheduling, billing, and workflow control
+3. [SchoolIEP](https://github.com/AliShah1029384756/SchoolIEP) - Private school-based IEP management platform with compliance-aware documentation
 4. [EduConnect](https://github.com/AliShah1029384756/EduConnect) - Student support platform
 5. [university-course-projects](https://github.com/AliShah1029384756/university-course-projects) - 17+ coursework implementations
 6. [web-dev-learning-track](https://github.com/AliShah1029384756/web-dev-learning-track) - Structured development roadmap
@@ -47,6 +56,12 @@ For private systems (AutiSmart, ClinicOS, SchoolIEP):
 - Source code remains private
 - Public portfolio pages share architecture context, workflows, and outcomes
 - Capability is demonstrated through professional case-study style documentation
+
+### Case Study Focus
+
+- **ClinicOS:** independent clinic operations platform designed for scheduling, billing, patient workflow, and resource control in healthcare settings
+- **SchoolIEP:** independent education workflow platform designed for collaborative IEP documentation, progress tracking, and stakeholder communication
+- **AutiSmart:** autism-care platform integrating role-based workflows and assessment support
 
 ---
 
