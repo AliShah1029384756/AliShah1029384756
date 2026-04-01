@@ -26,11 +26,19 @@
 > Building practical learning resources for students who prefer structure over randomness
 
 - ✨ Focused on teaching CS concepts through real project implementations
-- 🎓 FAST University BSCS (5th Semester), focused on practical and ethical CS development
+- 🎓 FAST University BSCS (8th Semester), focused on practical and ethical CS development
 - 🔧 Creating beginner-to-advanced repositories with clear progression
 - 🌐 Strong expertise in web engineering, APIs, and CS fundamentals
 - 🤖 Proficient in AI-assisted development with strong prompt engineering skills
 - 🎯 Passionate about making computer science accessible and engaging
+
+### ⚡ Current Build Focus
+
+| Track | Current Direction | Outcome |
+|---|---|---|
+| FYP Ecosystem | AutiSmart + ClinicOS + SchoolIEP workflows | Real-world autism-care and education operations stack |
+| Community Platform | EduConnect feature maturity and usability | Student support platform with practical campus impact |
+| Developer Leadership | Development Master Hub + Open Source playbooks | Professional mentoring and contributor-ready portfolio |
 
 ### 👨‍🏫 Teaching & Mentoring
 - **Hostel Teacher & Warden** at FAST University: Guide 20+ students on academics and personal development
