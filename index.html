@@ -10,13 +10,29 @@
 <body>
   <div class="noise"></div>
   
+  <!-- Global Navigation -->
+  <nav class="global-nav">
+    <div class="nav-container">
+      <a href="/" class="nav-logo">Ali Naqvi</a>
+      <div class="nav-links">
+        <a href="/" class="nav-link active">Home</a>
+        <a href="/projects.html" class="nav-link">Projects</a>
+        <a href="/cv.html" class="nav-link">CV</a>
+        <a href="/about.html" class="nav-link">About</a>
+        <a href="/logs.html" class="nav-link">Build Logs</a>
+        <a href="https://github.com/AliShah1029384756" target="_blank" rel="noreferrer" class="nav-link external">GitHub →</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
   <header class="hero">
     <p class="tag">FAST University • BSCS 8th Semester</p>
     <h1>Syed Muhammad Ali Naqvi</h1>
     <p class="lead" id="rotating-lead">Student Plus Coder: building web apps, systems projects, and practical CS learning resources.</p>
     <div class="cta-row">
-      <a class="btn" href="https://github.com/AliShah1029384756" target="_blank" rel="noreferrer">→ GitHub</a>
-      <a class="btn btn-ghost" href="https://github.com/AliShah1029384756/AliShah1029384756" target="_blank" rel="noreferrer">← Profile Repo</a>
+      <a class="btn" href="/projects.html" rel="noreferrer">→ View Projects</a>
+      <a class="btn btn-ghost" href="https://github.com/AliShah1029384756" target="_blank" rel="noreferrer">← GitHub</a>
     </div>
   </header>
 
@@ -31,56 +47,63 @@
       </ul>
     </section>
 
-    <!-- Featured Projects -->
+    <!-- Featured Projects Preview -->
     <section class="featured">
       <h2>Featured Projects</h2>
       <div class="projects-grid">
-        <article class="project-card" data-link="https://github.com/AliShah1029384756/EduConnect">
+        <article class="project-card" onclick="location.href='/projects/educonnect.html'" style="cursor: pointer;">
           <div class="badge public">Public</div>
           <h3>EduConnect</h3>
           <p class="desc">Student support platform with forums, counseling flows, resources, and admin dashboard.</p>
           <div class="tags">
             <span>React</span><span>Node.js</span><span>MongoDB</span>
           </div>
+          <p class="card-cta">View Details →</p>
         </article>
         
-        <article class="project-card" data-link="https://github.com/AliShah1029384756/AutiSmart">
+        <article class="project-card" onclick="location.href='/projects/autismart.html'" style="cursor: pointer;">
           <div class="badge private">Private</div>
           <h3>AutiSmart</h3>
           <p class="desc">Full-stack autism-care platform with role-based workflows and AI-assisted assessments.</p>
           <div class="tags">
             <span>React</span><span>Node.js</span><span>MySQL</span>
           </div>
+          <p class="card-cta">View Details →</p>
         </article>
         
-        <article class="project-card" data-link="https://github.com/AliShah1029384756/university-course-projects">
+        <article class="project-card" onclick="location.href='/projects/university.html'" style="cursor: pointer;">
           <div class="badge academic">Academic</div>
           <h3>University Portfolio</h3>
           <p class="desc">17+ course projects: systems, networking, databases, compilers, algorithms.</p>
           <div class="tags">
             <span>C++</span><span>Java</span><span>Python</span>
           </div>
+          <p class="card-cta">View Details →</p>
         </article>
         
-        <article class="project-card" data-link="https://github.com/AliShah1029384756/web-dev-learning-track">
+        <article class="project-card" onclick="location.href='/projects/webtrack.html'" style="cursor: pointer;">
           <div class="badge learning">Curriculum</div>
           <h3>Web Dev Track</h3>
           <p class="desc">Professional learning roadmap: frontend, backend, databases, system design.</p>
           <div class="tags">
             <span>Guides</span><span>Templates</span><span>Playbooks</span>
           </div>
+          <p class="card-cta">View Details →</p>
         </article>
+      </div>
+      <div class="view-all-projects">
+        <a href="/projects.html" class="btn">View All Projects →</a>
       </div>
     </section>
 
-    <!-- Build Logs -->
+    <!-- Build Logs Preview -->
     <section class="panel">
       <h2>Build Logs (Weekly Progress)</h2>
       <div class="timeline">
         <div class="log-entry">
           <span class="date">Apr 1, 2026</span>
           <span class="status">✓ Complete</span>
-          <p>Profile redesign: student-plus tone, premium polish, free website. Commit: 5ac1e69</p>
+          <p>Multi-page website deployed: unified portfolio with per-project showcase pages.</p>
         </div>
         <div class="log-entry">
           <span class="date">Mar 28, 2026</span>
@@ -92,6 +115,9 @@
           <span class="status">✓ Complete</span>
           <p>Private repos verified: AutiSmart, ClinicOS, SchoolIEP. Main branch stable.</p>
         </div>
+      </div>
+      <div class="view-all-logs">
+        <a href="/logs.html" class="link-arrow">View full build history →</a>
       </div>
     </section>
 

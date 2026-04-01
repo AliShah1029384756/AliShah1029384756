@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutiSmart | Portfolio</title>
+  <meta name="description" content="Full-stack autism-care platform with role-based workflows and AI-assisted assessments." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  
+  <!-- Global Navigation -->
+  <nav class="global-nav">
+    <div class="nav-container">
+      <a href="/" class="nav-logo">Ali Naqvi</a>
+      <div class="nav-links">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/projects.html" class="nav-link active">Projects</a>
+        <a href="/cv.html" class="nav-link">CV</a>
+        <a href="/about.html" class="nav-link">About</a>
+        <a href="/logs.html" class="nav-link">Build Logs</a>
+        <a href="https://github.com/AliShah1029384756" target="_blank" rel="noreferrer" class="nav-link external">GitHub →</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <main class="project-page">
+    <header class="project-header">
+      <a href="/projects.html" class="back-link">← Back to Projects</a>
+      <h1>AutiSmart</h1>
+      <p class="project-subtitle">Comprehensive autism-care and therapy management platform with AI-assisted assessments.</p>
+      <div class="project-meta">
+        <span class="badge private">Private (FYP)</span>
+        <span class="status-active">Final Year Project</span>
+      </div>
+    </header>
+
+    <section class="project-section">
+      <h2>Project Overview</h2>
+      <p>AutiSmart is a Final Year Project (FYP) that addresses the critical need for integrated autism care management. The platform connects parents, therapists, educators, and healthcare administrators in a unified system for tracking progress, managing therapies, and facilitating better outcomes for individuals with autism spectrum disorder (ASD).</p>
+    </section>
+
+    <section class="project-section">
+      <h2>Problem Statement</h2>
+      <p>Traditional autism care workflows are fragmented across multiple systems and providers. Parents juggle appointment scheduling, progress tracking, and communication with multiple therapists. Therapists lack unified client information and coordination tools. AutiSmart consolidates these fragmented workflows into a single, role-based platform designed specifically for autism care.</p>
+    </section>
+
+    <section class="project-section">
+      <h2>Core Features</h2>
+      <ul class="features-list">
+        <li><strong>Role-Based Workflows:</strong> Separate interfaces for Parents (monitoring), Therapists (session management), Educators (progress in school), and Admins (system oversight)</li>
+        <li><strong>AI-Assisted Assessment:</strong> Integrated AI engine for initial ASD assessments and progress evaluation using standardized scales</li>
+        <li><strong>Therapy Management:</strong> Structured therapy planning, session scheduling, progress tracking, and outcome documentation</li>
+        <li><strong>Cross-Provider Coordination:</strong> Seamless information sharing between therapists, educators, and parents with role-based visibility</li>
+        <li><strong>Progress Analytics:</strong> Visual dashboards showing therapy progress, milestone achievement, and behavioral improvements over time</li>
+        <li><strong>Secure Patient Data:</strong> HIPAA-aligned data security with encrypted transmission and role-based access control</li>
+      </ul>
+    </section>
+
+    <section class="project-section">
+      <h2>Technology Stack</h2>
+      <div class="tech-breakdown">
+        <div class="tech-category">
+          <h3>Frontend</h3>
+          <p>React.js with complex state management, role-based UI rendering, responsive design for mobile and desktop</p>
+        </div>
+        <div class="tech-category">
+          <h3>Backend</h3>
+          <p>Node.js with Express.js, JWT authentication, role-based authorization middleware, API rate limiting</p>
+        </div>
+        <div class="tech-category">
+          <h3>Database</h3>
+          <p>MySQL with normalized relational schema for secure patient data, ACID compliance for transactions</p>
+        </div>
+        <div class="tech-category">
+          <h3>AI/ML Integration</h3>
+          <p>Machine learning algorithms for assessment scoring and progress prediction</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-section">
+      <h2>Architecture Decisions</h2>
+      <ul class="highlights-list">
+        <li>Relational database (MySQL) chosen over NoSQL for strict data consistency and HIPAA compliance</li>
+        <li>Row-level security implemented for multi-tenant patient data isolation</li>
+        <li>API versioning for backward compatibility as features evolve</li>
+        <li>Comprehensive audit logging for all patient data access and modifications</li>
+        <li>Microservices-ready architecture with separate assessment and notification services</li>
+      </ul>
+    </section>
+
+    <section class="project-section">
+      <h2>Real-World Impact</h2>
+      <ul class="outcomes-list">
+        <li>FYP selected for exemplary design addressing real healthcare challenges</li>
+        <li>Demonstrated ability to build regulation-compliant healthcare software</li>
+        <li>Showcased understanding of accessibility and inclusive design for neurodiverse users</li>
+        <li>Integrated feedback from autism care professionals during development</li>
+      </ul>
+    </section>
+
+    <section class="project-section">
+      <h2>Repository Status</h2>
+      <p><em>This project is maintained privately for security and compliance reasons. Access is restricted to authorized team members and stakeholders. Limited public information is shared for portfolio purposes.</em></p>
+      <div class="project-links-section">
+        <a href="https://github.com/AliShah1029384756/AutiSmart" target="_blank" class="btn">View Private Repository</a>
+        <a href="/" class="btn btn-ghost">Back to Home</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Student-Plus Coder Portfolio</strong> • Built with HTML, CSS, JavaScript • Hosted free on GitHub Pages</p>
+    <p><a href="https://github.com/AliShah1029384756/AliShah1029384756" target="_blank">View this site's code on GitHub</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

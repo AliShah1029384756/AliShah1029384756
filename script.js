@@ -38,3 +38,46 @@ projectCards.forEach(card => {
 requestAnimationFrame(() => {
   rotatingLead.style.transition = 'opacity 0.18s ease';
 });
+
+
+// Navigation menu toggle for mobile
+const navToggle = document.querySelector('.nav-toggle');
+const navLinks = document.querySelector('.nav-links');
+
+if (navToggle) {
+  navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+}
+
+// Update active nav link
+function updateActiveNavLink() {
+  const currentPath = window.location.pathname;
+  const navLinkElements = document.querySelectorAll('.nav-link');
+  
+  navLinkElements.forEach(link => {
+    link.classList.remove('active');
+    const href = link.getAttribute('href');
+    
+    // Handle homepage
+    if ((currentPath === '/' || currentPath === '/index.html' || currentPath.endsWith('AliShah1029384756/')) && href === '/') {
+      link.classList.add('active');
+    }
+    // Handle other pages
+    else if (href && href !== '/' && currentPath.includes(href.replace('/', ''))) {
+      link.classList.add('active');
+    }
+  });
+}
+
+// Set active link on page load
+updateActiveNavLink();
+
+// Close mobile menu when a link is clicked
+if (navLinks) {
+  navLinks.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+    });
+  });
+}
