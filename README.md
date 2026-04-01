@@ -41,6 +41,35 @@ I also support academic environments through:
 
 ---
 
+## Private Project Policy
+
+For private systems (AutiSmart, ClinicOS, SchoolIEP):
+- Source code remains private
+- Public portfolio pages share architecture context, workflows, and outcomes
+- Capability is demonstrated through professional case-study style documentation
+
+---
+
+## Repository Upgrade Framework
+
+To keep all repositories professional and consistent:
+
+1. Define problem + target users clearly
+2. Show key features and architecture in concise format
+3. Keep setup/run instructions reliable and verified
+4. Add curated resources only where practically useful
+5. Remove weak wording, stale sections, and speculative roadmap text
+
+---
+
+## Curated Resource Strategy
+
+- Use high-quality CS/engineering material to improve educational value
+- Prefer relevant references over long generic link lists
+- Integrate resources with project context, not as disconnected extras
+
+---
+
 ## Tech Stack
 
 <p align="center">
