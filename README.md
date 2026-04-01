@@ -1,7 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0f766e,25:0891b2,50:1d4ed8,100:0369a1&text=Syed%20Muhammad%20Ali%20Naqvi&fontColor=ffffff&fontSize=38&fontAlignY=40&reversal=false&animation=fadeIn" alt="Header" />
 
 <p align="center">
-	<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3500&pause=1000&center=true&vCenter=true&width=1000&lines=FAST+University+%7C+BSCS+8th+Semester;Full-Stack+Developer+%7C+CS+Educator+%7C+Project+Architect;Building+Real-World+Apps+and+Learning+Ecosystems;3%2B+Years+Mentoring+%7C+20%2B+Projects+%7C+Full-Stack+Expert" alt="Typing Intro" />
+	<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3200&pause=900&center=true&vCenter=true&width=1000&lines=FAST+University+%7C+BSCS+8th+Semester;Student+Developer+%7C+CS+Educator+%7C+Builder;Web%2C+Systems%2C+and+Project-Based+Learning;Learning+in+Public+%7C+Building+Step+by+Step" alt="Typing Intro" />
 </p>
 
 <p align="center">
@@ -16,22 +16,22 @@
 ## 👨‍💻 Developer Profile
 
 <table>
-  <tr>
-    <td><strong>📋 Role</strong></td>
-    <td>Full-Stack Developer • CS Educator • Project Architect</td>
-  </tr>
-  <tr>
-    <td><strong>🎓 Education</strong></td>
-    <td>FAST University BSCS (8th Semester) • Hostel Warden & Teacher</td>
-  </tr>
-  <tr>
-    <td><strong>💼 Experience</strong></td>
-    <td>3+ years mentoring students • 20+ production projects • Full-stack systems</td>
-  </tr>
-  <tr>
-    <td><strong>🎯 Specialization</strong></td>
-    <td>Full-Stack Development • System Design • Database Architecture • API Engineering</td>
-  </tr>
+	<tr>
+		<td><strong>📋 Role</strong></td>
+		<td>Student Developer • CS Educator • Project Builder</td>
+	</tr>
+	<tr>
+		<td><strong>🎓 Education</strong></td>
+		<td>FAST University BSCS (8th Semester) • Hostel Warden & Teacher</td>
+	</tr>
+	<tr>
+		<td><strong>💼 Experience</strong></td>
+		<td>3+ years mentoring students • 20+ student projects • practical full-stack learning</td>
+	</tr>
+	<tr>
+		<td><strong>🎯 Specialization</strong></td>
+		<td>Web Development • API Engineering • Database Design • Student Learning Systems</td>
+	</tr>
 </table>
 
 ---
@@ -40,9 +40,9 @@
 
 | 🚀 Projects | 📚 Expertise | 🎓 Leadership | 💡 Innovation |
 |---|---|---|---|
-| 20+ deployed apps | Full-stack MERN | 20+ mentees guided | AI-assisted coding |
-| Real-world systems | Database design | Educator (2+ yrs) | OAuth, APIs |
-| University portfolio | System architecture | Teaching mentoring | Open-source ready |
+| 20+ completed projects | Full-stack MERN learning | 20+ mentees guided | AI-assisted coding |
+| Academic + personal builds | Database design | Educator (2+ yrs) | OAuth, APIs |
+| University portfolio | System architecture | Teaching mentoring | Open-source learning |
 
 ---
 
@@ -50,48 +50,33 @@
 | 👤 Profile | 🚀 Getting Started | 📚 Learning | 🏫 Education |
 |---|---|---|---|
 | [About Me](#-about-me) | [Start Here](#-start-here) | [Learning Paths](#-learning-paths) | [University Projects](#-university-projects-repository) |
-| [Tech Stack](#-tech-stack) | [Roadmap](#-core-cs-coursework) | [Featured Repos](#-featured-repositories) | [Academic Showcase](#-academic-projects-portfolio) |
+| [Tech Stack](#tech-stack--expertise) | [Roadmap](#-core-cs-coursework) | [Featured Repos](#-featured-repositories) | [Academic Showcase](#-academic-projects-portfolio) |
 
 ---
 
 ## 👤 About Me
 
-> **Architecting scalable applications and building learning ecosystems** | Real-world project delivery | Teaching CS through practical implementations
+> **Student-plus coder journey** | Building practical systems | Teaching CS with projects
 
-> **What I Build:** Production-grade full-stack applications with clean architecture, proper testing, and maintainable code. From frontend interfaces to backend systems to database design.
+> **What I Build:** Student-focused full-stack projects with clean architecture, maintainable code, and clear documentation.
 
-> **How I Teach:** Hands-on, project-based learning paired with structured curriculum guidance. Help 20+ students annually through mentorship, coursework, and career development.
-
----
+> **How I Learn:** Build in public, improve step by step, and keep every project practical and honest.
 
 ### 💼 Professional Attributes
 
-- 🏆 **Builder of Real Systems** – 4 production platforms (AutiSmart, ClinicOS, SchoolIEP, EduConnect)
-- 🎯 **Full-Stack Specialist** – React/Node.js/MongoDB/MySQL | System design & data modeling
-- 📖 **Documentation Master** – Creates comprehensive guides, playbooks, and technical resources
-- 🤝 **Natural Mentor** – Hostel Warden, University Mentor, Private Educator (2022–Present)
-- 🛠️ **DevOps & Best Practices** – CI/CD, Git workflows, code quality, API design
-- 🧠 **AI-Savvy Developer** – GitHub Copilot, ChatGPT, prompt engineering for code quality
-- 📊 **Data-Driven Decisions** – Architecture selection, performance optimization, scaling thinking
+- 🏆 **Serious Student Builder** - 4 major platforms (AutiSmart, ClinicOS, SchoolIEP, EduConnect)
+- 🎯 **Full-Stack Track** - React, Node.js, Express, MongoDB, MySQL
+- 📖 **Documentation-First** - Guides, playbooks, and project structure notes
+- 🤝 **Mentor Mindset** - Hostel Warden + University Mentor + Private Educator
+- 🛠️ **Best Practices** - Git workflows, API design, and readable code standards
+- 🧠 **AI-Savvy Developer** - GitHub Copilot + prompt engineering for better output
 
-### 👨‍🏫 Teaching & Mentoring Excellence
+### 🤝 Open To (Student-Plus Mode)
 
-| Dimension | Details |
-|---|---|
-| **Mentees** | 20+ students annually (academics, career, personal growth) |
-| **Teaching Experience** | 2+ years private CS instruction + university hostel guidance |
-| **Curriculum Built** | 8-module Development Master Hub (9 modules, 26 professional templates) |
-| **Scope** | Full-stack web development, systems thinking, interview prep, open-source |
-| **Approach** | Project-first learning, real-world examples, hands-on coding |
-| **Impact** | Students move from confusion to confident deployment in 4-8 weeks |
-
-### 🤝 Open To Opportunities
-
-✅ **Full-Stack Projects** – E-commerce, SaaS platforms, educational tools  
-✅ **Team Collaboration** – Contribute to open-source or commercial projects  
-✅ **Mentorship** – Guide junior developers, code reviews, system design discussions  
-✅ **Teaching Partnerships** – Curriculum building, educational content, bootcamp instruction  
-✅ **Consulting** – Architecture decisions, technical strategy, project setup
+✅ **Learning Collaborations** - education projects, coding communities, student-led builds  
+✅ **Open-Source Practice** - docs, testing, beginner-friendly improvements  
+✅ **Mentorship Exchange** - peer learning, code reviews, system design discussions  
+✅ **Teaching Partnerships** - curriculum building, educational content, CS guidance
 
 ---
 
@@ -307,7 +292,7 @@ Curated collection of university coursework implementations:
 
 ---
 
-## � Tech Stack & Expertise
+## Tech Stack & Expertise
 
 ### 🎯 Core Competencies
 <p align="center">
@@ -366,6 +351,34 @@ A comprehensive view of programming languages used across 20+ projects:
 ---
 
 ## 🎯 Professional Development Focus
+
+### Current Student Build Goals (Next 90 Days)
+
+| Goal | What I Will Do | Output |
+|---|---|---|
+| Sharper Code Quality | Refactor 2 existing projects with cleaner folder structure and docs | Better maintainability + clearer repos |
+| Strong Backend Skills | Improve REST API project with validation, auth, and error handling | Strong backend fundamentals |
+| Better Engineering Thinking | Add architecture notes for key projects | Clear system-level understanding |
+| Consistency | Weekly commits and progress notes | Strong developer discipline |
+
+### Coder Identity Rules (Personal)
+
+- Build publicly, learn honestly, and avoid fake claims.
+- Prefer clean code and clear docs over visual noise.
+- Ship small improvements every week.
+- Keep projects practical: web, systems, and educational value.
+
+### Free Personal Website (No Cost)
+
+You can have a **100% free website** on GitHub Pages.
+
+1. Add website files in this repository (`index.html`, `styles.css`, `script.js`).
+2. Go to repository settings -> Pages.
+3. Select deploy from branch: `main`, folder: `/ (root)`.
+4. Visit your site at:
+	- `https://alishah1029384756.github.io/AliShah1029384756/`
+
+I have prepared starter files in this repo so you can publish quickly.
 
 ---
 

@@ -1,0 +1,132 @@
+:root {
+  --bg: #0a0f1e;
+  --bg2: #0e1730;
+  --fg: #e6eefc;
+  --muted: #a8b3c7;
+  --line: #243454;
+  --accent: #3dd9a6;
+  --accent2: #64b5ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Consolas", "SFMono-Regular", Menlo, monospace;
+  color: var(--fg);
+  background: radial-gradient(circle at 20% 10%, #12254a 0%, var(--bg) 45%),
+    linear-gradient(160deg, var(--bg), var(--bg2));
+  min-height: 100vh;
+}
+
+.noise {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.06;
+  background-image: radial-gradient(#ffffff 0.6px, transparent 0.6px);
+  background-size: 4px 4px;
+}
+
+.hero,
+main,
+footer {
+  width: min(960px, 92vw);
+  margin: 0 auto;
+}
+
+.hero {
+  padding: 72px 0 28px;
+}
+
+.tag {
+  color: var(--accent);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+h1 {
+  margin: 10px 0;
+  font-size: clamp(2rem, 6vw, 3.8rem);
+  line-height: 1.05;
+}
+
+.lead {
+  color: var(--muted);
+  max-width: 720px;
+  font-size: 1.05rem;
+}
+
+.cta-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.btn {
+  text-decoration: none;
+  color: #07111c;
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 10px 16px;
+  border-radius: 9px;
+  font-weight: 700;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--fg);
+  border-color: var(--line);
+}
+
+.panel {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgba(10, 16, 33, 0.72);
+  padding: 18px;
+  margin-bottom: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.card {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgba(7, 13, 28, 0.72);
+  padding: 16px;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: var(--accent2);
+}
+
+.terminal pre {
+  margin: 0;
+  color: #b8f7e2;
+  background: #08101d;
+  border: 1px solid #1b2b44;
+  border-radius: 10px;
+  padding: 14px;
+  overflow: auto;
+}
+
+footer {
+  color: var(--muted);
+  text-align: center;
+  padding: 22px 0 38px;
+}
+
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
