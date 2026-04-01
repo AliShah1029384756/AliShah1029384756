@@ -102,6 +102,63 @@ if (filterButtons.length && projectCards.length) {
   });
 }
 
+const searchableProjects = document.querySelectorAll(".searchable-project");
+const projectSearchInput = document.getElementById("project-search");
+const projectTypeButtons = document.querySelectorAll("[data-project-filter]");
+const projectResultsCount = document.getElementById("project-results-count");
+const projectFilterReset = document.getElementById("project-filter-reset");
+
+if (searchableProjects.length && projectSearchInput && projectTypeButtons.length) {
+  let activeType = "all";
+
+  const applyProjectFilters = () => {
+    const query = projectSearchInput.value.trim().toLowerCase();
+    let visibleCount = 0;
+
+    searchableProjects.forEach((project) => {
+      const type = project.dataset.type || "";
+      const text = (project.dataset.text || project.textContent || "").toLowerCase();
+      const typeMatch = activeType === "all" || type === activeType;
+      const queryMatch = query.length === 0 || text.includes(query);
+      const shouldShow = typeMatch && queryMatch;
+
+      project.classList.toggle("is-hidden", !shouldShow);
+      if (shouldShow) {
+        visibleCount += 1;
+      }
+    });
+
+    if (projectResultsCount) {
+      projectResultsCount.textContent = `${visibleCount} project${visibleCount === 1 ? "" : "s"} shown`;
+    }
+  };
+
+  projectTypeButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      activeType = button.dataset.projectFilter || "all";
+      projectTypeButtons.forEach((btn) => btn.classList.remove("active"));
+      button.classList.add("active");
+      applyProjectFilters();
+    });
+  });
+
+  projectSearchInput.addEventListener("input", applyProjectFilters);
+
+  if (projectFilterReset) {
+    projectFilterReset.addEventListener("click", () => {
+      activeType = "all";
+      projectSearchInput.value = "";
+      projectTypeButtons.forEach((btn) => {
+        btn.classList.toggle("active", (btn.dataset.projectFilter || "") === "all");
+      });
+      applyProjectFilters();
+      projectSearchInput.focus();
+    });
+  }
+
+  applyProjectFilters();
+}
+
 function createScrollProgress() {
   const bar = document.createElement("div");
   bar.className = "scroll-progress";

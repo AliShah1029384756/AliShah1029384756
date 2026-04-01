@@ -19,7 +19,7 @@
         <a href="projects.html" class="nav-link active">Projects</a>
         <a href="cv.html" class="nav-link">CV</a>
         <a href="about.html" class="nav-link">About</a>
-        <a href="https://github.com/AliShah1029384756" target="_blank" rel="noreferrer" class="nav-link external">GitHub →</a>
+        <a href="https://github.com/AliShah1029384756" target="_blank" rel="noreferrer noopener" class="nav-link external">GitHub →</a>
       </div>
       <button class="nav-toggle" aria-label="Toggle menu">☰</button>
     </div>
@@ -31,11 +31,30 @@
   </header>
 
   <main>
+    <section class="panel projects-control-panel">
+      <h2>Find Projects Fast</h2>
+      <div class="projects-controls">
+        <label for="project-search" class="search-label">Search by name, tech, or keyword</label>
+        <input id="project-search" class="project-search-input" type="search" placeholder="Try: React, healthcare, compiler, Socket.IO" />
+        <div class="filter-row" aria-label="Project filters">
+          <button class="filter-btn active" type="button" data-project-filter="all">All</button>
+          <button class="filter-btn" type="button" data-project-filter="public">Public</button>
+          <button class="filter-btn" type="button" data-project-filter="private">Private</button>
+          <button class="filter-btn" type="button" data-project-filter="academic">Academic</button>
+          <button class="filter-btn" type="button" data-project-filter="curriculum">Curriculum</button>
+        </div>
+        <div class="results-row">
+          <span id="project-results-count" aria-live="polite">6 projects shown</span>
+          <button class="btn-link" type="button" id="project-filter-reset">Reset</button>
+        </div>
+      </div>
+    </section>
+
     <!-- Featured Public Projects -->
     <section class="panel">
       <h2>Flagship Projects</h2>
       <div class="projects-catalog">
-        <article class="project-item">
+        <article class="project-item searchable-project" data-type="public" data-text="educonnect student support academic community forums counseling resources admin analytics react node mongodb rest jwt">
           <div class="item-header">
             <h3>EduConnect</h3>
             <div class="badge public">Public</div>
@@ -46,11 +65,11 @@
           </div>
           <div class="project-links">
             <a href="projects/educonnect.html" class="btn-link">View Details</a>
-            <a href="https://github.com/AliShah1029384756/EduConnect" target="_blank" class="btn-link">GitHub Repo</a>
+            <a href="https://github.com/AliShah1029384756/EduConnect" target="_blank" rel="noreferrer noopener" class="btn-link">GitHub Repo</a>
           </div>
         </article>
 
-        <article class="project-item">
+        <article class="project-item searchable-project" data-type="private" data-text="autismart autism care therapy platform role based ai assessment react node mysql healthcare">
           <div class="item-header">
             <h3>AutiSmart</h3>
             <div class="badge private">Private (FYP)</div>
@@ -61,11 +80,11 @@
           </div>
           <div class="project-links">
             <a href="projects/autismart.html" class="btn-link">View Details</a>
-            <a href="https://github.com/AliShah1029384756/AutiSmart" target="_blank" class="btn-link">GitHub Repo (Private)</a>
+            <a href="https://github.com/AliShah1029384756/AutiSmart" target="_blank" rel="noreferrer noopener" class="btn-link">GitHub Repo (Private)</a>
           </div>
         </article>
 
-        <article class="project-item">
+        <article class="project-item searchable-project" data-type="private" data-text="clinicos clinic operations management patient workflows scheduling billing resource management healthcare react node mysql">
           <div class="item-header">
             <h3>ClinicOS</h3>
             <div class="badge private">Private (FYP)</div>
@@ -76,11 +95,11 @@
           </div>
           <div class="project-links">
             <a href="projects/clinicos.html" class="btn-link">View Details</a>
-            <a href="https://github.com/AliShah1029384756/ClinicOS" target="_blank" class="btn-link">GitHub Repo (Private)</a>
+            <a href="https://github.com/AliShah1029384756/ClinicOS" target="_blank" rel="noreferrer noopener" class="btn-link">GitHub Repo (Private)</a>
           </div>
         </article>
 
-        <article class="project-item">
+        <article class="project-item searchable-project" data-type="private" data-text="schooliep school individualized education program student progress documentation stakeholder communication react node mysql">
           <div class="item-header">
             <h3>SchoolIEP</h3>
             <div class="badge private">Private (FYP)</div>
@@ -91,7 +110,7 @@
           </div>
           <div class="project-links">
             <a href="projects/schooliep.html" class="btn-link">View Details</a>
-            <a href="https://github.com/AliShah1029384756/SchoolIEP" target="_blank" class="btn-link">GitHub Repo (Private)</a>
+            <a href="https://github.com/AliShah1029384756/SchoolIEP" target="_blank" rel="noreferrer noopener" class="btn-link">GitHub Repo (Private)</a>
           </div>
         </article>
       </div>
@@ -101,7 +120,7 @@
     <section class="panel">
       <h2>Academic & Learning</h2>
       <div class="projects-catalog">
-        <article class="project-item">
+        <article class="project-item searchable-project" data-type="academic" data-text="university portfolio 17 course projects systems programming networking databases compiler algorithms data structures c c++ java python sql">
           <div class="item-header">
             <h3>University Portfolio</h3>
             <div class="badge academic">Academic</div>
@@ -112,11 +131,11 @@
           </div>
           <div class="project-links">
             <a href="projects/university.html" class="btn-link">View Details</a>
-            <a href="https://github.com/AliShah1029384756/university-course-projects" target="_blank" class="btn-link">GitHub Repo</a>
+            <a href="https://github.com/AliShah1029384756/university-course-projects" target="_blank" rel="noreferrer noopener" class="btn-link">GitHub Repo</a>
           </div>
         </article>
 
-        <article class="project-item">
+        <article class="project-item searchable-project" data-type="curriculum" data-text="web dev learning track roadmap guides templates playbooks frontend backend database system design educators junior developers">
           <div class="item-header">
             <h3>Web Dev Learning Track</h3>
             <div class="badge learning">Curriculum</div>
@@ -127,32 +146,27 @@
           </div>
           <div class="project-links">
             <a href="projects/webtrack.html" class="btn-link">View Details</a>
-            <a href="https://github.com/AliShah1029384756/web-dev-learning-track" target="_blank" class="btn-link">GitHub Repo</a>
+            <a href="https://github.com/AliShah1029384756/web-dev-learning-track" target="_blank" rel="noreferrer noopener" class="btn-link">GitHub Repo</a>
           </div>
         </article>
       </div>
     </section>
 
-    <!-- Statistics -->
     <section class="panel">
-      <h2>Portfolio Stats</h2>
-      <div class="stats-grid">
-        <div class="stat-card">
-          <strong>8</strong>
-          <p>Major Projects</p>
-        </div>
-        <div class="stat-card">
-          <strong>17+</strong>
-          <p>Course Projects</p>
-        </div>
-        <div class="stat-card">
-          <strong>100K+</strong>
-          <p>Lines of Code</p>
-        </div>
-        <div class="stat-card">
-          <strong>4</strong>
-          <p>Flagship Systems</p>
-        </div>
+      <h2>Project Lens</h2>
+      <div class="quick-actions-grid">
+        <a class="quick-action" href="projects/educonnect.html">
+          <h3>Education Impact</h3>
+          <p>Platforms and workflows designed for students, teachers, and academic systems.</p>
+        </a>
+        <a class="quick-action" href="projects/autismart.html">
+          <h3>Healthcare Systems</h3>
+          <p>Care-focused software with structured workflows, secure data handling, and role-based operations.</p>
+        </a>
+        <a class="quick-action" href="projects/university.html">
+          <h3>CS Fundamentals Depth</h3>
+          <p>University projects showing strong foundations in systems, algorithms, networks, and data.</p>
+        </a>
       </div>
     </section>
   </main>

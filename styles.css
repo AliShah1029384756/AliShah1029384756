@@ -417,6 +417,49 @@ li {
   border-color: rgba(88, 213, 201, 0.75);
 }
 
+.projects-controls {
+  display: grid;
+  gap: 10px;
+}
+
+.search-label {
+  color: var(--text-dim);
+  font-size: 0.88rem;
+}
+
+.project-search-input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(124, 183, 255, 0.08);
+  color: var(--text);
+  padding: 11px 12px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.project-search-input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(88, 213, 201, 0.2);
+}
+
+.project-search-input::placeholder {
+  color: #9ba7c2;
+}
+
+.results-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.85rem;
+  color: var(--accent);
+}
+
+.searchable-project.is-hidden {
+  display: none;
+}
+
 .log-entry {
   border-left: 3px solid var(--accent);
   padding: 5px 0 5px 12px;
