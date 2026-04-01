@@ -56,6 +56,32 @@ body {
   backdrop-filter: blur(10px);
 }
 
+.page-rail {
+  width: min(1060px, 92vw);
+  margin: 10px auto 0;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.page-rail-link {
+  text-decoration: none;
+  color: var(--text-dim);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 6px 11px;
+  font-size: 0.78rem;
+  background: rgba(124, 183, 255, 0.07);
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+
+.page-rail-link:hover,
+.page-rail-link.active {
+  color: var(--brand);
+  border-color: rgba(255, 179, 71, 0.7);
+  background: rgba(255, 179, 71, 0.12);
+}
+
 .nav-container,
 .hero,
 main,
@@ -711,6 +737,44 @@ li {
   border-bottom: 1px solid var(--line-soft);
 }
 
+.project-switcher {
+  margin: 0 0 18px;
+  border: 1px solid var(--line-soft);
+  border-radius: 12px;
+  padding: 12px;
+  background: rgba(124, 183, 255, 0.07);
+}
+
+.project-switcher-top,
+.project-switcher-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.project-switcher-top {
+  margin-bottom: 10px;
+}
+
+.project-switcher-nav,
+.project-chip {
+  text-decoration: none;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  background: rgba(88, 213, 201, 0.05);
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.project-switcher-nav:hover,
+.project-chip:hover,
+.project-chip.active {
+  color: var(--accent);
+  border-color: rgba(88, 213, 201, 0.7);
+}
+
 .project-section:last-child,
 .cv-section:last-child,
 .about-section:last-child,
@@ -871,6 +935,10 @@ footer {
   .about-page,
   .logs-page,
   .nav-container {
+    width: 94vw;
+  }
+
+  .page-rail {
     width: 94vw;
   }
 

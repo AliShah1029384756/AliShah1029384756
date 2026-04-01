@@ -78,6 +78,83 @@ function updateActiveNavLink() {
 
 updateActiveNavLink();
 
+function createGlobalPageRail() {
+  const nav = document.querySelector(".global-nav");
+  if (!nav) {
+    return;
+  }
+
+  const currentPage = getCurrentPage();
+  const rail = document.createElement("div");
+  rail.className = "page-rail";
+
+  const links = [
+    { href: "index.html", label: "Home" },
+    { href: "projects.html", label: "Projects" },
+    { href: "cv.html", label: "CV" },
+    { href: "about.html", label: "About" },
+    { href: "logs.html", label: "Highlights" }
+  ];
+
+  const normalizeHref = (href) => {
+    if (window.location.pathname.includes("/projects/")) {
+      return `../${href}`;
+    }
+    return href;
+  };
+
+  rail.innerHTML = links.map((item) => {
+    const isActive = currentPage === item.href;
+    return `<a class="page-rail-link${isActive ? " active" : ""}" href="${normalizeHref(item.href)}">${item.label}</a>`;
+  }).join("");
+
+  nav.insertAdjacentElement("afterend", rail);
+}
+
+function createProjectSwitcher() {
+  if (!window.location.pathname.includes("/projects/")) {
+    return;
+  }
+
+  const header = document.querySelector(".project-header");
+  if (!header) {
+    return;
+  }
+
+  const projectPages = [
+    { href: "educonnect.html", label: "EduConnect" },
+    { href: "autismart.html", label: "AutiSmart" },
+    { href: "clinicos.html", label: "ClinicOS" },
+    { href: "schooliep.html", label: "SchoolIEP" },
+    { href: "university.html", label: "University" },
+    { href: "webtrack.html", label: "Web Track" }
+  ];
+
+  const current = getCurrentPage();
+  const currentIndex = projectPages.findIndex((item) => item.href === current);
+  const safeIndex = currentIndex >= 0 ? currentIndex : 0;
+  const prev = projectPages[(safeIndex - 1 + projectPages.length) % projectPages.length];
+  const next = projectPages[(safeIndex + 1) % projectPages.length];
+
+  const switcher = document.createElement("section");
+  switcher.className = "project-switcher";
+  switcher.innerHTML = `
+    <div class="project-switcher-top">
+      <a class="project-switcher-nav" href="${prev.href}">← ${prev.label}</a>
+      <a class="project-switcher-nav" href="../projects.html">All Projects</a>
+      <a class="project-switcher-nav" href="${next.href}">${next.label} →</a>
+    </div>
+    <div class="project-switcher-links">
+      ${projectPages.map((item) => `<a class="project-chip${item.href === current ? " active" : ""}" href="${item.href}">${item.label}</a>`).join("")}
+    </div>
+  `;
+
+  header.insertAdjacentElement("afterend", switcher);
+}
+
+createGlobalPageRail();
+createProjectSwitcher();
+
 const revealTargets = document.querySelectorAll(".panel, .project-card, .project-item, .tech-category, .stat-card");
 revealTargets.forEach((el, index) => {
   el.classList.add("reveal");
