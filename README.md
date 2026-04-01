@@ -1,14 +1,48 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0f766e,50:0891b2,100:1d4ed8&text=Syed%20Muhammad%20Ali%20Naqvi&fontColor=ffffff&fontSize=34&fontAlignY=35" alt="Header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0f766e,25:0891b2,50:1d4ed8,100:0369a1&text=Syed%20Muhammad%20Ali%20Naqvi&fontColor=ffffff&fontSize=38&fontAlignY=40&reversal=false&animation=fadeIn" alt="Header" />
 
 <p align="center">
-	<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=21&duration=2800&pause=900&center=true&vCenter=true&width=980&lines=FAST+University+%7C+BSCS+Student;CS+Student+and+Educator+%7C+Building+Practical+Learning+Resources;Experienced+with+Frontend%2C+Backend%2C+and+Project-Based+Teaching" alt="Typing Intro" />
+	<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3500&pause=1000&center=true&vCenter=true&width=1000&lines=FAST+University+%7C+BSCS+8th+Semester;Full-Stack+Developer+%7C+CS+Educator+%7C+Project+Architect;Building+Real-World+Apps+and+Learning+Ecosystems;3%2B+Years+Mentoring+%7C+20%2B+Projects+%7C+Full-Stack+Expert" alt="Typing Intro" />
 </p>
 
 <p align="center">
-	<a href="https://github.com/AliShah1029384756?tab=followers"><img src="https://img.shields.io/github/followers/AliShah1029384756?style=for-the-badge&logo=github&label=Followers" alt="Followers" /></a>
-	<a href="https://github.com/AliShah1029384756?tab=repositories"><img src="https://img.shields.io/badge/Focus-CS%20Education%20and%20Projects-0369a1?style=for-the-badge" alt="Focus" /></a>
-	<a href="https://github.com/AliShah1029384756/high-impact-student-projects"><img src="https://img.shields.io/badge/Main%20Hub-High%20Impact%20Projects-15803d?style=for-the-badge" alt="Main Hub" /></a>
+	<a href="https://github.com/AliShah1029384756?tab=followers"><img src="https://img.shields.io/github/followers/AliShah1029384756?style=for-the-badge&logo=github&label=Followers&color=1d4ed8" alt="Followers" /></a>
+	<a href="https://github.com/AliShah1029384756?tab=repositories"><img src="https://img.shields.io/badge/Repositories-20%2B-0891b2?style=for-the-badge&logo=github" alt="Repositories" /></a>
+	<a href="https://github.com/AliShah1029384756?tab=stars"><img src="https://img.shields.io/github/stars/AliShah1029384756?style=for-the-badge&logo=github&color=0f766e" alt="Total Stars" /></a>
+	<a href="https://github.com/AliShah1029384756/AliShah1029384756"><img src="https://img.shields.io/badge/Status-Active%20Developer-15803d?style=for-the-badge&logo=github" alt="Status" /></a>
 </p>
+
+---
+
+## 👨‍💻 Developer Profile
+
+<table>
+  <tr>
+    <td><strong>📋 Role</strong></td>
+    <td>Full-Stack Developer • CS Educator • Project Architect</td>
+  </tr>
+  <tr>
+    <td><strong>🎓 Education</strong></td>
+    <td>FAST University BSCS (8th Semester) • Hostel Warden & Teacher</td>
+  </tr>
+  <tr>
+    <td><strong>💼 Experience</strong></td>
+    <td>3+ years mentoring students • 20+ production projects • Full-stack systems</td>
+  </tr>
+  <tr>
+    <td><strong>🎯 Specialization</strong></td>
+    <td>Full-Stack Development • System Design • Database Architecture • API Engineering</td>
+  </tr>
+</table>
+
+---
+
+## ✨ Key Highlights
+
+| 🚀 Projects | 📚 Expertise | 🎓 Leadership | 💡 Innovation |
+|---|---|---|---|
+| 20+ deployed apps | Full-stack MERN | 20+ mentees guided | AI-assisted coding |
+| Real-world systems | Database design | Educator (2+ yrs) | OAuth, APIs |
+| University portfolio | System architecture | Teaching mentoring | Open-source ready |
 
 ---
 
@@ -21,36 +55,43 @@
 ---
 
 ## 👤 About Me
-🎓 **FAST University BSCS Student** | 👨‍🏫 **CS Educator** | 💻 **Full-Stack Developer** | 🤖 **AI-Assisted Development**
 
-> Building practical learning resources for students who prefer structure over randomness
+> **Architecting scalable applications and building learning ecosystems** | Real-world project delivery | Teaching CS through practical implementations
 
-- ✨ Focused on teaching CS concepts through real project implementations
-- 🎓 FAST University BSCS (8th Semester), focused on practical and ethical CS development
-- 🔧 Creating beginner-to-advanced repositories with clear progression
-- 🌐 Strong expertise in web engineering, APIs, and CS fundamentals
-- 🤖 Proficient in AI-assisted development with strong prompt engineering skills
-- 🎯 Passionate about making computer science accessible and engaging
+> **What I Build:** Production-grade full-stack applications with clean architecture, proper testing, and maintainable code. From frontend interfaces to backend systems to database design.
 
-### ⚡ Current Build Focus
+> **How I Teach:** Hands-on, project-based learning paired with structured curriculum guidance. Help 20+ students annually through mentorship, coursework, and career development.
 
-| Track | Current Direction | Outcome |
-|---|---|---|
-| FYP Ecosystem | AutiSmart + ClinicOS + SchoolIEP workflows | Real-world autism-care and education operations stack |
-| Community Platform | EduConnect feature maturity and usability | Student support platform with practical campus impact |
-| Developer Leadership | Development Master Hub + Open Source playbooks | Professional mentoring and contributor-ready portfolio |
+---
 
-### 👨‍🏫 Teaching & Mentoring
-- **Hostel Teacher & Warden** at FAST University: Guide 20+ students on academics and personal development
-- **Private Educator**: Teach CS and programming at local institutions (2022–Present)
-- **University Mentor**: Assist junior CS students with coursework, projects, and career guidance
-- **Documentation Focus**: Create clear learning guides and resources for students at all levels
+### 💼 Professional Attributes
 
-### 🤝 Open To
-- ✅ **Collaborations** on educational projects and open-source contributions
-- ✅ **Mentorship** opportunities (helping junior developers and students)
-- ✅ **Project Partners** for full-stack, systems, or algorithm-focused work
-- ✅ **Teaching & Resource Building** to help make CS education more accessible
+- 🏆 **Builder of Real Systems** – 4 production platforms (AutiSmart, ClinicOS, SchoolIEP, EduConnect)
+- 🎯 **Full-Stack Specialist** – React/Node.js/MongoDB/MySQL | System design & data modeling
+- 📖 **Documentation Master** – Creates comprehensive guides, playbooks, and technical resources
+- 🤝 **Natural Mentor** – Hostel Warden, University Mentor, Private Educator (2022–Present)
+- 🛠️ **DevOps & Best Practices** – CI/CD, Git workflows, code quality, API design
+- 🧠 **AI-Savvy Developer** – GitHub Copilot, ChatGPT, prompt engineering for code quality
+- 📊 **Data-Driven Decisions** – Architecture selection, performance optimization, scaling thinking
+
+### 👨‍🏫 Teaching & Mentoring Excellence
+
+| Dimension | Details |
+|---|---|
+| **Mentees** | 20+ students annually (academics, career, personal growth) |
+| **Teaching Experience** | 2+ years private CS instruction + university hostel guidance |
+| **Curriculum Built** | 8-module Development Master Hub (9 modules, 26 professional templates) |
+| **Scope** | Full-stack web development, systems thinking, interview prep, open-source |
+| **Approach** | Project-first learning, real-world examples, hands-on coding |
+| **Impact** | Students move from confusion to confident deployment in 4-8 weeks |
+
+### 🤝 Open To Opportunities
+
+✅ **Full-Stack Projects** – E-commerce, SaaS platforms, educational tools  
+✅ **Team Collaboration** – Contribute to open-source or commercial projects  
+✅ **Mentorship** – Guide junior developers, code reviews, system design discussions  
+✅ **Teaching Partnerships** – Curriculum building, educational content, bootcamp instruction  
+✅ **Consulting** – Architecture decisions, technical strategy, project setup
 
 ---
 
@@ -105,27 +146,39 @@ This profile is built like a mini learning portal for students who want **struct
 ---
 
 ## ⭐ Featured Repositories
+
 <p align="center">
-	<a href="https://github.com/AliShah1029384756/high-impact-student-projects">
-		<img src="https://github-readme-stats.vercel.app/api/pin/?username=AliShah1029384756&repo=high-impact-student-projects&hide_border=true" alt="High Impact Student Projects" />
+	<a href="https://github.com/AliShah1029384756/AliShah1029384756">
+		<img src="https://github-readme-stats.vercel.app/api/pin/?username=AliShah1029384756&repo=AliShah1029384756&hide_border=true&theme=ambient_gradient" alt="Profile Hub" />
 	</a>
 	<a href="https://github.com/AliShah1029384756/web-dev-learning-track">
-		<img src="https://github-readme-stats.vercel.app/api/pin/?username=AliShah1029384756&repo=web-dev-learning-track&hide_border=true" alt="Web Dev Learning Track" />
-	</a>
-	<a href="https://github.com/AliShah1029384756/university-course-projects">
-		<img src="https://github-readme-stats.vercel.app/api/pin/?username=AliShah1029384756&repo=university-course-projects&hide_border=true" alt="University Course Projects" />
+		<img src="https://github-readme-stats.vercel.app/api/pin/?username=AliShah1029384756&repo=web-dev-learning-track&hide_border=true&theme=ambient_gradient" alt="Web Dev Learning Track" />
 	</a>
 </p>
+
+<p align="center">
+	<a href="https://github.com/AliShah1029384756/high-impact-student-projects">
+		<img src="https://github-readme-stats.vercel.app/api/pin/?username=AliShah1029384756&repo=high-impact-student-projects&hide_border=true&theme=ambient_gradient" alt="High Impact Student Projects" />
+	</a>
+	<a href="https://github.com/AliShah1029384756/university-course-projects">
+		<img src="https://github-readme-stats.vercel.app/api/pin/?username=AliShah1029384756&repo=university-course-projects&hide_border=true&theme=ambient_gradient" alt="University Course Projects" />
+	</a>
+</p>
+
+| Track | Status | Repository | Impact |
+|---|---|---|---|
+| **FYP Core** | 🔒 Private | [AutiSmart](https://github.com/AliShah1029384756/AutiSmart) | Full-stack autism-care platform (React + Node.js) |
+| **Ecosystem Ext.** | 🔒 Private | [ClinicOS](https://github.com/AliShah1029384756/ClinicOS) | Therapist workflows & operations management |
+| **Ecosystem Ext.** | 🔒 Private | [SchoolIEP](https://github.com/AliShah1029384756/SchoolIEP) | School IEP lifecycle management system |
+| **Campus Impact** | 🌐 Public | [EduConnect](https://github.com/AliShah1029384756/EduConnect) | Student support platform with 6+ modules |
 
 ---
 
 ## 🏫 University Projects Repository
 
-🎓 **Professional collection of academic coursework** with complete implementations and documentation
+Professional-grade collection of **17+ academic coursework projects** with complete implementation, documentation, and learning outcomes.
 
-📦 **Repository:** [university-course-projects](https://github.com/AliShah1029384756/university-course-projects)
-🔐 **Private FYP Repository:** FYP-autismart (private access)
-🌐 **Public FYP Showcase:** [AutiSmart Live Demo](https://htmlpreview.github.io/?https://github.com/AliShah1029384756/university-course-projects/blob/main/AutiSmart-Showcase/index.html)
+📦 **Repository:** [university-course-projects](https://github.com/AliShah1029384756/university-course-projects) | 🔐 **Verified Coursework**
 
 ### 📂 Project Organization by Subject
 
@@ -254,30 +307,65 @@ Curated collection of university coursework implementations:
 
 ---
 
-## 📊 GitHub Dashboard
+## � Tech Stack & Expertise
+
+### 🎯 Core Competencies
 <p align="center">
-	<img src="https://github-readme-stats.vercel.app/api?username=AliShah1029384756&show_icons=true&hide_border=true&rank_icon=github" alt="GitHub Stats" height="165" />
-	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliShah1029384756&layout=compact&hide_border=true" alt="Top Languages" height="165" />
+	<img src="https://skillicons.dev/icons?i=js,nodejs,express,react,python,cpp,c,html,css,mongodb,mysql,git,github,vscode" alt="Tech Stack" />
 </p>
 
-<p align="center">
-	<img src="https://streak-stats.demolab.com?user=AliShah1029384756&hide_border=true" alt="GitHub Streak" />
-</p>
+### 🛠️ Languages & Frameworks
+
+| Category | Technologies |
+|---|---|
+| **Frontend** | JavaScript, HTML5, CSS3, React.js, Responsive Design |
+| **Backend** | Node.js, Express.js, REST APIs, API Security, Authentication |
+| **Languages** | JavaScript, Python, C++, C, Java, SQL, Assembly |
+| **Databases** | MongoDB (NoSQL), MySQL (Relational), Entity Framework, Schema Design |
+| **Tools & DevOps** | Git, GitHub, GitHub Copilot, VS Code, Docker fundamentals |
+| **AI-Assisted Dev** | GitHub Copilot, ChatGPT, Claude, Prompt Engineering |
+
+### 📊 Architectural Expertise
+
+```
+✓ Full-Stack System Design      ✓ RESTful API Engineering
+✓ Database Schema Design         ✓ Authentication & Security
+✓ Service Architecture           ✓ Performance Optimization
+✓ Real-Time Communication        ✓ Scalable Backend Systems
+✓ Role-Based Access Control      ✓ File Upload & Storage
+```
 
 ---
 
-## 🧪 Language Mix (Visual)
+## 📊 GitHub Analytics Dashboard
 
-A cleaner, graph-style view of the portfolio language distribution:
+<p align="center">
+	<img src="https://github-readme-stats.vercel.app/api?username=AliShah1029384756&show_icons=true&hide_border=true&rank_icon=github&theme=ambient_gradient" alt="GitHub Stats" height="180" />
+	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliShah1029384756&layout=compact&hide_border=true&theme=ambient_gradient" alt="Top Languages" height="180" />
+</p>
 
-- JavaScript  `███████████████████░░░░░░░░░░░`  37.86%
-- C           `████████████░░░░░░░░░░░░░░░░░░`  24.93%
-- CSS         `████░░░░░░░░░░░░░░░░░░░░░░░░░`   7.89%
-- HTML        `████░░░░░░░░░░░░░░░░░░░░░░░░░`   7.76%
-- Python      `████░░░░░░░░░░░░░░░░░░░░░░░░░`   7.51%
-- C++         `███░░░░░░░░░░░░░░░░░░░░░░░░░░`   6.60%
+<p align="center">
+	<img src="https://streak-stats.demolab.com?user=AliShah1029384756&hide_border=true&theme=ambient-gradient" alt="GitHub Streak Stats" />
+</p>
 
-> Remaining share is distributed across C#, Yacc, Assembly, Lex, R, and SCSS.
+### 📈 Language Distribution
+
+A comprehensive view of programming languages used across 20+ projects:
+
+| Language | Share | Visualization |
+|---|---|---|
+| **JavaScript** | 37.86% | `████████████████████░░░░░░░░░░░░` |
+| **C** | 24.93% | `█████████████░░░░░░░░░░░░░░░░░░░░` |
+| **CSS** | 7.89% | `████░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
+| **HTML** | 7.76% | `████░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
+| **Python** | 7.51% | `████░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
+| **C++** | 6.60% | `███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
+
+> **Remaining (6.45%):** C#, Yacc/Lex (Compiler), Assembly (x86), R, SCSS
+
+---
+
+## 🎯 Professional Development Focus
 
 ---
 
@@ -322,7 +410,7 @@ Curated external repositories for continuous learning:
 
 ---
 
-## 🤝 Collaboration & Contribution
+## 🤝 Collaboration & Community
 
 ### 💬 Get Involved
 - ✅ These resources are **free to use and share**
@@ -332,24 +420,27 @@ Curated external repositories for continuous learning:
 - 🎓 **Interested in mentoring or collaboration?** I'm actively open to partnerships
 
 ### 📚 Current Focus
-- 🎯 Refining FYP (AutiSmart) for robust autism-care workflows
+- 🎯 Executing open-source contribution strategy (Tier 1-3 repos)
 - 📖 Building comprehensive CS learning resources
-- 🤝 Mentoring junior developers and students
-- 💻 Exploring advanced backend architectures and AI integration
+- 🤝 Mentoring junior developers and providing career guidance
+- 💻 Advancing full-stack expertise with systems and architecture depth
 
 ### 📬 Let's Connect
 - 🌐 **GitHub**: [AliShah1029384756](https://github.com/AliShah1029384756)
-- 🎓 **Education**: FAST University BSCS (Batch 2022)
-- 🎯 **Focus Areas**: 
-  - Computer Science Education
-  - Project-Based Learning
-  - Full-Stack Web Development
-  - System Design & Architecture
+- 🎓 **Education**: FAST University BSCS (8th Semester) | Batch 2022
+- 🎯 **Open For**: 
+  - Collaborations on innovative projects
+  - Technical mentorship and code reviews
+  - Course development and teaching partnerships
+  - Open-source contributions and community initiatives
 
 ---
 
 <p align="center">
-	<strong>⭐ If these resources help you learn, consider giving them a star!</strong>
+	<strong>If you find these resources helpful, consider giving a ⭐ to support the work!</strong>
+	<br />
+	<a href="https://github.com/AliShah1029384756?tab=repositories"><strong>→ View All Repositories</strong></a>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0f766e,50:0891b2,100:1d4ed8" alt="Footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:0f766e,25:0891b2,50:1d4ed8,100:0369a1&reversal=false&animation=fadeIn" alt="Footer" />
+
