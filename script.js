@@ -2,9 +2,9 @@ const rotatingLead = document.getElementById("rotating-lead");
 
 if (rotatingLead) {
   const phrases = [
-    "Student Plus Coder: building web apps, systems projects, and practical CS learning resources.",
-    "Focused on clean code, clear docs, and steady weekly improvement.",
-    "Learning in public with honest progress and strong fundamentals."
+    "Portfolio focused on full-stack systems and education-impact solutions.",
+    "Focused on architecture quality, clean code, and reliable engineering standards.",
+    "Building practical systems with strong fundamentals and long-term maintainability."
   ];
 
   let phraseIndex = 0;
@@ -83,3 +83,4 @@ revealTargets.forEach((el, index) => {
   el.classList.add("reveal");
   el.style.animationDelay = `${Math.min(index * 40, 320)}ms`;
 });
+
