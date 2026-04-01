@@ -258,6 +258,29 @@ Curated collection of university coursework implementations:
 
 ---
 
+## 🧪 Language Usage Snapshot (Project Portfolio)
+
+Approximate usage across major repositories (AutiSmart, EduConnect, ClinicOS, SchoolIEP, university-course-projects, and core web/backend projects):
+
+| Language | Approx Share | Approx Code Size |
+|---|---:|---:|
+| JavaScript | 37.86% | 1,130,507 bytes |
+| C | 24.93% | 744,514 bytes |
+| CSS | 7.89% | 235,587 bytes |
+| HTML | 7.76% | 231,622 bytes |
+| Python | 7.51% | 224,299 bytes |
+| C++ | 6.60% | 197,020 bytes |
+| C# | 2.23% | 66,640 bytes |
+| Yacc | 1.81% | 53,946 bytes |
+| Assembly | 1.25% | 37,255 bytes |
+| Lex | 0.85% | 25,518 bytes |
+| R | 0.58% | 17,424 bytes |
+| SCSS | 0.47% | 14,162 bytes |
+
+This distribution highlights a full-stack profile with strong JavaScript production work, deep systems/academic foundations (C/C++/Assembly), and practical exposure to Python and data-oriented tooling.
+
+---
+
 ## 📚 Study Resources & Learning Guides
 
 Curated external repositories for continuous learning:
