@@ -83,6 +83,14 @@ To keep all repositories professional and consistent:
 - Prefer relevant references over long generic link lists
 - Integrate resources with project context, not as disconnected extras
 
+## Reference Materials
+
+- [roadmap.sh](https://roadmap.sh) - Role-based engineering roadmaps
+- [MDN Web Docs](https://developer.mozilla.org/) - Web platform reference and API guidance
+- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) - Security hardening references
+- [Martin Fowler](https://martinfowler.com/) - Architecture, design, and refactoring guidance
+- [cppreference](https://en.cppreference.com/) - C++ language and standard library reference
+
 ---
 
 ## Tech Stack
