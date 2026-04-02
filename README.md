@@ -27,6 +27,7 @@ I also support academic environments through:
 - Projects: [Projects Directory](https://alishah1029384756.github.io/AliShah1029384756/projects.html)
 - CV: [Professional CV](https://alishah1029384756.github.io/AliShah1029384756/cv.html)
 - About: [Profile Summary](https://alishah1029384756.github.io/AliShah1029384756/about.html)
+- FAST-NUCES Hub: [FAST-NUCES Resource Portal](https://alishah1029384756.github.io/fast-nuces-resources/)
 
 ---
 
@@ -36,6 +37,7 @@ I also support academic environments through:
 2. [Projects Directory](https://alishah1029384756.github.io/AliShah1029384756/projects.html)
 3. [Professional CV](https://alishah1029384756.github.io/AliShah1029384756/cv.html)
 4. [Profile Summary](https://alishah1029384756.github.io/AliShah1029384756/about.html)
+5. [FAST-NUCES Resource Portal](https://alishah1029384756.github.io/fast-nuces-resources/)
 
 ---
 
