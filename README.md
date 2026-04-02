@@ -30,6 +30,17 @@ I also support academic environments through:
 - FAST-NUCES Hub: [FAST-NUCES Resource Portal](https://alishah1029384756.github.io/fast-nuces-resources/)
 
 ---
+---
+## Portfolio Hubs
+
+Explore specialized portfolio sites organized by topic:
+
+1. **[University Course Projects Hub](https://alishah1029384756.github.io/university-course-projects-hub/)** — 17+ academic coursework projects across 9 domains: systems, databases, web, networking, compilers, algorithms, data science, games, and more
+2. **[Web Development Learning Track](https://alishah1029384756.github.io/web-dev-learning-hub/)** — 9-module structured curriculum from HTML basics to production-ready full-stack applications
+3. **[High-Impact Student Projects](https://alishah1029384756.github.io/high-impact-student-projects-hub/)** — 58+ curated learning guides across 4 paths: Beginner, Interview Prep, FAST Curriculum, and AI/ML Specialization
+4. **[FAST-NUCES Resource Hub](https://alishah1029384756.github.io/fast-nuces-resources/)** — Curated semester-wise notes, past papers, course links, and recommended projects
+
+---
 
 ## Open This First
 
