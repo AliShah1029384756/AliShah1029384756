@@ -30,7 +30,7 @@ I also support academic environments through:
 - FAST-NUCES Hub: [FAST-NUCES Resource Portal](https://alishah1029384756.github.io/fast-nuces-resources/)
 
 ---
----
+
 ## Portfolio Hubs
 
 Explore specialized portfolio sites organized by topic:
@@ -49,6 +49,7 @@ Explore specialized portfolio sites organized by topic:
 3. [Professional CV](https://alishah1029384756.github.io/AliShah1029384756/cv.html)
 4. [Profile Summary](https://alishah1029384756.github.io/AliShah1029384756/about.html)
 5. [FAST-NUCES Resource Portal](https://alishah1029384756.github.io/fast-nuces-resources/)
+6. [Portfolio Sites Directory](https://alishah1029384756.github.io/AliShah1029384756/sites.html)
 
 ---
 

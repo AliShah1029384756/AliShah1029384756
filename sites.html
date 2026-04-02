@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ali Shah — Full Portfolio & Projects Hub</title>
+<meta name="description" content="Complete portfolio hub: academic projects, learning curriculum, frontend apps, case studies, and professional resources.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@300;400;500&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --surface: #111118;
+    --surface2: #1a1a24;
+    --border: #ffffff0d;
+    --accent: #00d4ff;
+    --accent2: #7c3aed;
+    --accent3: #10b981;
+    --accent4: #f59e0b;
+    --text: #e8e8f0;
+    --text-muted: #6b6b80;
+    --text-dim: #9999aa;
+    --font-display: 'Syne', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --font-body: 'Instrument Sans', sans-serif;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 999;
+    opacity: 0.4;
+  }
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--accent2); border-radius: 2px; }
+
+  nav {
+    position: fixed; top: 0; left: 0; right: 0;
+    z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 1rem 2rem;
+    background: rgba(10,10,15,0.95);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-logo {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .nav-links {
+    display: flex; gap: 1rem;
+  }
+  .nav-links a {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--accent); }
+
+  .hero {
+    min-height: 100vh;
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 6rem 2rem 4rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-bg {
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(ellipse 80% 60% at 50% -20%, rgba(0,212,255,0.1) 0%, transparent 60%),
+      radial-gradient(ellipse 60% 50% at 80% 80%, rgba(124,58,237,0.1) 0%, transparent 60%);
+  }
+  .hero-content {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .hero h1 {
+    font-family: var(--font-display);
+    font-size: clamp(2.5rem, 7vw, 5rem);
+    font-weight: 800;
+    line-height: 0.95;
+    letter-spacing: -0.04em;
+    margin-bottom: 1.5rem;
+  }
+  .hero h1 span {
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 60%, var(--accent3) 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .hero-desc {
+    font-size: 1.05rem;
+    color: var(--text-dim);
+    max-width: 600px;
+    margin: 0 auto 3rem;
+    line-height: 1.7;
+  }
+  .hero-cta {
+    display: inline-flex; gap: 1rem; justify-content: center; flex-wrap: wrap;
+  }
+  .btn {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    padding: 0.8rem 1.8rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+  }
+  .btn-primary {
+    background: var(--accent);
+    color: #0a0a0f;
+  }
+  .btn-primary:hover { background: #00b8d9; transform: translateY(-2px); }
+  .btn-secondary {
+    background: transparent;
+    color: var(--text);
+    border: 1px solid var(--border-bright);
+  }
+  .btn-secondary:hover { border-color: var(--accent2); color: var(--accent2); }
+
+  section { padding: 5rem 2rem; }
+  .container { max-width: 1200px; margin: 0 auto; }
+  .section-header { margin-bottom: 3rem; text-align: center; }
+  .section-tag {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--accent);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  .section-title {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: var(--text);
+    margin-bottom: 1rem;
+  }
+
+  #featured { background: var(--surface); }
+  .featured-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+  }
+  .featured-card {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 2rem;
+    transition: all 0.25s;
+    text-decoration: none;
+    display: flex; flex-direction: column;
+    cursor: pointer;
+  }
+  .featured-card:hover {
+    border-color: var(--border-bright);
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.5);
+  }
+  .card-emoji { font-size: 2.5rem; margin-bottom: 0.8rem; }
+  .card-title {
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--text);
+    margin-bottom: 0.5rem;
+  }
+  .card-desc {
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    flex: 1;
+  }
+  .card-tags {
+    display: flex; flex-wrap: wrap; gap: 0.4rem;
+  }
+  .ctag {
+    font-size: 0.65rem;
+    font-family: var(--font-mono);
+    padding: 0.3rem 0.7rem;
+    background: rgba(0,212,255,0.1);
+    border: 1px solid rgba(0,212,255,0.2);
+    border-radius: 4px;
+    color: var(--accent);
+  }
+  .card-link {
+    margin-top: 1.5rem;
+    color: var(--accent);
+    font-weight: 700;
+    display: flex; align-items: center; gap: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  #portfolio { background: var(--bg); }
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+  .portfolio-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .portfolio-card:hover {
+    border-color: var(--border-bright);
+    transform: translateY(-2px);
+  }
+  .portfolio-emoji { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  .portfolio-name {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--text);
+    margin-bottom: 0.3rem;
+  }
+  .portfolio-desc {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+  }
+
+  footer {
+    padding: 3rem 2rem;
+    text-align: center;
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 0.85rem;
+  }
+  .footer-links {
+    display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  .footer-links a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  @media (max-width: 768px) {
+    nav { padding: 0.8rem 1.2rem; }
+    .hero { padding: 5rem 1.5rem 3rem; }
+    .hero h1 { font-size: 2rem; }
+    section { padding: 3rem 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#" class="nav-logo">Ali Shah</a>
+  <div class="nav-links">
+    <a href="#featured">Hubs</a>
+    <a href="#portfolio">Apps</a>
+    <a href="https://github.com/AliShah1029384756">GitHub</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <h1>Full <span>Portfolio</span> Ecosystem</h1>
+    <p class="hero-desc">Academic projects, learning curriculum, frontend applications, and case studies. All organized, documented, and accessible.</p>
+    <div class="hero-cta">
+      <a href="#featured" class="btn btn-primary">Explore Hubs</a>
+      <a href="#portfolio" class="btn btn-secondary">View Apps</a>
+    </div>
+  </div>
+</div>
+
+<section id="featured" style="background: var(--surface);">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">PRIMARY HUBS</div>
+      <h2 class="section-title">Major Portfolio Sites</h2>
+    </div>
+    <div class="featured-grid">
+      <!-- Main Profile -->
+      <a href="https://alishah1029384756.github.io/AliShah1029384756/" class="featured-card">
+        <div class="card-emoji">👤</div>
+        <div class="card-title">Professional Profile</div>
+        <div class="card-desc">Main landing page with social links, featured projects, CV, and professional highlights.</div>
+        <div class="card-tags">
+          <span class="ctag">Portfolio</span>
+          <span class="ctag">Profile</span>
+        </div>
+        <div class="card-link">View Profile →</div>
+      </a>
+
+      <!-- University Projects -->
+      <a href="https://alishah1029384756.github.io/university-course-projects-hub/" class="featured-card">
+        <div class="card-emoji">🎓</div>
+        <div class="card-title">University Projects</div>
+        <div class="card-desc">17+ academic coursework projects across 9 domains: systems, databases, web, networking, compilers.</div>
+        <div class="card-tags">
+          <span class="ctag">Academic</span>
+          <span class="ctag">17+ Projects</span>
+        </div>
+        <div class="card-link">Browse Projects →</div>
+      </a>
+
+      <!-- Web Dev Learning -->
+      <a href="https://alishah1029384756.github.io/web-dev-learning-hub/" class="featured-card">
+        <div class="card-emoji">📚</div>
+        <div class="card-title">Web Dev Curriculum</div>
+        <div class="card-desc">9-module curriculum from HTML basics to production-ready full-stack apps. 3 learning paths: Student, Junior, Mentor.</div>
+        <div class="card-tags">
+          <span class="ctag">Learning</span>
+          <span class="ctag">9 Modules</span>
+        </div>
+        <div class="card-link">Start Learning →</div>
+      </a>
+
+      <!-- High-Impact Projects -->
+      <a href="https://alishah1029384756.github.io/high-impact-student-projects-hub/" class="featured-card">
+        <div class="card-emoji">🚀</div>
+        <div class="card-title">Student Guides</div>
+        <div class="card-desc">58+ curated guides across 4 paths: Beginner, Interview Prep, FAST Curriculum, AI/ML Specialization.</div>
+        <div class="card-tags">
+          <span class="ctag">Guides</span>
+          <span class="ctag">58+ Resources</span>
+        </div>
+        <div class="card-link">Explore Guides →</div>
+      </a>
+
+      <!-- FAST Hub -->
+      <a href="https://alishah1029384756.github.io/fast-nuces-resources/" class="featured-card">
+        <div class="card-emoji">🎯</div>
+        <div class="card-title">FAST-NUCES Hub</div>
+        <div class="card-desc">Curated FAST-NUCES resource center with semesters, courses, past papers, and recommended projects.</div>
+        <div class="card-tags">
+          <span class="ctag">University</span>
+          <span class="ctag">Resources</span>
+        </div>
+        <div class="card-link">Visit Hub →</div>
+      </a>
+
+      <!-- Case Studies -->
+      <a href="https://alishah1029384756.github.io/AliShah1029384756/#projects" class="featured-card">
+        <div class="card-emoji">💼</div>
+        <div class="card-title">Case Studies</div>
+        <div class="card-desc">In-depth case studies of major projects: AutiSmart, ClinicOS, SchoolIEP, EduConnect.</div>
+        <div class="card-tags">
+          <span class="ctag">Case Study</span>
+          <span class="ctag">4 Projects</span>
+        </div>
+        <div class="card-link">View Cases →</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">LIVE APPLICATIONS</div>
+      <h2 class="section-title">Frontend Applications</h2>
+    </div>
+    <div class="portfolio-grid">
+      <a href="https://alishah1029384756.github.io/calculator/" class="portfolio-card">
+        <div class="portfolio-emoji">🧮</div>
+        <div class="portfolio-name">Calculator</div>
+        <div class="portfolio-desc">Functional calculator with expression evaluation and math operations</div>
+      </a>
+
+      <a href="https://alishah1029384756.github.io/todo-app/" class="portfolio-card">
+        <div class="portfolio-emoji">✓</div>
+        <div class="portfolio-name">Todo App</div>
+        <div class="portfolio-desc">Task management with local storage persistence and filtering</div>
+      </a>
+
+      <a href="https://alishah1029384756.github.io/expense-tracker/" class="portfolio-card">
+        <div class="portfolio-emoji">💰</div>
+        <div class="portfolio-name">Expense Tracker</div>
+        <div class="portfolio-desc">Personal finance tracking with charts and categories</div>
+      </a>
+
+      <a href="https://alishah1029384756.github.io/weather-app/" class="portfolio-card">
+        <div class="portfolio-emoji">🌤️</div>
+        <div class="portfolio-name">Weather App</div>
+        <div class="portfolio-desc">Real-time weather data with location search and forecasts</div>
+      </a>
+
+      <a href="https://alishah1029384756.github.io/quiz-app/" class="portfolio-card">
+        <div class="portfolio-emoji">❓</div>
+        <div class="portfolio-name">Quiz App</div>
+        <div class="portfolio-desc">Interactive quiz engine with scoring and detailed feedback</div>
+      </a>
+
+      <a href="https://alishah1029384756.github.io/notes-app/" class="portfolio-card">
+        <div class="portfolio-emoji">📝</div>
+        <div class="portfolio-name">Notes App</div>
+        <div class="portfolio-desc">Notes application with markdown support and organization</div>
+      </a>
+
+      <a href="https://alishah1029384756.github.io/portfolio/" class="portfolio-card">
+        <div class="portfolio-emoji">🎨</div>
+        <div class="portfolio-name">Portfolio Site</div>
+        <div class="portfolio-desc">Personal portfolio website with projects showcase</div>
+      </a>
+
+      <a href="https://alishah1029384756.github.io/html-practice-project/" class="portfolio-card">
+        <div class="portfolio-emoji">🔧</div>
+        <div class="portfolio-name">HTML Practice</div>
+        <div class="portfolio-desc">HTML fundamentals practice project with semantic markup</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section style="background: var(--surface);">
+  <div class="container" style="text-align: center;">
+    <div class="section-header">
+      <div class="section-tag">GET STARTED</div>
+      <h2 class="section-title">Choose Your Path</h2>
+      <p style="color: var(--text-dim); font-size: 1rem; max-width: 500px; margin: 1rem auto 2rem;">Start with the hub that matches your interests and explore the complete portfolio ecosystem.</p>
+    </div>
+    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+      <a href="https://github.com/AliShah1029384756" class="btn btn-primary">View on GitHub</a>
+      <a href="https://alishah1029384756.github.io/AliShah1029384756/" class="btn btn-secondary">Main Profile</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-links">
+    <a href="https://github.com/AliShah1029384756">GitHub</a>
+    <a href="https://linkedin.com/in/alishah1029384756">LinkedIn</a>
+    <a href="https://alishah1029384756.github.io/AliShah1029384756/">Profile</a>
+  </div>
+  <p>&copy; 2026 Ali Shah | All portfolio sites maintained and documented</p>
+  <p style="font-size: 0.75rem; margin-top: 0.5rem; color: var(--text-muted);">Open Source | MIT License | <a href="https://github.com/AliShah1029384756" style="color: var(--accent); text-decoration: none;">GitHub</a></p>
+</footer>
+
+</body>
+</html>
