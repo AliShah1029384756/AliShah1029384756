@@ -53,6 +53,14 @@ Explore specialized portfolio sites organized by topic:
 
 ---
 
+## What Changed This Month (April 2026)
+
+- Standardized profile messaging across homepage, projects, about, and sites pages
+- Upgraded portfolio hubs to practical and evidence-focused descriptions
+- Added documentation workflow system for daily execution and quality checks
+
+---
+
 ## Flagship Projects
 
 1. [AutiSmart](https://github.com/AliShah1029384756/AutiSmart) - Autism care platform (private)
