@@ -97,6 +97,14 @@ To keep all repositories professional and consistent:
 - Prefer relevant references over long generic link lists
 - Integrate resources with project context, not as disconnected extras
 
+### How These References Are Used In Real Work
+
+- **roadmap.sh:** planning role-based progression for frontend, backend, and full-stack milestones
+- **MDN Web Docs:** API behavior validation during implementation and debugging
+- **OWASP Cheat Sheet Series:** security checklist for auth, input validation, and data handling reviews
+- **Martin Fowler:** design/refactoring decisions when project structure grows
+- **cppreference:** language and STL behavior verification for university C/C++ coursework
+
 ## Reference Materials
 
 - [roadmap.sh](https://roadmap.sh) - Role-based engineering roadmaps
@@ -104,6 +112,15 @@ To keep all repositories professional and consistent:
 - [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) - Security hardening references
 - [Martin Fowler](https://martinfowler.com/) - Architecture, design, and refactoring guidance
 - [cppreference](https://en.cppreference.com/) - C++ language and standard library reference
+
+---
+
+## Portfolio Evidence Signals
+
+- Hub-based structure with dedicated learning and project sites
+- Public/private separation maintained for professional presentation
+- Coursework portfolio aligned with domain-level categorization (17+ projects, 9 domains)
+- Learning track and guide hubs structured for repeatable student use
 
 ---
 
