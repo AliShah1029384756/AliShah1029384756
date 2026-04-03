@@ -1,10 +1,14 @@
-# Syed Muhammad Ali Naqvi
+﻿# Syed Muhammad Ali Naqvi
 
-## Hero
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=4000&pause=800&color=00D4FF&center=true&width=650&lines=Computer+Science+Student;Full-Stack+Developer;Systems+Problem+Solver" alt="Animated intro" />
+</div>
 
-Computer Science Student (FAST University) | Full-Stack Developer | Systems Problem Solver
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=AliShah1029384756&theme=tokyonight&no-frame=true&column=7" alt="Trophy achievements" />
+</div>
 
-Building practical software systems with clean architecture, strong documentation, and real-world engineering focus.
+---
 
 ## Quick Navigation
 
@@ -15,12 +19,16 @@ Building practical software systems with clean architecture, strong documentatio
 - [Projects Directory](https://alishah1029384756.github.io/AliShah1029384756/projects.html)
 - [Professional CV](https://alishah1029384756.github.io/AliShah1029384756/cv.html)
 
+---
+
 ## What I Do
 
 - Full-stack web development with frontend and backend integration
 - Data structures and algorithm-driven problem solving
 - Networking and systems-level project implementation
 - Practical technical documentation for reproducible work
+
+---
 
 ## Featured Projects
 
@@ -48,6 +56,8 @@ Building practical software systems with clean architecture, strong documentatio
   Education support platform for student-centered workflows.  
   Stack: Full-stack web technologies
 
+---
+
 ## University Projects (16 Total)
 
 Completed 16 university-level CS projects from FAST University coursework across systems, databases, web, networking, compiler, algorithms, and optimization domains.
@@ -63,24 +73,81 @@ Standout coursework projects:
 - [p2p-communication-system](https://github.com/AliShah1029384756/p2p-communication-system)
 - [bus-schedule-optimizer](https://github.com/AliShah1029384756/bus-schedule-optimizer)
 
-## Tech Stack
+---
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,python,cpp,git,github,nodejs,react,mongodb,mysql,vscode" alt="Tech Stack" />
-</p>
+## Languages & Core Skills
 
-## GitHub Stats
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AliShah1029384756&show_icons=true&theme=tokyonight" alt="Ali's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliShah1029384756&layout=compact&theme=tokyonight" alt="Top Languages" />
-</p>
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![C%2B%2B](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
-## Contact
+</div>
 
-- GitHub: https://github.com/AliShah1029384756
-- Portfolio: https://alishah1029384756.github.io/AliShah1029384756/
-- LinkedIn: https://www.linkedin.com/in/ali-naqvi-1a9576331
-- Email: shahyed99@gmail.com
+## Frontend Technologies
 
-Build with purpose. Ship with clarity. Improve continuously.
+<div align="center">
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Tailwind%20CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+</div>
+
+## Backend & Data Technologies
+
+<div align="center">
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-13AA52?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+
+</div>
+
+## Tools & Platforms
+
+<div align="center">
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![VS%20Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+</div>
+
+---
+
+## GitHub Activity
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AliShah1029384756&show_icons=true&theme=tokyonight&hide_border=true" alt="Ali's GitHub stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliShah1029384756&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=AliShah1029384756&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" width="96%" />
+</div>
+
+---
+
+## Contact & Links
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AliShah1029384756)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-naqvi-1a9576331)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=firefox&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shahyed99@gmail.com)
+
+</div>
+
+<div align="center">
+  <p>Build with purpose. Ship with clarity. Improve continuously.</p>
+  <p>© 2024 Syed Muhammad Ali Naqvi | FAST University CS Student</p>
+</div>
