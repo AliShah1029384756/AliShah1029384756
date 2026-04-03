@@ -150,9 +150,29 @@ footer {
   top: 16px;
   width: 260px;
   height: 260px;
-  background: radial-gradient(circle, rgba(255, 179, 71, 0.2), transparent 68%);
+  background: radial-gradient(circle, rgba(255, 179, 71, 0.25), transparent 68%);
+  filter: blur(3px);
+  pointer-events: none;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50px;
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle, rgba(124, 183, 255, 0.15), transparent 70%);
   filter: blur(2px);
   pointer-events: none;
+}
+
+.welcome-line {
+  margin: 0 0 10px;
+  color: var(--accent-2);
+  font-size: 0.86rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .tag {
@@ -166,6 +186,10 @@ h1 {
   margin: 8px 0 10px;
   font-size: clamp(2.2rem, 6vw, 3.9rem);
   line-height: 1.04;
+  background: linear-gradient(135deg, var(--text) 0%, var(--brand) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 h2 {
@@ -245,7 +269,8 @@ li {
   background: var(--glass);
   border: 1px solid var(--line-soft);
   border-radius: 14px;
-  box-shadow: var(--shadow);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
 }
 
 .panel,
@@ -352,11 +377,11 @@ li {
 .project-item:hover,
 .tech-category:hover,
 .skill-category:hover,
-.flagship-item:hover,
 .philosophy-card:hover,
 .stat-card:hover {
   transform: translateY(-3px);
   border-color: rgba(255, 179, 71, 0.72);
+  box-shadow: 0 16px 40px rgba(255, 179, 71, 0.15);
 }
 
 .badge {
@@ -484,6 +509,48 @@ li {
 
 .searchable-project.is-hidden {
   display: none;
+}
+
+.featured-intro,
+.supporting-intro {
+  color: var(--text-dim);
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+
+.featured-intro {
+  margin-bottom: 20px;
+}
+
+.supporting-note {
+  color: var(--text-dim);
+  margin-top: 14px;
+  font-size: 0.9rem;
+}
+
+.supporting-links {
+  margin-top: 12px;
+}
+
+.profile-snapshot {
+  margin-top: 8px;
+}
+
+.snapshot-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.snapshot-chips span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 5px 10px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.74rem;
+  color: var(--accent-2);
+  background: rgba(124, 183, 255, 0.08);
 }
 
 .log-entry {

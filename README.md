@@ -27,6 +27,7 @@ I also support academic environments through:
 - Projects: [Projects Directory](https://alishah1029384756.github.io/AliShah1029384756/projects.html)
 - CV: [Professional CV](https://alishah1029384756.github.io/AliShah1029384756/cv.html)
 - About: [Profile Summary](https://alishah1029384756.github.io/AliShah1029384756/about.html)
+- University Repository: [Separate Coursework Archive](https://github.com/AliShah1029384756/university-course-projects)
 - FAST-NUCES Hub: [FAST-NUCES Resource Portal](https://alishah1029384756.github.io/fast-nuces-resources/)
 
 ---
@@ -35,7 +36,7 @@ I also support academic environments through:
 
 Explore specialized portfolio sites organized by topic:
 
-1. **[University Course Projects Hub](https://alishah1029384756.github.io/university-course-projects-hub/)** — 17+ academic coursework projects across 9 domains: systems, databases, web, networking, compilers, algorithms, data science, games, and more
+1. **[University Course Projects Hub](https://alishah1029384756.github.io/university-course-projects-hub/)** — 16 academic coursework projects across 9 domains: systems, databases, web, networking, compilers, algorithms, data science, games, and more
 2. **[Web Development Learning Track](https://alishah1029384756.github.io/web-dev-learning-hub/)** — 9-module structured curriculum from HTML basics to production-ready full-stack applications
 3. **[High-Impact Student Projects](https://alishah1029384756.github.io/high-impact-student-projects-hub/)** — 58+ curated learning guides across 4 paths: Beginner, Interview Prep, FAST Curriculum, and AI/ML Specialization
 4. **[FAST-NUCES Resource Hub](https://alishah1029384756.github.io/fast-nuces-resources/)** — Curated semester-wise notes, past papers, course links, and recommended projects
@@ -50,6 +51,7 @@ Explore specialized portfolio sites organized by topic:
 4. [Profile Summary](https://alishah1029384756.github.io/AliShah1029384756/about.html)
 5. [FAST-NUCES Resource Portal](https://alishah1029384756.github.io/fast-nuces-resources/)
 6. [Portfolio Sites Directory](https://alishah1029384756.github.io/AliShah1029384756/sites.html)
+7. [University Coursework Repository](https://github.com/AliShah1029384756/university-course-projects)
 
 ---
 
@@ -67,7 +69,7 @@ Explore specialized portfolio sites organized by topic:
 2. [ClinicOS](https://github.com/AliShah1029384756/ClinicOS) - Private clinic operations platform with scheduling, billing, and workflow control
 3. [SchoolIEP](https://github.com/AliShah1029384756/SchoolIEP) - Private school-based IEP management platform with compliance-aware documentation
 4. [EduConnect](https://github.com/AliShah1029384756/EduConnect) - Student support platform
-5. [university-course-projects](https://github.com/AliShah1029384756/university-course-projects) - 17+ coursework implementations
+5. [university-course-projects](https://github.com/AliShah1029384756/university-course-projects) - separate coursework repository with 16 implementations and organized project index
 6. [web-dev-learning-track](https://github.com/AliShah1029384756/web-dev-learning-track) - Structured development roadmap
 
 ---
@@ -127,7 +129,7 @@ To keep all repositories professional and consistent:
 
 - Hub-based structure with dedicated learning and project sites
 - Public/private separation maintained for professional presentation
-- Coursework portfolio aligned with domain-level categorization (17+ projects, 9 domains)
+- Coursework portfolio aligned with domain-level categorization (16 projects, 9 domains)
 - Learning track and guide hubs structured for repeatable student use
 
 ---
