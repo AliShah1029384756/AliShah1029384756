@@ -704,6 +704,54 @@ li {
   text-align: center;
 }
 
+.proof-line {
+  margin: 10px 0 0;
+  color: var(--accent);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.impact-summary {
+  border: 1px solid var(--line-soft);
+  border-radius: 12px;
+  padding: 14px;
+  background: rgba(88, 213, 201, 0.08);
+  margin-bottom: 14px;
+}
+
+.impact-summary h2 {
+  margin-bottom: 10px;
+}
+
+.impact-metrics {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.impact-metrics li {
+  position: relative;
+  padding: 6px 0 6px 18px;
+  color: var(--text-dim);
+}
+
+.impact-metrics li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+.footer-cta {
+  margin: 0 auto 12px;
+  width: min(860px, 100%);
+}
+
+.footer-cta p {
+  margin: 0 0 10px;
+  color: var(--text-dim);
+}
+
 .floating-dock {
   position: fixed;
   right: 14px;
@@ -982,6 +1030,10 @@ footer {
 
   .cv-two-col {
     grid-template-columns: 1fr;
+  }
+
+  .footer-links {
+    flex-direction: column;
   }
 
   .floating-dock {
