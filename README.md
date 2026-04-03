@@ -1,4 +1,10 @@
-﻿# 🚀 Syed Muhammad Ali Naqvi
+﻿# ✨ بسم اللہ الرحمن الرحیم
+
+> **السلام عليكم ورحمة الله وبركاته** | Assalam o Alaikum wa Rahmatullahi wa Barakatuh
+
+---
+
+# 🚀 Syed Muhammad Ali Naqvi
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=4000&pause=1000&color=00D9FF&center=true&width=700&lines=Computer+Science+Student;Full-Stack+Developer;Systems+Problem+Solver;Building+Production-Ready+Software" alt="Animated intro" />
@@ -6,8 +12,12 @@
 
 ---
 
+## 🏆 Achievements & Contributions
+
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AliShah1029384756&theme=tokyonight&no-frame=true&column=7&margin-w=5&margin-h=5" alt="Trophy achievements" />
+  <a href="https://github.com/AliShah1029384756?tab=achievements">
+    <img src="https://github-profile-trophy.vercel.app/?username=AliShah1029384756&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=12&margin-h=12" alt="GitHub Trophy Achievements" />
+  </a>
 </div>
 
 ---
@@ -210,3 +220,4 @@ Completed **16 university-level CS projects** covering:
   <p><strong>💡 Always building. Always learning. Always improving.</strong></p>
   <p style="color: #666;">© 2024 Syed Muhammad Ali Naqvi | FAST University | Computer Science</p>
 </div>
+
