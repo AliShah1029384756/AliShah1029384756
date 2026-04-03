@@ -15,7 +15,12 @@
 ## 🏆 Achievements & Contributions
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AliShah1029384756&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=12&margin-h=12" alt="GitHub Trophy Achievements" />
+
+[![GitHub Profile](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AliShah1029384756)
+[![Followers](https://img.shields.io/github/followers/AliShah1029384756?style=for-the-badge&logo=github&label=Followers)](https://github.com/AliShah1029384756?tab=followers)
+[![Repositories](https://img.shields.io/badge/Public%20Repos-View-2ea44f?style=for-the-badge&logo=github)](https://github.com/AliShah1029384756?tab=repositories)
+[![Contribution Activity](https://img.shields.io/badge/Contributions-Activity-1f6feb?style=for-the-badge&logo=github)](https://github.com/AliShah1029384756)
+
 </div>
 
 ---
@@ -37,10 +42,14 @@ Computer Science student at **FAST University** passionate about building scalab
 
 <div align="center">
 
-| 📊 Portfolio | 🎓 University Projects | 🌱 Learning Hub | 💼 Case Studies |
-|:---:|:---:|:---:|:---:|
-| [**Portfolio**](https://alishah1029384756.github.io/AliShah1029384756/) | [**16 Projects**](https://github.com/AliShah1029384756/university-course-projects) | [**Web Dev**](https://alishah1029384756.github.io/web-dev-learning-hub/) | [**All Projects**](https://alishah1029384756.github.io/AliShah1029384756/projects.html) |
-| [**CV**](https://alishah1029384756.github.io/AliShah1029384756/cv.html) | [**Hub**](https://alishah1029384756.github.io/university-course-projects-hub/) | [**High-Impact**](https://alishah1029384756.github.io/high-impact-student-projects-hub/) | [**GitHub**](https://github.com/AliShah1029384756) |
+[![Portfolio Home](https://img.shields.io/badge/Portfolio-Home-00D9FF?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/)
+[![All Projects](https://img.shields.io/badge/Portfolio-Projects-0ea5e9?style=for-the-badge&logo=bookstack&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/projects.html)
+[![CV](https://img.shields.io/badge/Portfolio-CV-14b8a6?style=for-the-badge&logo=readthedocs&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/cv.html)
+[![About](https://img.shields.io/badge/Portfolio-About-22c55e?style=for-the-badge&logo=about-dot-me&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/about.html)
+[![University Hub](https://img.shields.io/badge/University-Hub-f59e0b?style=for-the-badge&logo=academia&logoColor=white)](https://alishah1029384756.github.io/university-course-projects-hub/)
+[![Web Dev Hub](https://img.shields.io/badge/Web%20Dev-Hub-8b5cf6?style=for-the-badge&logo=html5&logoColor=white)](https://alishah1029384756.github.io/web-dev-learning-hub/)
+[![High-Impact Hub](https://img.shields.io/badge/High--Impact-Hub-ef4444?style=for-the-badge&logo=target&logoColor=white)](https://alishah1029384756.github.io/high-impact-student-projects-hub/)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AliShah1029384756)
 
 </div>
 
@@ -50,25 +59,27 @@ Computer Science student at **FAST University** passionate about building scalab
 
 <div align="center">
 
-| Website | Live Link |
-|:---|:---|
-| Personal Portfolio Home | [Open](https://alishah1029384756.github.io/AliShah1029384756/) |
-| Projects Directory | [Open](https://alishah1029384756.github.io/AliShah1029384756/projects.html) |
-| CV / Resume Page | [Open](https://alishah1029384756.github.io/AliShah1029384756/cv.html) |
-| About Page | [Open](https://alishah1029384756.github.io/AliShah1029384756/about.html) |
-| Sites Directory | [Open](https://alishah1029384756.github.io/AliShah1029384756/sites.html) |
-| University Projects Hub | [Open](https://alishah1029384756.github.io/university-course-projects-hub/) |
-| Web Dev Learning Hub | [Open](https://alishah1029384756.github.io/web-dev-learning-hub/) |
-| High-Impact Student Projects Hub | [Open](https://alishah1029384756.github.io/high-impact-student-projects-hub/) |
-| FAST-NUCES Resources Hub | [Open](https://alishah1029384756.github.io/fast-nuces-resources/) |
-| Calculator App | [Open](https://alishah1029384756.github.io/calculator/) |
-| Todo App | [Open](https://alishah1029384756.github.io/todo-app/) |
-| Expense Tracker | [Open](https://alishah1029384756.github.io/expense-tracker/) |
-| Weather App | [Open](https://alishah1029384756.github.io/weather-app/) |
-| Quiz App | [Open](https://alishah1029384756.github.io/quiz-app/) |
-| Notes App | [Open](https://alishah1029384756.github.io/notes-app/) |
-| Frontend Portfolio App | [Open](https://alishah1029384756.github.io/portfolio/) |
-| HTML Practice Project | [Open](https://alishah1029384756.github.io/html-practice-project/) |
+### Portfolio & Hubs
+
+[![Main Portfolio](https://img.shields.io/badge/Main-Portfolio-00D9FF?style=for-the-badge&logo=vercel&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/)
+[![Projects Directory](https://img.shields.io/badge/Projects-Directory-0ea5e9?style=for-the-badge&logo=files&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/projects.html)
+[![CV Page](https://img.shields.io/badge/CV-Resume-14b8a6?style=for-the-badge&logo=readme&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/cv.html)
+[![Sites Directory](https://img.shields.io/badge/Sites-Directory-22c55e?style=for-the-badge&logo=sitemap&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/sites.html)
+[![University Hub](https://img.shields.io/badge/University-Projects%20Hub-f59e0b?style=for-the-badge&logo=book&logoColor=white)](https://alishah1029384756.github.io/university-course-projects-hub/)
+[![Web Dev Hub](https://img.shields.io/badge/Web%20Dev-Learning%20Hub-8b5cf6?style=for-the-badge&logo=css3&logoColor=white)](https://alishah1029384756.github.io/web-dev-learning-hub/)
+[![High Impact Hub](https://img.shields.io/badge/High%20Impact-Student%20Hub-ef4444?style=for-the-badge&logo=rocket&logoColor=white)](https://alishah1029384756.github.io/high-impact-student-projects-hub/)
+[![FAST Resources](https://img.shields.io/badge/FAST-Resources-2563eb?style=for-the-badge&logo=knowledgebase&logoColor=white)](https://alishah1029384756.github.io/fast-nuces-resources/)
+
+### Frontend Apps
+
+[![Calculator](https://img.shields.io/badge/App-Calculator-64748b?style=for-the-badge&logo=calculator&logoColor=white)](https://alishah1029384756.github.io/calculator/)
+[![Todo](https://img.shields.io/badge/App-Todo-334155?style=for-the-badge&logo=task&logoColor=white)](https://alishah1029384756.github.io/todo-app/)
+[![Expense Tracker](https://img.shields.io/badge/App-Expense%20Tracker-1d4ed8?style=for-the-badge&logo=cashapp&logoColor=white)](https://alishah1029384756.github.io/expense-tracker/)
+[![Weather](https://img.shields.io/badge/App-Weather-0891b2?style=for-the-badge&logo=icloud&logoColor=white)](https://alishah1029384756.github.io/weather-app/)
+[![Quiz](https://img.shields.io/badge/App-Quiz-7c3aed?style=for-the-badge&logo=quizlet&logoColor=white)](https://alishah1029384756.github.io/quiz-app/)
+[![Notes](https://img.shields.io/badge/App-Notes-15803d?style=for-the-badge&logo=googledocs&logoColor=white)](https://alishah1029384756.github.io/notes-app/)
+[![Frontend Portfolio App](https://img.shields.io/badge/App-Frontend%20Portfolio-f97316?style=for-the-badge&logo=frontendmentor&logoColor=white)](https://alishah1029384756.github.io/portfolio/)
+[![HTML Practice](https://img.shields.io/badge/App-HTML%20Practice-0f766e?style=for-the-badge&logo=html5&logoColor=white)](https://alishah1029384756.github.io/html-practice-project/)
 
 </div>
 
@@ -215,17 +226,12 @@ Completed **16 university-level CS projects** covering:
 ## 📊 GitHub Performance
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AliShah1029384756&show_icons=true&theme=tokyonight&hide_border=true&card_width=495" alt="Ali's GitHub Stats" />
-</div>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliShah1029384756&layout=compact&theme=tokyonight&hide_border=true&card_width=495" alt="Top Languages" />
-</div>
+[![GitHub Profile](https://img.shields.io/badge/Profile-Open%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AliShah1029384756)
+[![Repository List](https://img.shields.io/badge/Repositories-View%20All-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AliShah1029384756?tab=repositories)
+[![Pinned Projects](https://img.shields.io/badge/Pinned-Projects-1f6feb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AliShah1029384756)
+[![Contribution Activity](https://img.shields.io/badge/Contributions-Last%2012%20Months-9333ea?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AliShah1029384756)
 
-### 🔥 Contribution Streak
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=AliShah1029384756&theme=tokyonight&hide_border=true&stroke=00D9FF" alt="GitHub Streak" />
 </div>
 
 ---
@@ -245,6 +251,8 @@ Completed **16 university-level CS projects** covering:
   <p><strong>💡 Always building. Always learning. Always improving.</strong></p>
   <p style="color: #666;">© 2024 Syed Muhammad Ali Naqvi | FAST University | Computer Science</p>
 </div>
+
+
 
 
 
