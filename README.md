@@ -1,6 +1,6 @@
-﻿# ✨ بسم اللہ الرحمن الرحیم
+﻿# Bismillah ir-Rahman ir-Rahim
 
-> **السلام عليكم ورحمة الله وبركاته** | Assalam o Alaikum wa Rahmatullahi wa Barakatuh
+> **Assalamu Alaikum wa Rahmatullahi wa Barakatuh**
 
 ---
 
@@ -15,9 +15,7 @@
 ## 🏆 Achievements & Contributions
 
 <div align="center">
-  <a href="https://github.com/AliShah1029384756?tab=achievements">
-    <img src="https://github-profile-trophy.vercel.app/?username=AliShah1029384756&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=12&margin-h=12" alt="GitHub Trophy Achievements" />
-  </a>
+  <img src="https://github-profile-trophy.vercel.app/?username=AliShah1029384756&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=12&margin-h=12" alt="GitHub Trophy Achievements" />
 </div>
 
 ---
@@ -48,6 +46,33 @@ Computer Science student at **FAST University** passionate about building scalab
 
 ---
 
+## 🌍 Websites I Built
+
+<div align="center">
+
+| Website | Live Link |
+|:---|:---|
+| Personal Portfolio Home | [Open](https://alishah1029384756.github.io/AliShah1029384756/) |
+| Projects Directory | [Open](https://alishah1029384756.github.io/AliShah1029384756/projects.html) |
+| CV / Resume Page | [Open](https://alishah1029384756.github.io/AliShah1029384756/cv.html) |
+| About Page | [Open](https://alishah1029384756.github.io/AliShah1029384756/about.html) |
+| Sites Directory | [Open](https://alishah1029384756.github.io/AliShah1029384756/sites.html) |
+| University Projects Hub | [Open](https://alishah1029384756.github.io/university-course-projects-hub/) |
+| Web Dev Learning Hub | [Open](https://alishah1029384756.github.io/web-dev-learning-hub/) |
+| High-Impact Student Projects Hub | [Open](https://alishah1029384756.github.io/high-impact-student-projects-hub/) |
+| FAST-NUCES Resources Hub | [Open](https://alishah1029384756.github.io/fast-nuces-resources/) |
+| Calculator App | [Open](https://alishah1029384756.github.io/calculator/) |
+| Todo App | [Open](https://alishah1029384756.github.io/todo-app/) |
+| Expense Tracker | [Open](https://alishah1029384756.github.io/expense-tracker/) |
+| Weather App | [Open](https://alishah1029384756.github.io/weather-app/) |
+| Quiz App | [Open](https://alishah1029384756.github.io/quiz-app/) |
+| Notes App | [Open](https://alishah1029384756.github.io/notes-app/) |
+| Frontend Portfolio App | [Open](https://alishah1029384756.github.io/portfolio/) |
+| HTML Practice Project | [Open](https://alishah1029384756.github.io/html-practice-project/) |
+
+</div>
+
+---
 ## 🏆 Featured Projects
 
 ### 1️⃣ **E-Commerce Platform**
@@ -220,4 +245,7 @@ Completed **16 university-level CS projects** covering:
   <p><strong>💡 Always building. Always learning. Always improving.</strong></p>
   <p style="color: #666;">© 2024 Syed Muhammad Ali Naqvi | FAST University | Computer Science</p>
 </div>
+
+
+
 
