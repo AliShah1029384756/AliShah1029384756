@@ -39,6 +39,15 @@
     --font-mono: 'JetBrains Mono', monospace;
     --font-body: 'Instrument Sans', sans-serif;
   }
+  html[data-theme='light'] {
+    --bg: #f7fafc;
+    --surface: #edf3fa;
+    --surface2: #e2eaf5;
+    --border: #0f172a1a;
+    --text: #0f172a;
+    --text-muted: #5b6b82;
+    --text-dim: #334155;
+  }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
   body {
@@ -88,6 +97,17 @@
     transition: color 0.2s;
   }
   .nav-links a:hover { color: var(--accent); }
+  .theme-toggle {
+    background: transparent;
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.34rem 0.72rem;
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    cursor: pointer;
+  }
+  .theme-toggle:hover { border-color: var(--accent); color: var(--accent); }
 
   .hero {
     min-height: 100vh;
@@ -319,6 +339,7 @@
 
 <nav>
   <a href="https://alishah1029384756.github.io/AliShah1029384756/" class="nav-logo">Syed Muhammad Ali Naqvi</a>
+  <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle color mode">Light Mode</button>
   <div class="nav-links">
     <a href="#featured">Hubs</a>
     <a href="#portfolio">Apps</a>
@@ -330,7 +351,7 @@
   <div class="hero-bg"></div>
   <div class="hero-content">
     <h1>Full <span>Portfolio</span> Ecosystem</h1>
-    <p class="hero-desc">Academic projects, learning curriculum, frontend applications, and case studies with practical learning outcomes and evidence-focused documentation.</p>
+    <p class="hero-desc">Academic projects, learning curriculum, mentorship resources, frontend applications, and evidence-focused case studies designed to create real student impact.</p>
     <div class="hero-cta">
       <a href="#featured" class="btn btn-primary">Explore Hubs</a>
       <a href="#portfolio" class="btn btn-secondary">View Apps</a>
@@ -406,6 +427,19 @@
           <span class="ctag">Resources</span>
         </div>
         <div class="card-link">Visit Hub →</div>
+      </a>
+
+      <!-- EduCore Hub -->
+      <a href="https://alishah1029384756.github.io/educore-open-learning-hub/" class="featured-card">
+        <div class="card-emoji">🌍</div>
+        <div class="card-title">EduCore Open Learning Hub</div>
+        <div class="card-desc">Free curated educational platform for Pakistani students: School, College, University, Entry Test, Commerce, O-Levels, and special education resources.</div>
+        <div class="card-tags">
+          <span class="ctag">Education</span>
+          <span class="ctag">400+ Resources</span>
+          <span class="ctag">Mentorship</span>
+        </div>
+        <div class="card-link">Open EduCore →</div>
       </a>
 
       <!-- Case Studies -->
@@ -486,11 +520,12 @@
     <div class="section-header">
       <div class="section-tag">GET STARTED</div>
       <h2 class="section-title">Choose Your Path</h2>
-      <p class="section-lead">Start with the hub that matches your interests and explore the complete portfolio ecosystem.</p>
+      <p class="section-lead">Start with the hub that matches your current goal: project building, coursework depth, interview prep, or guided mentorship resources.</p>
     </div>
     <div class="cta-row-center">
       <a href="https://github.com/AliShah1029384756" class="btn btn-primary">View on GitHub</a>
       <a href="https://alishah1029384756.github.io/AliShah1029384756/" class="btn btn-secondary">Main Profile</a>
+      <a href="https://alishah1029384756.github.io/educore-open-learning-hub/" class="btn btn-secondary">EduCore Hub</a>
     </div>
   </div>
 </section>
@@ -498,12 +533,29 @@
 <footer>
   <div class="footer-links">
     <a href="https://github.com/AliShah1029384756">GitHub</a>
-    <a href="https://linkedin.com/in/alishah1029384756">LinkedIn</a>
+    <a href="https://linkedin.com/in/ali-naqvi-1a9576331">LinkedIn</a>
     <a href="https://alishah1029384756.github.io/AliShah1029384756/">Profile</a>
   </div>
   <p>&copy; 2026 Syed Muhammad Ali Naqvi | All portfolio sites maintained and documented | <a href="https://alishah1029384756.github.io/AliShah1029384756/about.html#contact">Report Issue</a> | Maintained by Ali</p>
   <p class="footer-fine">Open Source | MIT License | <a href="https://github.com/AliShah1029384756">GitHub</a></p>
 </footer>
+
+<script>
+  const KEY = 'ali-hub-theme';
+  const toggle = document.getElementById('themeToggle');
+  function setTheme(mode) {
+    const theme = mode === 'light' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', theme);
+    if (toggle) toggle.textContent = theme === 'light' ? 'Dark Mode' : 'Light Mode';
+  }
+  setTheme(localStorage.getItem(KEY) || 'dark');
+  toggle?.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+    const next = current === 'light' ? 'dark' : 'light';
+    setTheme(next);
+    localStorage.setItem(KEY, next);
+  });
+</script>
 
 </body>
 </html>

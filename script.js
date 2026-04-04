@@ -1,5 +1,49 @@
 const rotatingLead = document.getElementById("rotating-lead");
 
+const THEME_KEY = "ali-portfolio-theme";
+
+function applyTheme(theme) {
+  const resolved = theme === "light" ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", resolved);
+
+  const toggle = document.querySelector(".theme-toggle");
+  if (toggle) {
+    toggle.textContent = resolved === "light" ? "Dark Mode" : "Light Mode";
+    toggle.setAttribute("aria-pressed", resolved === "light" ? "true" : "false");
+  }
+}
+
+function setupThemeToggle() {
+  const navContainer = document.querySelector(".nav-container");
+  if (!navContainer) {
+    return;
+  }
+
+  let initialTheme = localStorage.getItem(THEME_KEY);
+  if (!initialTheme) {
+    initialTheme = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+  }
+  applyTheme(initialTheme);
+
+  let toggle = navContainer.querySelector(".theme-toggle");
+  if (!toggle) {
+    toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "theme-toggle";
+    toggle.setAttribute("aria-label", "Toggle color mode");
+    navContainer.insertBefore(toggle, document.querySelector(".nav-toggle") || null);
+  }
+
+  applyTheme(document.documentElement.getAttribute("data-theme"));
+
+  toggle.addEventListener("click", () => {
+    const current = document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark";
+    const next = current === "light" ? "dark" : "light";
+    applyTheme(next);
+    localStorage.setItem(THEME_KEY, next);
+  });
+}
+
 if (rotatingLead) {
   const phrases = [
     "Portfolio focused on full-stack systems and education-impact solutions.",
@@ -34,6 +78,8 @@ projectCards.forEach((card) => {
 
 const navToggle = document.querySelector(".nav-toggle");
 const navLinks = document.querySelector(".nav-links");
+
+setupThemeToggle();
 
 if (navToggle && navLinks) {
   navToggle.addEventListener("click", () => {
@@ -341,4 +387,41 @@ function createCommandOverlay() {
 createScrollProgress();
 createFloatingDock();
 createCommandOverlay();
+
+const terminalInput = document.getElementById('terminal-input');
+const terminalOutput = document.getElementById('terminal-output');
+
+if (terminalInput && terminalOutput) {
+  terminalInput.addEventListener('keydown', function (event) {
+    if (event.key !== 'Enter') {
+      return;
+    }
+
+    const command = terminalInput.value.toLowerCase().trim();
+    let response = '';
+
+    if (command === 'projects') {
+      response = '<p>> Loading projects...</p>' +
+        '<ul>' +
+          '<li><a href="projects/autismart.html" style="color:#4ade80;">AutiSmart (FYP - Private)</a></li>' +
+          '<li><a href="projects/university.html" style="color:#60a5fa;">University Portfolio (Compiler + Systems)</a></li>' +
+        '</ul>';
+    } else if (command === 'contact') {
+      response = '<p>> Email: <a href="mailto:shahyed99@gmail.com" style="color:#facc15;">shahyed99@gmail.com</a></p>' +
+        '<p>> GitHub: <a href="https://github.com/AliShah1029384756" style="color:#facc15;">AliShah1029384756</a></p>';
+    } else if (command === 'help') {
+      response = '<p>> Available commands: <strong>projects, contact, help, clear</strong></p>';
+    } else if (command === 'clear') {
+      terminalOutput.innerHTML = '';
+      terminalInput.value = '';
+      return;
+    } else {
+      response = '<p style="color:#f87171;">> Command not found: ' + command + '. Type \'help\' for available commands.</p>';
+    }
+
+    terminalOutput.innerHTML += '<p><span>guest@alishah:~$</span> ' + command + '</p>' + response;
+    terminalInput.value = '';
+    terminalOutput.scrollTop = terminalOutput.scrollHeight;
+  });
+}
 

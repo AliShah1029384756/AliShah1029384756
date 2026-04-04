@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Case Study Template | Syed Muhammad Ali Naqvi</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <main class="project-page">
+    <header class="project-header panel">
+      <h1>Project Title</h1>
+      <p class="project-subtitle">Year: 2026 | Role: Lead Developer</p>
+    </header>
+
+    <section class="project-section panel">
+      <h2>The Engineering Problem</h2>
+      <p>Describe technical constraints, scaling concerns, and the engineering challenge you solved.</p>
+    </section>
+
+    <section class="project-section panel">
+      <h2>Architecture Diagram</h2>
+      <div class="mermaid">
+        graph TD; Source-->Lexer; Lexer-->Parser; Parser-->AST; AST-->CodeGen;
+      </div>
+    </section>
+
+    <section class="project-section panel">
+      <h2>Technical Decisions</h2>
+      <table class="domain-table">
+        <thead>
+          <tr>
+            <th>Tech Stack Choice</th>
+            <th>Engineering Reasoning</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Node.js</td>
+            <td>Non-blocking I/O for high-concurrency request handling.</td>
+          </tr>
+          <tr>
+            <td>MySQL</td>
+            <td>Relational consistency and transaction safety for critical workflows.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="project-section panel">
+      <h2>Performance Metrics</h2>
+      <div class="stats-grid">
+        <div class="stat-card"><strong>Efficiency Gained</strong><p>+35%</p></div>
+        <div class="stat-card"><strong>LOC</strong><p>12,500+</p></div>
+        <div class="stat-card"><strong>Modules</strong><p>14</p></div>
+      </div>
+    </section>
+
+    <footer class="panel">
+      <div class="cta-row">
+        <a class="btn" href="#">View Code</a>
+        <a class="btn btn-ghost" href="../about.html#contact">Request Demo</a>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
