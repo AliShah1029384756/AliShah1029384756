@@ -68,6 +68,7 @@ Computer Science student at **FAST University** passionate about building scalab
 [![University Hub](https://img.shields.io/badge/University-Projects%20Hub-f59e0b?style=for-the-badge&logo=book&logoColor=white)](https://alishah1029384756.github.io/university-course-projects-hub/)
 [![Web Dev Hub](https://img.shields.io/badge/Web%20Dev-Learning%20Hub-8b5cf6?style=for-the-badge&logo=css3&logoColor=white)](https://alishah1029384756.github.io/web-dev-learning-hub/)
 [![High Impact Hub](https://img.shields.io/badge/High%20Impact-Student%20Hub-ef4444?style=for-the-badge&logo=rocket&logoColor=white)](https://alishah1029384756.github.io/high-impact-student-projects-hub/)
+[![EduCore Hub](https://img.shields.io/badge/EduCore-Open%20Learning%20Hub-22c55e?style=for-the-badge&logo=bookstack&logoColor=white)](https://alishah1029384756.github.io/educore-open-learning-hub/)
 [![FAST Resources](https://img.shields.io/badge/FAST-Resources-2563eb?style=for-the-badge&logo=knowledgebase&logoColor=white)](https://alishah1029384756.github.io/fast-nuces-resources/)
 
 ### Frontend Apps
@@ -85,6 +86,19 @@ Computer Science student at **FAST University** passionate about building scalab
 
 ---
 ## 🏆 Featured Projects
+
+### 0️⃣ **EduCore Open Learning Hub**
+**Education platform** with curated 400+ learning resources, category filtering, and student-friendly discovery.
+
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Education](https://img.shields.io/badge/Domain-Education%20Tech-16a34a?style=flat-square)
+
+→ [Live Website](https://alishah1029384756.github.io/educore-open-learning-hub/)
+→ [Repository](https://github.com/AliShah1029384756/educore-open-learning-hub)
+
+---
 
 ### 1️⃣ **E-Commerce Platform**
 **Full-stack commerce system** with product catalog, shopping cart, and checkout workflow.
