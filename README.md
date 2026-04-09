@@ -22,6 +22,7 @@ Building practical software for healthcare and education with strong systems and
 
 [![Email](https://img.shields.io/badge/Email-Connect-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shahyed99@gmail.com)
 [![Resume PDF](https://img.shields.io/badge/Resume-PDF-1f6feb?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./assets/Syed-Muhammad-Ali-Naqvi-Resume.pdf)
+[![Readable Resume](https://img.shields.io/badge/Resume-Readable%20Markdown-0ea5e9?style=for-the-badge&logo=github&logoColor=white)](./assets/Syed-Muhammad-Ali-Naqvi-Resume.md)
 [![CV Page](https://img.shields.io/badge/CV-Live%20Page-0ea5e9?style=for-the-badge&logo=readthedocs&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/cv.html)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-naqvi-1a9576331)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Website-00D9FF?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/)
@@ -112,7 +113,7 @@ FAST-NUCES
 
 ## Notes
 
-- Resume PDF is available directly from this repository.
+- Resume PDF and a readable Markdown version are available directly from this repository.
 - Last updated: April 2026.
 
 
