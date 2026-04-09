@@ -61,12 +61,15 @@ setupThemeToggle();
 
 if (navToggle && navLinks) {
   navToggle.addEventListener("click", () => {
+    const isActive = navLinks.classList.contains("active");
     navLinks.classList.toggle("active");
+    document.body.style.overflow = isActive ? "" : "hidden";
   });
 
   navLinks.querySelectorAll(".nav-link").forEach((link) => {
     link.addEventListener("click", () => {
       navLinks.classList.remove("active");
+      document.body.style.overflow = "";
     });
   });
 }

@@ -140,7 +140,10 @@ footer {
   color: var(--text-dim);
   font-size: 0.95rem;
   border-bottom: 2px solid transparent;
-  padding-bottom: 3px;
+  padding: 8px 12px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
   transition: color 0.2s, border-color 0.2s;
 }
 
@@ -178,6 +181,23 @@ footer {
 .theme-toggle:hover {
   border-color: var(--brand);
   color: var(--brand);
+}
+
+.btn:focus-visible,
+.btn-link:focus-visible,
+.nav-link:focus-visible,
+.project-card:focus-visible,
+.quick-action:focus-visible,
+.filter-btn:focus-visible,
+.project-search-input:focus-visible,
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 2px;
 }
 
 .hero {
@@ -276,7 +296,8 @@ li {
 }
 
 .btn {
-  padding: 11px 16px;
+  padding: 12px 18px;
+  min-height: 44px;
   background: linear-gradient(135deg, var(--brand), var(--brand-strong));
   color: #251700;
   border: 1px solid rgba(255, 186, 96, 0.65);
@@ -424,6 +445,16 @@ li {
   transform: translateY(-3px);
   border-color: rgba(255, 179, 71, 0.72);
   box-shadow: 0 16px 40px rgba(255, 179, 71, 0.15);
+}
+
+.project-card:active,
+.project-item:active,
+.tech-category:active,
+.skill-category:active,
+.philosophy-card:active,
+.stat-card:active {
+  transform: translateY(-1px);
+  opacity: 0.95;
 }
 
 .badge {
@@ -1201,7 +1232,24 @@ footer {
   }
 
   h1 {
-    font-size: 1.95rem;
+    font-size: clamp(1.8rem, 5vw, 2.6rem);
+  }
+
+  .welcome-line {
+    font-size: 0.78rem;
+  }
+
+  .tag {
+    font-size: 0.68rem;
+  }
+
+  .metrics-row {
+    gap: 6px;
+  }
+
+  .metrics-row span {
+    font-size: 0.7rem;
+    padding: 4px 8px;
   }
 
   .page-header {
