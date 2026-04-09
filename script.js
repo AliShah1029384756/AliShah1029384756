@@ -72,6 +72,13 @@ if (navToggle && navLinks) {
       document.body.style.overflow = "";
     });
   });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 768) {
+      navLinks.classList.remove("active");
+      document.body.style.overflow = "";
+    }
+  });
 }
 
 function getCurrentPage() {

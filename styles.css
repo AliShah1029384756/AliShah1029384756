@@ -296,7 +296,7 @@ li {
 }
 
 .btn {
-  padding: 12px 18px;
+  padding: 12px 20px;
   min-height: 44px;
   background: linear-gradient(135deg, var(--brand), var(--brand-strong));
   color: #251700;
@@ -409,7 +409,8 @@ li {
   flex-wrap: wrap;
   gap: 8px;
   margin: 6px 0 14px;
-}
+  padding: 8px 14px;
+  min-height: 40px;
 
 .filter-btn {
   border: 1px solid var(--line);
