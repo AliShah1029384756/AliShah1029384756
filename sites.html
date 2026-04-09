@@ -446,7 +446,7 @@
       <a href="https://alishah1029384756.github.io/AliShah1029384756/#projects" class="featured-card">
         <div class="card-emoji">💼</div>
         <div class="card-title">Case Studies</div>
-        <div class="card-desc">My core work: AutiSmart, ClinicOS, SchoolIEP, EduConnect, and university-course-projects with private projects presented through public-safe summaries only.</div>
+        <div class="card-desc">FYP-first case study track with AutiSmart at the top, followed by ClinicOS, SchoolIEP, EduConnect, and university-course-projects. Private systems are presented through public-safe outcome summaries.</div>
         <div class="card-tags">
           <span class="ctag">Case Study</span>
           <span class="ctag">4 Projects</span>
@@ -540,22 +540,7 @@
   <p class="footer-fine">Open Source | MIT License | <a href="https://github.com/AliShah1029384756">GitHub</a></p>
 </footer>
 
-<script>
-  const KEY = 'ali-hub-theme';
-  const toggle = document.getElementById('themeToggle');
-  function setTheme(mode) {
-    const theme = mode === 'light' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', theme);
-    if (toggle) toggle.textContent = theme === 'light' ? 'Dark Mode' : 'Light Mode';
-  }
-  setTheme(localStorage.getItem(KEY) || 'dark');
-  toggle?.addEventListener('click', () => {
-    const current = document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
-    const next = current === 'light' ? 'dark' : 'light';
-    setTheme(next);
-    localStorage.setItem(KEY, next);
-  });
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>

@@ -1,5 +1,3 @@
-const rotatingLead = document.getElementById("rotating-lead");
-
 const THEME_KEY = "ali-portfolio-theme";
 
 function applyTheme(theme) {
@@ -42,26 +40,6 @@ function setupThemeToggle() {
     applyTheme(next);
     localStorage.setItem(THEME_KEY, next);
   });
-}
-
-if (rotatingLead) {
-  const phrases = [
-    "Portfolio focused on full-stack systems and education-impact solutions.",
-    "Focused on architecture quality, clean code, and reliable engineering standards.",
-    "Building practical systems with strong fundamentals and long-term maintainability."
-  ];
-
-  let phraseIndex = 0;
-  rotatingLead.style.transition = "opacity 0.18s ease";
-
-  setInterval(() => {
-    phraseIndex = (phraseIndex + 1) % phrases.length;
-    rotatingLead.style.opacity = "0.35";
-    setTimeout(() => {
-      rotatingLead.textContent = phrases[phraseIndex];
-      rotatingLead.style.opacity = "1";
-    }, 180);
-  }, 3200);
 }
 
 const projectCards = document.querySelectorAll(".project-card");

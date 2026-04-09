@@ -12,83 +12,51 @@
 
 ---
 
-## 🏆 Achievements & Contributions
+## ✅ Recruiter 60-Second Review
 
-<div align="center">
-
-[![GitHub Profile](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AliShah1029384756)
-[![Followers](https://img.shields.io/github/followers/AliShah1029384756?style=for-the-badge&logo=github&label=Followers)](https://github.com/AliShah1029384756?tab=followers)
-[![Repositories](https://img.shields.io/badge/Public%20Repos-View-2ea44f?style=for-the-badge&logo=github)](https://github.com/AliShah1029384756?tab=repositories)
-[![Contribution Activity](https://img.shields.io/badge/Contributions-Activity-1f6feb?style=for-the-badge&logo=github)](https://github.com/AliShah1029384756)
-
-</div>
-
----
+- **FYP First:** [AutiSmart Case Study](https://alishah1029384756.github.io/AliShah1029384756/projects/autismart.html)  
+  AI-based ASD detection and therapy support platform with multimodal analysis (audio, video, text), emotion recognition, adaptive therapy plans, progress tracking, and report generation.
+- **Public Engineering Proof:** [EduConnect](https://github.com/AliShah1029384756/EduConnect), [E-Commerce Platform](https://github.com/AliShah1029384756/ecommerce-website), [Compiler Project](https://github.com/AliShah1029384756/compiler-project)
+- **Academic Depth:** [University Projects Repository (16 projects)](https://github.com/AliShah1029384756/university-course-projects)
+- **Learning Impact:** [EduCore Open Learning Hub](https://github.com/AliShah1029384756/educore-open-learning-hub)
 
 ## 🎯 About Me
 
-Computer Science student at **FAST University** passionate about building scalable systems with clean architecture, strong documentation, and real-world engineering practices. Experienced across full-stack development, algorithms, distributed systems, and compiler design.
+Computer Science student at **FAST University** focused on full-stack engineering, systems thinking, and education-impact products.
 
-**Key Focus Areas**
-- 🎨 Frontend: React, Modern Web Components, Responsive Design
-- ⚙️ Backend: Node.js, Express, Microservices Architecture
-- 🗄️ Data: MongoDB, PostgreSQL, Database Optimization
-- 🔧 Systems: Networking, Distributed Systems, Compiler Design
-- 📚 Best Practices: Clean Code, Testing, Documentation
+**Core Areas**
+- Frontend: React, responsive UI, modern component architecture
+- Backend: Node.js, Express, API and authentication workflows
+- Data: MongoDB, PostgreSQL, MySQL
+- Systems: networking, distributed systems, compiler design
+- Quality: clean code, testing, maintainable documentation
 
----
+## 🌐 Quick Links
 
-## 🌐 Quick Access
-
-<div align="center">
-
-[![Portfolio Home](https://img.shields.io/badge/Portfolio-Home-00D9FF?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/)
-[![All Projects](https://img.shields.io/badge/Portfolio-Projects-0ea5e9?style=for-the-badge&logo=bookstack&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/projects.html)
-[![CV](https://img.shields.io/badge/Portfolio-CV-14b8a6?style=for-the-badge&logo=readthedocs&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/cv.html)
-[![About](https://img.shields.io/badge/Portfolio-About-22c55e?style=for-the-badge&logo=about-dot-me&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/about.html)
-[![University Hub](https://img.shields.io/badge/University-Hub-f59e0b?style=for-the-badge&logo=academia&logoColor=white)](https://alishah1029384756.github.io/university-course-projects-hub/)
-[![Web Dev Hub](https://img.shields.io/badge/Web%20Dev-Hub-8b5cf6?style=for-the-badge&logo=html5&logoColor=white)](https://alishah1029384756.github.io/web-dev-learning-hub/)
-[![High-Impact Hub](https://img.shields.io/badge/High--Impact-Hub-ef4444?style=for-the-badge&logo=target&logoColor=white)](https://alishah1029384756.github.io/high-impact-student-projects-hub/)
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AliShah1029384756)
-
-</div>
-
----
-
-## 🌍 Websites I Built
-
-<div align="center">
-
-### Portfolio & Hubs
-
-[![Main Portfolio](https://img.shields.io/badge/Main-Portfolio-00D9FF?style=for-the-badge&logo=vercel&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/)
-[![Projects Directory](https://img.shields.io/badge/Projects-Directory-0ea5e9?style=for-the-badge&logo=files&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/projects.html)
-[![CV Page](https://img.shields.io/badge/CV-Resume-14b8a6?style=for-the-badge&logo=readme&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/cv.html)
-[![Sites Directory](https://img.shields.io/badge/Sites-Directory-22c55e?style=for-the-badge&logo=sitemap&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/sites.html)
-[![University Hub](https://img.shields.io/badge/University-Projects%20Hub-f59e0b?style=for-the-badge&logo=book&logoColor=white)](https://alishah1029384756.github.io/university-course-projects-hub/)
-[![Web Dev Hub](https://img.shields.io/badge/Web%20Dev-Learning%20Hub-8b5cf6?style=for-the-badge&logo=css3&logoColor=white)](https://alishah1029384756.github.io/web-dev-learning-hub/)
-[![High Impact Hub](https://img.shields.io/badge/High%20Impact-Student%20Hub-ef4444?style=for-the-badge&logo=rocket&logoColor=white)](https://alishah1029384756.github.io/high-impact-student-projects-hub/)
-[![EduCore Hub](https://img.shields.io/badge/EduCore-Open%20Learning%20Hub-22c55e?style=for-the-badge&logo=bookstack&logoColor=white)](https://alishah1029384756.github.io/educore-open-learning-hub/)
-[![FAST Resources](https://img.shields.io/badge/FAST-Resources-2563eb?style=for-the-badge&logo=knowledgebase&logoColor=white)](https://alishah1029384756.github.io/fast-nuces-resources/)
-
-### Frontend Apps
-
-[![Calculator](https://img.shields.io/badge/App-Calculator-64748b?style=for-the-badge&logo=calculator&logoColor=white)](https://alishah1029384756.github.io/calculator/)
-[![Todo](https://img.shields.io/badge/App-Todo-334155?style=for-the-badge&logo=task&logoColor=white)](https://alishah1029384756.github.io/todo-app/)
-[![Expense Tracker](https://img.shields.io/badge/App-Expense%20Tracker-1d4ed8?style=for-the-badge&logo=cashapp&logoColor=white)](https://alishah1029384756.github.io/expense-tracker/)
-[![Weather](https://img.shields.io/badge/App-Weather-0891b2?style=for-the-badge&logo=icloud&logoColor=white)](https://alishah1029384756.github.io/weather-app/)
-[![Quiz](https://img.shields.io/badge/App-Quiz-7c3aed?style=for-the-badge&logo=quizlet&logoColor=white)](https://alishah1029384756.github.io/quiz-app/)
-[![Notes](https://img.shields.io/badge/App-Notes-15803d?style=for-the-badge&logo=googledocs&logoColor=white)](https://alishah1029384756.github.io/notes-app/)
-[![Frontend Portfolio App](https://img.shields.io/badge/App-Frontend%20Portfolio-f97316?style=for-the-badge&logo=frontendmentor&logoColor=white)](https://alishah1029384756.github.io/portfolio/)
-[![HTML Practice](https://img.shields.io/badge/App-HTML%20Practice-0f766e?style=for-the-badge&logo=html5&logoColor=white)](https://alishah1029384756.github.io/html-practice-project/)
-
-</div>
+- Portfolio Home: https://alishah1029384756.github.io/AliShah1029384756/
+- Projects Page: https://alishah1029384756.github.io/AliShah1029384756/projects.html
+- CV: https://alishah1029384756.github.io/AliShah1029384756/cv.html
+- LinkedIn: https://linkedin.com/in/ali-naqvi-1a9576331
+- GitHub: https://github.com/AliShah1029384756
 
 ---
 ## 🏆 Featured Projects
 
-### 0️⃣ **EduCore Open Learning Hub**
-**Education platform** with curated 400+ learning resources, category filtering, and student-friendly discovery.
+### 0️⃣ **AutiSmart (FYP)**
+**AI-based ASD detection and therapy platform** with multimodal analysis (audio, video, text), emotion recognition, adaptive therapy recommendations, therapy games, expert-caregiver communication, and automated progress reports.
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-13AA52?style=flat-square&logo=mongodb&logoColor=white)
+![AI](https://img.shields.io/badge/AI-Multimodal%20Support-7c3aed?style=flat-square)
+
+→ [Public Case Study](https://alishah1029384756.github.io/AliShah1029384756/projects/autismart.html)
+→ [Repository](https://github.com/AliShah1029384756/AutiSmart)
+
+---
+
+### 1️⃣ **EduCore Open Learning Hub**
+**Education platform** with a premium April 2026 UI/UX redesign, curated 400+ learning resources, polished category flow, and student-first discovery.
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
@@ -100,7 +68,7 @@ Computer Science student at **FAST University** passionate about building scalab
 
 ---
 
-### 1️⃣ **E-Commerce Platform**
+### 2️⃣ **E-Commerce Platform**
 **Full-stack commerce system** with product catalog, shopping cart, and checkout workflow.
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -113,7 +81,7 @@ Computer Science student at **FAST University** passionate about building scalab
 
 ---
 
-### 2️⃣ **Chess Game Engine**
+### 3️⃣ **Chess Game Engine**
 **Interactive multiplayer chess** with real-time gameplay, move validation, and Socket.IO networking.
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -125,7 +93,7 @@ Computer Science student at **FAST University** passionate about building scalab
 
 ---
 
-### 3️⃣ **Compiler Project**
+### 4️⃣ **Compiler Project**
 **Language compiler** with lexical analysis, parsing, and intermediate code generation using C++.
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
@@ -136,7 +104,7 @@ Computer Science student at **FAST University** passionate about building scalab
 
 ---
 
-### 4️⃣ **P2P Communication System**
+### 5️⃣ **P2P Communication System**
 **Peer-to-peer network** for distributed communication with direct node-to-node data transfer.
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -148,7 +116,7 @@ Computer Science student at **FAST University** passionate about building scalab
 
 ---
 
-### 5️⃣ **Bus Schedule Optimizer**
+### 6️⃣ **Bus Schedule Optimizer**
 **Optimization algorithm** for transport scheduling using Python with visualization and route planning.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -159,7 +127,7 @@ Computer Science student at **FAST University** passionate about building scalab
 
 ---
 
-### 6️⃣ **EduConnect**
+### 7️⃣ **EduConnect**
 **Education platform** designed for student-centered learning with course management and collaboration tools.
 
 ![Full-Stack](https://img.shields.io/badge/Full%20Stack-00D9FF?style=flat-square)

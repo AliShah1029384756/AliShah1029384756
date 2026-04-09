@@ -1,0 +1,51 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" width="1200" height="630">
+  <!-- Dark gradient background -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Decorative accent shapes -->
+  <circle cx="100" cy="80" r="35" fill="url(#accentGrad)" opacity="0.15"/>
+  <rect x="1050" y="480" width="120" height="120" fill="url(#accentGrad)" opacity="0.1" transform="rotate(45 1110 540)"/>
+  
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="1200" height="5" fill="url(#accentGrad)"/>
+  
+  <!-- Main heading -->
+  <text x="600" y="260" font-family="'Space Grotesk', 'Segoe UI', Arial, sans-serif" font-size="80" font-weight="700" text-anchor="middle" fill="#f1f5f9">
+    Syed Muhammad Ali Naqvi
+  </text>
+  
+  <!-- Primary tagline -->
+  <text x="600" y="340" font-family="'Space Grotesk', 'Segoe UI', Arial, sans-serif" font-size="48" font-weight="600" text-anchor="middle" fill="#94a3b8">
+    Full-Stack Developer
+  </text>
+  
+  <!-- Secondary tagline with accent color -->
+  <text x="600" y="400" font-family="'Space Grotesk', 'Segoe UI', Arial, sans-serif" font-size="44" font-weight="600" text-anchor="middle" fill="#0ea5e9">
+    Healthcare &amp; Education Tech
+  </text>
+  
+  <!-- Portfolio URL -->
+  <text x="600" y="500" font-family="'Courier New', monospace" font-size="28" font-weight="400" text-anchor="middle" fill="#64748b">
+    alishah1029384756.github.io
+  </text>
+  
+  <!-- Bottom accent line -->
+  <rect x="0" y="625" width="1200" height="5" fill="url(#accentGrad)"/>
+  
+  <!-- Subtle corner accents -->
+  <rect x="0" y="0" width="8" height="100" fill="#0ea5e9" opacity="0.3"/>
+  <rect x="1192" y="530" width="8" height="100" fill="#0ea5e9" opacity="0.3"/>
+</svg>
