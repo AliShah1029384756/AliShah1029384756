@@ -117,6 +117,7 @@ function createGlobalPageRail() {
     { href: "projects.html", label: "Projects" },
     { href: "cv.html", label: "CV" },
     { href: "about.html", label: "About" },
+    { href: "sites.html", label: "Sites" },
     { href: "logs.html", label: "Highlights" }
   ];
 
@@ -276,12 +277,13 @@ function createScrollProgress() {
 }
 
 function createFloatingDock() {
-  const pages = ["index.html", "projects.html", "cv.html", "about.html"];
+  const pages = ["index.html", "projects.html", "cv.html", "about.html", "sites.html"];
   const labels = {
     "index.html": "Home",
     "projects.html": "Projects",
     "cv.html": "CV",
-    "about.html": "About"
+    "about.html": "About",
+    "sites.html": "Sites"
   };
 
   const current = getCurrentPage();
@@ -289,13 +291,14 @@ function createFloatingDock() {
   const safeIndex = currentIndex >= 0 ? currentIndex : 0;
   const prev = pages[(safeIndex - 1 + pages.length) % pages.length];
   const next = pages[(safeIndex + 1) % pages.length];
+  const normalizePageHref = (page) => (window.location.pathname.includes("/projects/") ? `../${page}` : page);
 
   const dock = document.createElement("div");
   dock.className = "floating-dock";
   dock.innerHTML = `
-    <a href="${prev}" aria-label="Previous page">← ${labels[prev]}</a>
+    <a href="${normalizePageHref(prev)}" aria-label="Previous page">← ${labels[prev]}</a>
     <button type="button" data-open-commands="true">Shortcuts</button>
-    <a href="${next}" aria-label="Next page">${labels[next]} →</a>
+    <a href="${normalizePageHref(next)}" aria-label="Next page">${labels[next]} →</a>
   `;
 
   document.body.appendChild(dock);
@@ -312,6 +315,7 @@ function createCommandOverlay() {
         <div class="command-item"><span>Open Projects</span><kbd>Alt+2</kbd></div>
         <div class="command-item"><span>Open CV</span><kbd>Alt+3</kbd></div>
         <div class="command-item"><span>Open About</span><kbd>Alt+4</kbd></div>
+        <div class="command-item"><span>Open Sites</span><kbd>Alt+5</kbd></div>
         <div class="command-item"><span>Open this panel</span><kbd>?</kbd></div>
         <div class="command-item"><span>Close panel</span><kbd>Esc</kbd></div>
       </div>
@@ -351,12 +355,14 @@ function createCommandOverlay() {
         "1": "index.html",
         "2": "projects.html",
         "3": "cv.html",
-        "4": "about.html"
+        "4": "about.html",
+        "5": "sites.html"
       };
 
       const targetPage = shortcuts[event.key];
       if (targetPage) {
-        window.location.href = targetPage;
+        const normalizedTarget = window.location.pathname.includes("/projects/") ? `../${targetPage}` : targetPage;
+        window.location.href = normalizedTarget;
       }
     }
   });
