@@ -28,6 +28,7 @@
     --surface: #111118;
     --surface2: #1a1a24;
     --border: #ffffff0d;
+    --border-bright: #ffffff1f;
     --accent: #00d4ff;
     --accent2: #7c3aed;
     --accent3: #10b981;
@@ -44,6 +45,7 @@
     --surface: #edf3fa;
     --surface2: #e2eaf5;
     --border: #0f172a1a;
+    --border-bright: #0f172a33;
     --text: #0f172a;
     --text-muted: #5b6b82;
     --text-dim: #334155;
@@ -73,12 +75,18 @@
   nav {
     position: fixed; top: 0; left: 0; right: 0;
     z-index: 100;
-    display: flex; align-items: center; justify-content: space-between;
     padding: 1rem 2rem;
     background: rgba(10,10,15,0.95);
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--border);
+  }
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
   }
   .nav-logo {
     font-family: var(--font-display);
@@ -90,13 +98,14 @@
   .nav-links {
     display: flex; gap: 1rem;
   }
-  .nav-links a {
+  .nav-link {
     color: var(--text-dim);
     text-decoration: none;
     font-size: 0.85rem;
     transition: color 0.2s;
   }
-  .nav-links a:hover { color: var(--accent); }
+  .nav-link:hover,
+  .nav-link.active { color: var(--accent); }
   .theme-toggle {
     background: transparent;
     color: var(--text);
@@ -108,6 +117,16 @@
     cursor: pointer;
   }
   .theme-toggle:hover { border-color: var(--accent); color: var(--accent); }
+  .nav-toggle {
+    display: none;
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 8px;
+    padding: 0.35rem 0.55rem;
+    cursor: pointer;
+  }
+  .nav-toggle:hover { border-color: var(--accent); color: var(--accent); }
 
   .hero {
     min-height: 100vh;
@@ -329,6 +348,21 @@
 
   @media (max-width: 768px) {
     nav { padding: 0.8rem 1.2rem; }
+    .nav-toggle { display: inline-flex; }
+    .nav-links {
+      position: absolute;
+      top: 100%;
+      right: 1.2rem;
+      display: none;
+      flex-direction: column;
+      gap: 0.75rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.9rem;
+      min-width: 180px;
+    }
+    .nav-links.active { display: flex; }
     .hero { padding: 5rem 1.5rem 3rem; }
     .hero h1 { font-size: 2rem; }
     section { padding: 3rem 1.5rem; }
@@ -338,12 +372,16 @@
 <body>
 
 <nav>
-  <a href="https://alishah1029384756.github.io/AliShah1029384756/" class="nav-logo">Syed Muhammad Ali Naqvi</a>
-  <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle color mode">Light Mode</button>
-  <div class="nav-links">
-    <a href="#featured">Hubs</a>
-    <a href="#portfolio">Apps</a>
-    <a href="https://github.com/AliShah1029384756">GitHub</a>
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">Syed Muhammad Ali Naqvi</a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="cv.html" class="nav-link">CV</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="https://github.com/AliShah1029384756" target="_blank" rel="noreferrer noopener" class="nav-link external">GitHub →</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
   </div>
 </nav>
 
