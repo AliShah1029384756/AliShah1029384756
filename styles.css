@@ -278,6 +278,11 @@ li {
   margin-top: 20px;
 }
 
+.cv-cta-row {
+  justify-content: center;
+  margin-top: 1rem;
+}
+
 .command-hint {
   margin-top: 12px;
   color: var(--text-dim);
@@ -1127,6 +1132,17 @@ footer {
   padding: 28px 0 40px;
   border-top: 1px solid var(--line-soft);
   text-align: center;
+}
+
+.footer-fine {
+  font-size: 0.78rem;
+  margin-top: 0.5rem;
+  color: var(--text-muted);
+}
+
+.footer-fine a {
+  color: var(--accent);
+  text-decoration: none;
 }
 
 .logs-timeline {
