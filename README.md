@@ -65,16 +65,38 @@ Open to internship opportunities in Full-Stack Development, AI-assisted products
 
 ## Featured Projects
 
-1. **AutiSmart (FYP)** - AI-assisted ASD detection and therapy support platform with multimodal inputs and structured progress reporting.  
-  [Case Study](https://alishah1029384756.github.io/AliShah1029384756/projects/autismart.html) | [Repository](https://github.com/AliShah1029384756/AutiSmart)
-2. **EduCore Open Learning Hub** - Curated open-learning platform with 400+ resources and strong student-first information architecture.  
-  [Live Site](https://alishah1029384756.github.io/educore-open-learning-hub/) | [Repository](https://github.com/AliShah1029384756/educore-open-learning-hub)
-3. **E-Commerce Platform** - Full-stack commerce workflow with catalog, cart, and checkout implementation.  
-  [Repository](https://github.com/AliShah1029384756/ecommerce-website)
-4. **Compiler Project** - Compiler pipeline with lexical analysis, parser logic, and code generation concepts.  
-  [Repository](https://github.com/AliShah1029384756/compiler-project)
-5. **EduConnect** - Education-focused product work with practical student-centric workflow design.  
-  [Repository](https://github.com/AliShah1029384756/EduConnect)
+### 1. AutiSmart — Final Year Project
+
+AI-assisted autism care and assessment support platform with child management, assessments, progress tracking, AI-powered recommendations, reports, and therapy-oriented activities.
+
+**Tech:** React, Vite, Node.js, Express.js, MongoDB, Mongoose, JWT, Nodemailer, Groq API
+
+**[🚀 Live Preview](https://auti-smart.vercel.app/)** | **[📂 Repository](https://github.com/AliShah1029384756/Fyp-Autismart)** | **[📖 Case Study](https://alishah1029384756.github.io/AliShah1029384756/projects/autismart.html)**
+
+### 2. EduCore Open Learning Hub
+
+Curated open-learning platform with **400+ resources** and a student-first information architecture designed to make technical learning resources easier to discover and use.
+
+**[🌐 Live Site](https://alishah1029384756.github.io/educore-open-learning-hub/)** | **[📂 Repository](https://github.com/AliShah1029384756/educore-open-learning-hub)**
+
+### 3. E-Commerce Platform
+
+Full-stack commerce workflow implementing product catalog, shopping cart, and checkout functionality.
+
+**[📂 Repository](https://github.com/AliShah1029384756/ecommerce-website)**
+
+### 4. Compiler Project
+
+Compiler-focused project covering lexical analysis, parser logic, and core code-generation concepts.
+
+**[📂 Repository](https://github.com/AliShah1029384756/compiler-project)**
+
+### 5. EduConnect
+
+Education-focused product designed around practical student-centric workflows and digital learning support.
+
+**[📂 Repository](https://github.com/AliShah1029384756/EduConnect)**
+
 
 Additional proof of depth:
 - [University Projects Repository (16 projects)](https://github.com/AliShah1029384756/university-course-projects)
