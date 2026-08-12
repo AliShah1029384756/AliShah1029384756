@@ -1,16 +1,15 @@
 ﻿# Syed Muhammad Ali Naqvi
 
-### Full-Stack Developer and AI Builder
+### Full-Stack Developer & AI Builder
 
 Building practical software for healthcare and education with strong systems and engineering foundations.
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3500&pause=900&color=00D9FF&center=true&width=680&lines=BSCS+Student+at+FAST-NUCES;Full-Stack+Developer;AI+and+Education+Focused;Open+to+Internship+Opportunities" alt="Profile summary animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3500&pause=900&color=00D9FF&center=true&width=680&lines=FAST-NUCES+BSCS+Graduate;Full-Stack+Developer;AI+and+Education+Focused;Software+Engineering+%26+Product+Building" alt="Profile summary animation" />
 </div>
 
 ## Quick Navigation
 
-- [Primary CTAs](#primary-ctas)
 - [Professional Snapshot](#professional-snapshot)
 - [Core Skills](#core-skills)
 - [Featured Projects](#featured-projects)
@@ -27,15 +26,14 @@ Building practical software for healthcare and education with strong systems and
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-naqvi-1a9576331)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Website-00D9FF?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/)
 
-Open to internship opportunities in Full-Stack Development, AI-assisted products, and software engineering roles.
-
 ## Professional Snapshot
 
-- BSCS student at FAST-NUCES (2022-2026), focused on full-stack engineering and AI-enabled problem solving.
-- Built and documented healthcare and education products including AutiSmart (FYP), ClinicOS, and EduConnect.
-- Delivered 16 university projects across systems, databases, networking, compilers, and web engineering.
-- Mentored students through structured technical guidance, project planning, and implementation reviews.
-- Maintain live learning hubs to support student growth and practical, project-based learning.
+- **BSCS graduate from FAST-NUCES, Chiniot-Faisalabad Campus (2022-2026).**
+- **Final Year Project — AutiSmart:** team-based healthcare AI application; **FYP-I: A+** and **FYP-II: A-**.
+- Built and documented healthcare and education products including AutiSmart, ClinicOS, SchoolIEP, and EduConnect.
+- Completed and documented **16 university projects** spanning systems, databases, networking, compilers, algorithms, and web engineering.
+- 3+ years of teaching, mentoring, and student-support experience across university and school/college settings.
+- Built and maintained student-learning resources and open-learning hubs, including **EduCore with 400+ curated resources**.
 
 ## Core Skills
 
@@ -65,41 +63,53 @@ Open to internship opportunities in Full-Stack Development, AI-assisted products
 
 ## Featured Projects
 
-### 1. AutiSmart — Final Year Project
+### 1. AutiSmart — Final Year Project ⭐
 
-AI-assisted autism care and assessment support platform with child management, assessments, progress tracking, AI-powered recommendations, reports, and therapy-oriented activities.
+Team-based final year project at FAST-NUCES: an AI-assisted autism care and assessment support platform with child management, assessments, progress tracking, AI-powered recommendations, reports, and therapy-oriented activities.
+
+**Academic result:** FYP-I **A+** · FYP-II **A-**
 
 **Tech:** React, Vite, Node.js, Express.js, MongoDB, Mongoose, JWT, Nodemailer, Groq API
 
 **[🚀 Live Preview](https://auti-smart.vercel.app/)** | **[📂 Repository](https://github.com/AliShah1029384756/Fyp-Autismart)** | **[📖 Case Study](https://alishah1029384756.github.io/AliShah1029384756/projects/autismart.html)**
 
-### 2. EduCore Open Learning Hub
+> The project was deployed, run, and presented with the FYP team. Third-party services or credentials used for the original deployment may expire over time; users reproducing the project should configure their own environment variables and service credentials. No original secrets are published here.
+
+### 2. ClinicOS — Healthcare Software
+
+Healthcare/clinic management project demonstrating practical application workflows, backend integration, and domain-focused software design.
+
+**[📂 Repository](https://github.com/AliShah1029384756/ClinicOS)**
+
+### 3. EduCore Open Learning Hub
 
 Curated open-learning platform with **400+ resources** and a student-first information architecture designed to make technical learning resources easier to discover and use.
 
 **[🌐 Live Site](https://alishah1029384756.github.io/educore-open-learning-hub/)** | **[📂 Repository](https://github.com/AliShah1029384756/educore-open-learning-hub)**
 
-### 3. E-Commerce Platform
+### 4. E-Commerce Platform
 
 Full-stack commerce workflow implementing product catalog, shopping cart, and checkout functionality.
 
 **[📂 Repository](https://github.com/AliShah1029384756/ecommerce-website)**
 
-### 4. Compiler Project
+### 5. Compiler Project
 
-Compiler-focused project covering lexical analysis, parser logic, and core code-generation concepts.
+Compiler coursework covering lexical analysis, syntax/semantic processing, AST/intermediate representation, and intermediate code generation.
 
 **[📂 Repository](https://github.com/AliShah1029384756/compiler-project)**
 
-### 5. EduConnect
+### 6. University Project Archive
 
-Education-focused product designed around practical student-centric workflows and digital learning support.
+A curated archive of **16 university projects** across systems, databases, networking, compilers, algorithms, optimization, and web engineering.
 
-**[📂 Repository](https://github.com/AliShah1029384756/EduConnect)**
+**[📂 Academic Archive](https://github.com/AliShah1029384756/university-course-projects)**
 
+### Additional Engineering Proof
 
-Additional proof of depth:
-- [University Projects Repository (16 projects)](https://github.com/AliShah1029384756/university-course-projects)
+- [P2P Communication System](https://github.com/AliShah1029384756/p2p-communication-system)
+- [Authentication / Testing App](https://github.com/AliShah1029384756/auth-app)
+- [REST API](https://github.com/AliShah1029384756/rest-api)
 - [Projects Page](https://alishah1029384756.github.io/AliShah1029384756/projects.html)
 - [Portfolio Ecosystem](https://alishah1029384756.github.io/AliShah1029384756/sites.html)
 
@@ -107,24 +117,26 @@ Additional proof of depth:
 
 **Bachelor of Science in Computer Science (BSCS)**  
 FAST-NUCES, Chiniot-Faisalabad Campus  
-2022-2026 (Expected Graduation: 2026)
+2022-2026
 
 ## Experience
+
+**Digital Marketing Intern — Atlas Honda Pakistan** (July 2026-Present)  
+Lahore, Pakistan
+
+**CS Educator / Teacher** (2022-Present)  
+- Taught computer science and programming from foundational to advanced concepts.
+- Supported students with practical problem-solving and project work.
 
 **Hostel Teacher and Warden** (2022-Present)  
 FAST University Hostel, Chiniot-Faisalabad  
 - Mentored 20+ resident students each term on study planning and consistency.
-- Ran weekly peer-learning sessions to improve coursework execution.
+- Ran peer-learning and academic-support sessions.
 
-**CS Educator (School and College Level)** (2022-Present)  
-Local Private Educational Institution  
-- Taught 100+ students across fundamentals, OOP, and applied problem-solving.
-- Conducted recurring remedial sessions for stronger assignment and exam readiness.
-
-**Peer Mentor and Informal Teaching Assistant** (Ongoing)  
+**Peer Mentor / Technical Educator**  
 FAST-NUCES  
-- Produced 15+ structured learning guides and project planning notes.
-- Supported students in 1:1 and small-group sessions on full-stack and systems topics.
+- Produced structured learning guides and project-planning resources.
+- Supported students in full-stack, systems, and university coursework topics.
 
 ## Contact
 
@@ -136,10 +148,5 @@ FAST-NUCES
 ## Notes
 
 - Resume PDF and a readable Markdown version are available directly from this repository.
-- Last updated: April 2026.
-
-
-
-
-
-
+- This profile README is intended as a concise public overview; detailed repository history and documentation are maintained in the separate `portfolio` documentation archive.
+- **Last updated: August 2026.**
