@@ -1,11 +1,11 @@
-﻿# Syed Muhammad Ali Naqvi
+# Syed Muhammad Ali Naqvi
 
-### Full-Stack Developer & AI Builder
+### Full-Stack Developer | AI/Healthcare Builder | Data & BI
 
-Building practical software for healthcare and education with strong systems and engineering foundations.
+Building practical software for healthcare and education, with a growing focus on data, business intelligence, and reliable product engineering.
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3500&pause=900&color=00D9FF&center=true&width=680&lines=FAST-NUCES+BSCS+Graduate;Full-Stack+Developer;AI+and+Education+Focused;Software+Engineering+%26+Product+Building" alt="Profile summary animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3500&pause=900&color=00D9FF&center=true&width=760&lines=FAST-NUCES+BSCS+Graduate;Full-Stack+Developer;AI+%26+Healthcare+Builder;Power+BI+%26+Microsoft+Fabric;Software+Engineering+%26+Product+Building" alt="Profile summary animation" />
 </div>
 
 ## Quick Navigation
@@ -29,37 +29,41 @@ Building practical software for healthcare and education with strong systems and
 ## Professional Snapshot
 
 - **BSCS graduate from FAST-NUCES, Chiniot-Faisalabad Campus (2022-2026).**
+- **Digital Marketing Intern at Atlas Honda Pakistan** in Lahore, with current exposure to digital/business workflows.
 - **Final Year Project — AutiSmart:** team-based healthcare AI application; **FYP-I: A+** and **FYP-II: A-**.
 - Built and documented healthcare and education products including AutiSmart, ClinicOS, SchoolIEP, and EduConnect.
-- Completed and documented **16 university projects** spanning systems, databases, networking, compilers, algorithms, and web engineering.
-- 3+ years of teaching, mentoring, and student-support experience across university and school/college settings.
+- Completed and documented **17+ university projects** spanning systems, databases, networking, compilers, algorithms, optimization, and web engineering.
+- **3+ years of teaching, mentoring, and student-support experience** across university and school/college settings.
 - Built and maintained student-learning resources and open-learning hubs, including **EduCore with 400+ curated resources**.
 
 ## Core Skills
 
-### Languages
+### Current Focus — Data & BI
 
-![JavaScript](https://img.shields.io/badge/JavaScript-Advanced-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-Advanced-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-Advanced-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-Intermediate-007396?style=flat-square&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-Intermediate-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-PL--300%20Focus-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-Data%20%26%20Analytics-5B5BD6?style=flat-square&logo=microsoft)
+![DAX](https://img.shields.io/badge/DAX-Data%20Modeling%20%26%20Analytics-217346?style=flat-square)
 
-### Full-Stack and Data
+### Full-Stack Development
 
-![React](https://img.shields.io/badge/React-Advanced-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-Advanced-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-Advanced-000000?style=flat-square&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-Advanced-13AA52?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-Advanced-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-Full--Stack-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-API-000000?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-13AA52?style=flat-square&logo=mongodb&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST%20APIs-Backend%20Integration-0ea5e9?style=flat-square)
 
-### Systems and Tooling
+### Languages & Systems
 
-![Git](https://img.shields.io/badge/Git-Advanced-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Advanced-181717?style=flat-square&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-Intermediate-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-Intermediate-010101?style=flat-square&logo=socket.io&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20APIs-Advanced-0ea5e9?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+> Project-specific technologies listed below reflect the technologies used in those projects; they should not be interpreted as a claim that every technology remains part of my current primary stack.
 
 ## Featured Projects
 
@@ -101,7 +105,7 @@ Compiler coursework covering lexical analysis, syntax/semantic processing, AST/i
 
 ### 6. University Project Archive
 
-A curated archive of **16 university projects** across systems, databases, networking, compilers, algorithms, optimization, and web engineering.
+A curated archive of **17+ university projects** across systems, databases, networking, compilers, algorithms, optimization, and web engineering.
 
 **[📂 Academic Archive](https://github.com/AliShah1029384756/university-course-projects)**
 
