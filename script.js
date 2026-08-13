@@ -61,21 +61,21 @@ setupThemeToggle();
 
 if (navToggle && navLinks) {
   navToggle.addEventListener("click", () => {
-    const isActive = navLinks.classList.contains("active");
-    navLinks.classList.toggle("active");
+    const isActive = navLinks.classList.contains("is-open");
+    navLinks.classList.toggle("is-open");
     document.body.style.overflow = isActive ? "" : "hidden";
   });
 
   navLinks.querySelectorAll(".nav-link").forEach((link) => {
     link.addEventListener("click", () => {
-      navLinks.classList.remove("active");
+      navLinks.classList.remove("is-open");
       document.body.style.overflow = "";
     });
   });
 
   window.addEventListener("resize", () => {
     if (window.innerWidth > 768) {
-      navLinks.classList.remove("active");
+      navLinks.classList.remove("is-open");
       document.body.style.overflow = "";
     }
   });
@@ -187,7 +187,6 @@ function createProjectSwitcher() {
   header.insertAdjacentElement("afterend", switcher);
 }
 
-createGlobalPageRail();
 createProjectSwitcher();
 
 const revealTargets = document.querySelectorAll(".panel, .project-card, .project-item, .tech-category, .stat-card");
