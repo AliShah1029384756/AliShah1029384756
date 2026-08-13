@@ -80,6 +80,25 @@ h3 { letter-spacing:-.015em; }
 .quick-action h3 { color:var(--text); transition:color .2s ease; }
 .quick-action:hover h3 { color:var(--brand); }
 
-@media (max-width:820px) { .hero{min-height:auto;padding:82px 0 48px;} .metrics-row{grid-template-columns:repeat(2,minmax(0,1fr));} }
-@media (max-width:560px) { .hero{padding-top:68px;} h1{font-size:clamp(2.7rem,15vw,4.3rem);} .metrics-row{grid-template-columns:1fr;} .metrics-row span{min-height:54px;} .hero::after{width:280px;height:280px;right:-140px;} .project-card{min-height:230px;} }
-@media (prefers-reduced-motion:reduce) { *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;} }
+/* Phase 3 — responsive, accessibility and cross-page polish */
+:focus-visible { outline:2px solid var(--brand); outline-offset:4px; border-radius:6px; }
+a,button,input { -webkit-tap-highlight-color:transparent; }
+button,.btn,.btn-link,.nav-link,.quick-action { touch-action:manipulation; }
+.project-search-input { width:100%; min-height:46px; border:1px solid var(--line); border-radius:11px; background:rgba(124,183,255,.045); color:var(--text); padding:11px 14px; font:500 .9rem "Space Grotesk",sans-serif; }
+.project-search-input::placeholder { color:var(--text-dim); opacity:.72; }
+.project-search-input:focus { border-color:rgba(99,230,215,.6); box-shadow:0 0 0 3px rgba(99,230,215,.08); outline:none; }
+.page-header { position:relative; overflow:hidden; }
+.page-header::after { content:""; position:absolute; width:260px; height:260px; right:-90px; top:-100px; border-radius:50%; background:radial-gradient(circle,rgba(124,183,255,.14),transparent 70%); pointer-events:none; }
+.page-header p { position:relative; z-index:1; }
+.about-section,.cv-block { scroll-margin-top:100px; }
+.about-list,.cv-plain-list,.project-highlights,.achievements-list { line-height:1.75; }
+.flagship-item,.cv-project-item { transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease; }
+.flagship-item:hover,.cv-project-item:hover { transform:translateY(-3px); border-color:rgba(99,230,215,.28); }
+.project-item .project-links { display:flex; flex-wrap:wrap; gap:12px; align-items:center; }
+.project-item .btn-link { min-height:40px; display:inline-flex; align-items:center; }
+footer a { transition:color .2s ease; }
+
+@media (max-width:820px) { .hero{min-height:auto;padding:82px 0 48px;} .metrics-row{grid-template-columns:repeat(2,minmax(0,1fr));} .global-nav .nav-container{padding-inline:18px;} .page-header{padding-inline:20px;} .cv-two-col{grid-template-columns:1fr;} .cv-sidebar{order:2;} .cv-main-col{order:1;} }
+@media (max-width:700px) { .nav-links{gap:4px;} .nav-link{padding:8px 9px;font-size:.78rem;} .project-item,.panel,.cv-sheet,.about-section{border-radius:13px;} .filter-row{gap:7px;} .filter-btn{min-height:42px;padding-inline:12px;} }
+@media (max-width:560px) { .hero{padding-top:68px;} h1{font-size:clamp(2.7rem,15vw,4.3rem);} .metrics-row{grid-template-columns:1fr;} .metrics-row span{min-height:54px;} .hero::after{width:280px;height:280px;right:-140px;} .project-card{min-height:230px;} .nav-container{min-height:62px;} .nav-logo{font-size:.88rem;max-width:190px;} .nav-links{position:absolute;left:12px;right:12px;top:68px;display:none;flex-direction:column;align-items:stretch;padding:10px;border:1px solid var(--line-soft);border-radius:14px;background:var(--glass);box-shadow:var(--shadow);backdrop-filter:blur(18px);} .nav-links.is-open{display:flex;} .nav-link{text-align:center;padding:11px;} .nav-toggle{display:inline-flex!important;align-items:center;justify-content:center;} .project-item .project-links{flex-direction:column;align-items:stretch;} .project-item .btn-link{justify-content:center;} .cv-cta-row{flex-direction:column;align-items:stretch;} .cv-cta-row .btn{width:100%;text-align:center;} }
+@media (prefers-reduced-motion:reduce) { *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;} .project-card:hover,.flagship-item:hover,.cv-project-item:hover,.quick-action:hover,.btn:hover{transform:none;} }
