@@ -1,0 +1,154 @@
+name: Apply Navigation Polish
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-navigation.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  polish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Patch navigation behavior
+        shell: python
+        run: |
+          from pathlib import Path
+
+          p = Path('script.js')
+          s = p.read_text(encoding='utf-8')
+          s = s.replace('navLinks.classList.contains("active")', 'navLinks.classList.contains("is-open")')
+          s = s.replace('navLinks.classList.toggle("active")', 'navLinks.classList.toggle("is-open")')
+          s = s.replace('navLinks.classList.remove("active")', 'navLinks.classList.remove("is-open")')
+          s = s.replace('createGlobalPageRail();\n', '')
+          p.write_text(s, encoding='utf-8')
+
+      - name: Append navigation polish CSS
+        shell: python
+        run: |
+          from pathlib import Path
+
+          p = Path('styles.css')
+          s = p.read_text(encoding='utf-8')
+          marker = '/* Final navigation polish */'
+          if marker not in s:
+              s += r'''
+
+/* Final navigation polish */
+.global-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+.global-nav .nav-container {
+  min-height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  position: relative;
+}
+.nav-logo {
+  color: var(--text) !important;
+  text-decoration: none !important;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+  margin-left: auto;
+}
+.nav-link {
+  color: var(--text-dim) !important;
+  text-decoration: none !important;
+  border: 1px solid transparent;
+  padding: 9px 12px;
+  font-weight: 600;
+  font-size: .82rem;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: var(--brand) !important;
+  background: rgba(99,230,215,.08);
+  border-color: rgba(99,230,215,.18);
+}
+.nav-link.external { color: var(--accent) !important; }
+.theme-toggle,
+.nav-toggle {
+  appearance: none;
+  border: 1px solid var(--line);
+  background: rgba(124,183,255,.055);
+  color: var(--text);
+  border-radius: 10px;
+  min-height: 40px;
+  padding: 8px 12px;
+  font: 600 .72rem "JetBrains Mono",monospace;
+  cursor: pointer;
+  transition: .2s ease;
+}
+.theme-toggle:hover,
+.nav-toggle:hover {
+  color: var(--brand);
+  border-color: rgba(99,230,215,.4);
+  background: rgba(99,230,215,.08);
+  transform: translateY(-1px);
+}
+.nav-toggle { display: none; }
+.page-rail { display: none !important; }
+
+@media (max-width: 768px) {
+  .global-nav .nav-container { min-height: 64px; }
+  .nav-logo { max-width: calc(100% - 110px); overflow: hidden; text-overflow: ellipsis; }
+  .theme-toggle { margin-left: auto; }
+  .nav-toggle { display: inline-flex !important; align-items: center; justify-content: center; }
+  .nav-links {
+    position: absolute;
+    left: 14px;
+    right: 14px;
+    top: calc(100% + 8px);
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid var(--line-soft);
+    border-radius: 15px;
+    background: var(--glass);
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(20px) saturate(150%);
+    -webkit-backdrop-filter: blur(20px) saturate(150%);
+  }
+  .nav-links.is-open { display: flex; }
+  .nav-links .nav-link { width: 100%; text-align: center; padding: 12px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-link,
+  .theme-toggle,
+  .nav-toggle { transition: none; }
+}
+'''
+              p.write_text(s, encoding='utf-8')
+
+      - name: Commit patched files
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add script.js styles.css
+          if git diff --cached --quiet; then
+            echo "No changes required"
+            exit 0
+          fi
+          git commit -m "fix: polish global navigation and mobile menu"
+          git push
