@@ -30,7 +30,7 @@ Building practical software for healthcare and education, with a growing focus o
 
 - **BSCS graduate from FAST-NUCES, Chiniot-Faisalabad Campus (2022-2026).**
 - **Digital Marketing Intern at Atlas Honda Pakistan** in Lahore, with current exposure to digital/business workflows.
-- **Final Year Project — AutiSmart:** team-based healthcare AI application; **FYP-I: A+** and **FYP-II: A-**.
+- **Final Year Project — AutiSmart:** team-based healthcare AI application and flagship final-year project.
 - Built and documented healthcare and education products including AutiSmart, ClinicOS, SchoolIEP, and EduConnect.
 - Completed and documented **17+ university projects** spanning systems, databases, networking, compilers, algorithms, optimization, and web engineering.
 - **3+ years of teaching, mentoring, and student-support experience** across university and school/college settings.
@@ -70,8 +70,6 @@ Building practical software for healthcare and education, with a growing focus o
 ### 1. AutiSmart — Final Year Project ⭐
 
 Team-based final year project at FAST-NUCES: an AI-assisted autism care and assessment support platform with child management, assessments, progress tracking, AI-powered recommendations, reports, and therapy-oriented activities.
-
-**Academic result:** FYP-I **A+** · FYP-II **A-**
 
 **Tech:** React, Vite, Node.js, Express.js, MongoDB, Mongoose, JWT, Nodemailer, Groq API
 
