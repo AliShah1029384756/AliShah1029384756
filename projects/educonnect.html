@@ -7,12 +7,12 @@
   <meta name="description" content="EduConnect: a full-stack student support and academic community platform built as a university web engineering project." />
   <meta name="author" content="Syed Muhammad Ali Naqvi" />
   <meta name="robots" content="index, follow" />
-  <meta name="keywords" content="EduConnect, student support platform, web engineering project, React, Node.js, MongoDB, counseling platform" />
+  <meta name="keywords" content="EduConnect, student support platform, web engineering project, Node.js, Express, MongoDB, counseling platform" />
   <link rel="canonical" href="https://alishah1029384756.github.io/AliShah1029384756/projects/educonnect.html" />
   <meta property="og:title" content="EduConnect | Syed Muhammad Ali Naqvi" />
   <meta property="og:description" content="Student support platform with forums, counseling workflows, resources, and administration features." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://alishah1029384756.github.io/AliShah1029384756/projects/educonnect.html" />
+  <meta property="og:url" content="https://alishah1029384756.github.io/AliShah10293847576/projects/educonnect.html" />
   <meta property="og:image" content="https://alishah1029384756.github.io/AliShah1029384756/images/portfolio-cover.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="EduConnect | Syed Muhammad Ali Naqvi" />
@@ -23,117 +23,18 @@
 </head>
 <body>
   <div class="noise"></div>
-  <nav class="global-nav">
-    <div class="nav-container">
-      <a href="../index.html" class="nav-logo">Syed Muhammad Ali Naqvi</a>
-      <div class="nav-links">
-        <a href="../index.html" class="nav-link">Home</a>
-        <a href="../projects.html" class="nav-link active">Projects</a>
-        <a href="../cv.html" class="nav-link">CV</a>
-        <a href="../about.html" class="nav-link">About</a>
-        <a href="../sites.html" class="nav-link">Sites</a>
-        <a href="https://github.com/AliShah1029384756" target="_blank" rel="noreferrer noopener" class="nav-link external">GitHub →</a>
-      </div>
-      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
-    </div>
-  </nav>
-
+  <nav class="global-nav"><div class="nav-container"><a href="../index.html" class="nav-logo">Syed Muhammad Ali Naqvi</a><div class="nav-links"><a href="../index.html" class="nav-link">Home</a><a href="../projects.html" class="nav-link active">Projects</a><a href="../cv.html" class="nav-link">CV</a><a href="../about.html" class="nav-link">About</a><a href="../sites.html" class="nav-link">Sites</a><a href="https://github.com/AliShah1029384756" target="_blank" rel="noreferrer noopener" class="nav-link external">GitHub →</a></div><button class="nav-toggle" aria-label="Toggle menu">☰</button></div></nav>
   <main class="project-page">
-    <header class="project-header">
-      <a href="../projects.html" class="back-link">← Back to Projects</a>
-      <h1>EduConnect</h1>
-      <p class="project-subtitle">Student support platform with forums, counseling flows, resources, and administration features.</p>
-      <div class="project-meta">
-        <span class="badge public">Public</span>
-        <span class="status-active">University Project</span>
-      </div>
-    </header>
-
-    <section class="project-section">
-      <h2>Overview</h2>
-      <p>EduConnect is a university web engineering project exploring how student support services can be brought together in one full-stack platform. It combines academic resources, counseling workflows, discussion forums, and administrative functions in a single application.</p>
-    </section>
-
-    <section class="project-section">
-      <h2>Key Features</h2>
-      <ul class="features-list">
-        <li><strong>User Authentication & Profiles:</strong> JWT-based authentication with role-aware access patterns.</li>
-        <li><strong>Discussion Forums:</strong> Category-based student discussions with moderation-oriented workflows.</li>
-        <li><strong>Counseling Workflows:</strong> Counseling request and appointment-oriented flows with feedback tracking.</li>
-        <li><strong>Resource Management:</strong> Categorized educational resources with search and access workflows.</li>
-        <li><strong>Admin Functions:</strong> User management, moderation, content administration, and basic system oversight.</li>
-        <li><strong>Notifications:</strong> Application-level update and event notification concepts.</li>
-      </ul>
-    </section>
-
-    <section class="project-section">
-      <h2>Technology Stack</h2>
-      <div class="tech-breakdown">
-        <div class="tech-category">
-          <h3>Frontend</h3>
-          <p>React.js, functional components, hooks, and responsive layout techniques.</p>
-        </div>
-        <div class="tech-category">
-          <h3>Backend</h3>
-          <p>Node.js with Express.js, modular routes, controllers, authentication middleware, and error handling.</p>
-        </div>
-        <div class="tech-category">
-          <h3>Database</h3>
-          <p>MongoDB for document-oriented application data.</p>
-        </div>
-        <div class="tech-category">
-          <h3>Development</h3>
-          <p>Git/GitHub, npm, API testing, and environment-based configuration.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="project-section">
-      <h2>Architecture Highlights</h2>
-      <ul class="highlights-list">
-        <li>Modular API routes for maintainable endpoint organization</li>
-        <li>Controller/model separation for clearer backend responsibilities</li>
-        <li>JWT-based authentication patterns</li>
-        <li>Centralized error-handling approach</li>
-        <li>Input validation at application boundaries</li>
-      </ul>
-    </section>
-
-    <section class="project-section decision-block">
-      <h2>Architecture Decisions</h2>
-      <div class="decision-grid">
-        <div><h3>Problem</h3><p>Student support channels were fragmented across separate academic and community workflows.</p></div>
-        <div><h3>Constraints</h3><p>Different user roles required controlled access while keeping common student workflows simple.</p></div>
-        <div><h3>Solution</h3><p>A full-stack portal combining forums, counseling, resources, authentication, and administration.</p></div>
-        <div><h3>Trade-offs</h3><p>Flexible document storage required clear validation and consistent API boundaries.</p></div>
-        <div><h3>Outcome</h3><p>A unified educational support concept that demonstrates full-stack architecture and workflow design.</p></div>
-      </div>
-    </section>
-
-    <section class="project-section">
-      <h2>Learning Outcomes</h2>
-      <ul class="outcomes-list">
-        <li>Full-stack MERN development workflow</li>
-        <li>Authentication and authorization patterns</li>
-        <li>Database and API design for an educational application</li>
-        <li>Frontend state and component organization</li>
-        <li>Translating real-world workflows into software modules</li>
-      </ul>
-    </section>
-
-    <section class="project-section">
-      <h2>Project Links</h2>
-      <div class="project-links-section">
-        <a href="https://github.com/AliShah1029384756/EduConnect" target="_blank" rel="noreferrer noopener" class="btn">View on GitHub</a>
-        <a href="../projects.html" class="btn btn-ghost">Back to Projects</a>
-      </div>
-    </section>
+    <header class="project-header"><a href="../projects.html" class="back-link">← Back to Projects</a><h1>EduConnect</h1><p class="project-subtitle">Student support platform with forums, counseling flows, resources, and administration features.</p><div class="project-meta"><span class="badge public">Public</span><span class="status-active">University Project</span></div></header>
+    <section class="project-section"><h2>Overview</h2><p>EduConnect is a university web engineering project exploring how student support services can be brought together in one full-stack platform. It combines academic resources, counseling workflows, discussion forums, and administrative functions in a single application.</p></section>
+    <section class="project-section"><h2>Key Features</h2><ul class="features-list"><li><strong>User Authentication & Profiles:</strong> JWT-based authentication with role-aware access patterns.</li><li><strong>Discussion Forums:</strong> Category-based student discussions with moderation-oriented workflows.</li><li><strong>Counseling Workflows:</strong> Counseling request and appointment-oriented flows with feedback tracking.</li><li><strong>Resource Management:</strong> Categorized educational resources with search and access workflows.</li><li><strong>Admin Functions:</strong> User management, moderation, content administration, and basic system oversight.</li><li><strong>Notifications:</strong> Application-level update and event notification concepts.</li></ul></section>
+    <section class="project-section"><h2>Technology Stack</h2><div class="tech-breakdown"><div class="tech-category"><h3>Frontend</h3><p>HTML, CSS, JavaScript, and Bootstrap for the user-facing interface.</p></div><div class="tech-category"><h3>Backend</h3><p>Node.js with Express.js, modular routes, controllers, authentication middleware, and error handling.</p></div><div class="tech-category"><h3>Database</h3><p>MongoDB for document-oriented application data.</p></div><div class="tech-category"><h3>Development</h3><p>Git/GitHub, npm, API testing, and environment-based configuration.</p></div></div></section>
+    <section class="project-section"><h2>Architecture Highlights</h2><ul class="highlights-list"><li>Modular API routes for maintainable endpoint organization</li><li>Controller/model separation for clearer backend responsibilities</li><li>JWT-based authentication patterns</li><li>Centralized error-handling approach</li><li>Input validation at application boundaries</li></ul></section>
+    <section class="project-section decision-block"><h2>Architecture Decisions</h2><div class="decision-grid"><div><h3>Problem</h3><p>Student support channels were fragmented across separate academic and community workflows.</p></div><div><h3>Constraints</h3><p>Different user roles required controlled access while keeping common student workflows simple.</p></div><div><h3>Solution</h3><p>A full-stack portal combining forums, counseling, resources, authentication, and administration.</p></div><div><h3>Trade-offs</h3><p>Flexible document storage required clear validation and consistent API boundaries.</p></div><div><h3>Outcome</h3><p>A unified educational support concept that demonstrates full-stack architecture and workflow design.</p></div></div></section>
+    <section class="project-section"><h2>Learning Outcomes</h2><ul class="outcomes-list"><li>Full-stack web development workflow</li><li>Authentication and authorization patterns</li><li>Database and API design for an educational application</li><li>Frontend organization with HTML/CSS/JavaScript</li><li>Translating real-world workflows into software modules</li></ul></section>
+    <section class="project-section"><h2>Project Links</h2><div class="project-links-section"><a href="https://github.com/AliShah1029384756/EduConnect" target="_blank" rel="noreferrer noopener" class="btn">View on GitHub</a><a href="../projects.html" class="btn btn-ghost">Back to Projects</a></div></section>
   </main>
-
-  <footer>
-    <p><strong>Syed Muhammad Ali Naqvi</strong> · Portfolio · <a href="../about.html#contact">Contact</a></p>
-  </footer>
-
+  <footer><p><strong>Syed Muhammad Ali Naqvi</strong> · Portfolio · <a href="../about.html#contact">Contact</a></p></footer>
   <script src="../script.js"></script>
 </body>
 </html>
