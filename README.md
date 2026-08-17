@@ -1,11 +1,11 @@
 # Syed Muhammad Ali Naqvi
 
-### Full-Stack Developer | AI/Healthcare Builder | Data & BI
+### Full-Stack Software Engineer | AI-Assisted Developer | Healthcare & EdTech Builder
 
-Building practical software for healthcare and education, with a growing focus on data, business intelligence, and reliable product engineering.
+Building practical software for healthcare and education, with a focus on full-stack engineering, AI-assisted product development, and reliable software workflows.
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3500&pause=900&color=00D9FF&center=true&width=760&lines=FAST-NUCES+BSCS+Graduate;Full-Stack+Developer;AI+%26+Healthcare+Builder;Power+BI+%26+Microsoft+Fabric;Software+Engineering+%26+Product+Building" alt="Profile summary animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3500&pause=900&color=00D9FF&center=true&width=760&lines=FAST-NUCES+BSCS+Graduate;Full-Stack+Software+Engineer;AI-Assisted+Developer;Healthcare+%26+EdTech+Builder;Software+Engineering+%26+Product+Building" alt="Profile summary animation" />
 </div>
 
 ## Quick Navigation
@@ -38,12 +38,6 @@ Building practical software for healthcare and education, with a growing focus o
 
 ## Core Skills
 
-### Current Focus — Data & BI
-
-![Power BI](https://img.shields.io/badge/Power%20BI-PL--300%20Focus-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-Data%20%26%20Analytics-5B5BD6?style=flat-square&logo=microsoft)
-![DAX](https://img.shields.io/badge/DAX-Data%20Modeling%20%26%20Analytics-217346?style=flat-square)
-
 ### Full-Stack Development
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-Full--Stack-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -53,9 +47,15 @@ Building practical software for healthcare and education, with a growing focus o
 ![MongoDB](https://img.shields.io/badge/MongoDB-Database-13AA52?style=flat-square&logo=mongodb&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST%20APIs-Backend%20Integration-0ea5e9?style=flat-square)
 
-### Languages & Systems
+### AI, Data & Analytics
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-Analytics-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-Data%20%26%20Analytics-5B5BD6?style=flat-square&logo=microsoft)
+![DAX](https://img.shields.io/badge/DAX-Data%20Modeling%20%26%20Analytics-217346?style=flat-square)
+
+### Languages & Systems
+
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square)
