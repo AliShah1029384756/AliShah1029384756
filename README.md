@@ -81,27 +81,37 @@ Team-based final year project at FAST-NUCES: an AI-assisted autism care and asse
 
 Healthcare/clinic management project demonstrating practical application workflows, backend integration, and domain-focused software design.
 
+**Tech:** React 18, Vite, Node.js, Express, MongoDB, Mongoose, JWT, RBAC, REST APIs
+
 **[📂 Repository](https://github.com/AliShah1029384756/ClinicOS)**
 
-### 3. EduCore Open Learning Hub
+### 3. SchoolIEP — Education Software
+
+Education-domain system for structured Individualized Education Program workflows, organizing student records, learning goals, parent coordination, and progress reporting.
+
+**Tech:** React, Vite, Node.js, Express, MongoDB, Mongoose, JWT
+
+**[📂 Repository](https://github.com/AliShah1029384756/SchoolIEP)**
+
+### 4. EduCore Open Learning Hub
 
 Curated open-learning platform with **400+ resources** and a student-first information architecture designed to make technical learning resources easier to discover and use.
 
 **[🌐 Live Site](https://alishah1029384756.github.io/educore-open-learning-hub/)** | **[📂 Repository](https://github.com/AliShah1029384756/educore-open-learning-hub)**
 
-### 4. E-Commerce Platform
+### 5. E-Commerce Platform
 
 Full-stack commerce workflow implementing product catalog, shopping cart, and checkout functionality.
 
 **[📂 Repository](https://github.com/AliShah1029384756/ecommerce-website)**
 
-### 5. Compiler Project
+### 6. Compiler Project
 
 Compiler coursework covering lexical analysis, syntax/semantic processing, AST/intermediate representation, and intermediate code generation.
 
 **[📂 Repository](https://github.com/AliShah1029384756/compiler-project)**
 
-### 6. University Project Archive
+### 7. University Project Archive
 
 A curated archive of **17+ university projects** across systems, databases, networking, compilers, algorithms, optimization, and web engineering.
 
@@ -112,6 +122,7 @@ A curated archive of **17+ university projects** across systems, databases, netw
 - [P2P Communication System](https://github.com/AliShah1029384756/p2p-communication-system)
 - [Authentication / Testing App](https://github.com/AliShah1029384756/auth-app)
 - [REST API](https://github.com/AliShah1029384756/rest-api)
+- [Complete Project Archive](https://alishah1029384756.github.io/AliShah1029384756/project-archive.html)
 - [Projects Page](https://alishah1029384756.github.io/AliShah1029384756/projects.html)
 - [Portfolio Ecosystem](https://alishah1029384756.github.io/AliShah1029384756/sites.html)
 
