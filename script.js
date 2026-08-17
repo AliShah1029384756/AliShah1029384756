@@ -417,3 +417,4 @@ if (terminalInput && terminalOutput) {
     terminalOutput.scrollTop = terminalOutput.scrollHeight;
   });
 }
+
