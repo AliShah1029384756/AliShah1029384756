@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Patch HTML CSS links and mobile navigation
+      - name: Patch HTML CSS links, mobile navigation, and project switcher
         shell: python
         run: |
           from pathlib import Path
@@ -43,12 +43,22 @@ jobs:
           s = s.replace('createGlobalPageRail();\n', '')
           p.write_text(s, encoding='utf-8')
 
+          # Project switcher is injected by script.js on case-study pages.
+          # Keep the fix in the shared recovery stylesheet so all project pages
+          # receive the same responsive styling without touching page markup.
+          p = Path('recovery.css')
+          s = p.read_text(encoding='utf-8')
+          marker = '/* Project switcher — shared responsive chip layout */'
+          if marker not in s:
+              s += '''\n\n/* Project switcher — shared responsive chip layout */\n.project-switcher {\n  margin: 0.75rem 0 1.25rem;\n}\n.project-switcher-top {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 0.75rem 1.25rem;\n  margin-bottom: 0.6rem;\n  font-size: 0.9rem;\n}\n.project-switcher-links {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 0.4rem 0.5rem;\n  align-items: center;\n}\n.project-chip {\n  display: inline-flex;\n  align-items: center;\n  min-height: 30px;\n  padding: 0.2rem 0.55rem;\n  border-radius: 999px;\n  font-size: 0.78rem;\n  line-height: 1.2;\n  text-decoration: none;\n  border: 1px solid var(--line, #cbd5e1);\n  color: var(--text-dim, #334155);\n  background: rgba(248, 250, 252, 0.72);\n  transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;\n}\n.project-chip:hover {\n  color: var(--brand, #0f766e);\n  border-color: rgba(99, 230, 215, 0.45);\n  background: rgba(99, 230, 215, 0.08);\n  transform: translateY(-1px);\n}\n.project-chip.active {\n  background: var(--brand-strong, #0f3460);\n  color: #fff;\n  border-color: var(--brand-strong, #0f3460);\n}\nhtml[data-theme="light"] .project-chip {\n  background: rgba(248, 250, 252, 0.88);\n  color: var(--text-dim, #334155);\n}\nhtml[data-theme="light"] .project-chip.active {\n  background: var(--brand, #0f766e);\n  color: #fff;\n  border-color: var(--brand, #0f766e);\n}\n@media (max-width: 560px) {\n  .project-switcher-top {\n    align-items: flex-start;\n    gap: 0.5rem 0.9rem;\n  }\n  .project-switcher-links {\n    gap: 0.35rem;\n  }\n  .project-chip {\n    font-size: 0.74rem;\n    min-height: 32px;\n  }\n}\n'''
+              p.write_text(s, encoding='utf-8')
+
       - name: Commit recovery
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add '*.html' 'projects/*.html' script.js
+          git add '*.html' 'projects/*.html' script.js recovery.css
           if git diff --cached --quiet; then
             echo "No changes required"
             exit 0
