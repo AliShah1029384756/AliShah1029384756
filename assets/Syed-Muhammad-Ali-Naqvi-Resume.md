@@ -1,101 +1,90 @@
 # Syed Muhammad Ali Naqvi
 
-**Full-Stack Software Engineer | AI-Enabled Products | Healthcare & EdTech**  
-FAST-NUCES BSCS graduate focused on full-stack engineering, AI-enabled applications, healthcare/education software, and practical systems work.
+**Full-Stack Software Engineer | Healthcare & EdTech**  
+BSCS Graduate · FAST-NUCES (2022–2026) · React · Node.js · MongoDB · REST APIs
 
-## Contact
+**Email:** shahyed99@gmail.com  
+**GitHub:** https://github.com/AliShah1029384756  
+**LinkedIn:** https://www.linkedin.com/in/ali-naqvi-1a9576331  
+**Portfolio:** https://alishah1029384756.github.io/AliShah1029384756/  
+**Location:** Gujrat / Lahore, Punjab, Pakistan
 
-- Email: shahyed99@gmail.com
-- LinkedIn: https://www.linkedin.com/in/ali-naqvi-1a9576331
-- GitHub: https://github.com/AliShah1029384756
-- Portfolio: https://alishah1029384756.github.io/AliShah1029384756/
+---
 
-## Professional Snapshot
+## Professional Summary
 
-- BSCS graduate from FAST-NUCES, Chiniot-Faisalabad Campus (2022–2026).
-- Full-stack developer with practical experience across React, Node.js, Express, MongoDB, REST APIs, and authentication workflows.
-- Built and documented healthcare and education products including AutiSmart, ClinicOS, SchoolIEP, and EduConnect.
-- Completed and documented 17+ university projects spanning systems, databases, networking, compilers, algorithms, optimization, and web engineering.
-- 3+ years of teaching, mentoring, and student-support experience.
-- Built and maintained student-learning resources and open-learning hubs, including EduCore with 400+ curated resources.
+BSCS graduate from FAST-NUCES focused on full-stack web engineering for healthcare and education workflows. Builds end-to-end applications with React, Node.js, Express, MongoDB, JWT authentication, and carefully integrated AI features. Flagship work includes a team Final Year Project (AutiSmart) and two domain systems (ClinicOS, SchoolIEP). Complements engineering with multi-year CS teaching and mentoring. Currently Digital Marketing Intern at Atlas Honda Pakistan while actively pursuing software engineering roles.
 
-## Core Skills
+---
 
-- **Full-stack:** React, Node.js, Express, REST APIs, JavaScript
-- **Databases:** MongoDB, MySQL, PostgreSQL, SQL
-- **Programming:** Python, C++, Java, JavaScript
-- **Systems:** networking, compiler design, distributed communication, optimization
-- **Tools:** Git, GitHub, Linux, VS Code, Postman
-- **AI / Data:** AI-enabled application development, Python-based AI/ML coursework, Power BI, DAX, Microsoft Fabric
+## Technical Skills
+
+- **Primary stack:** JavaScript, React, Vite, Node.js, Express, MongoDB, Mongoose, REST APIs, JWT
+- **Languages:** JavaScript, Python, C/C++, Java, SQL
+- **Backend & data:** Authentication, RBAC, API design, MongoDB modeling, MySQL
+- **Tools:** Git, GitHub, VS Code, Postman, Linux basics
+- **Also used:** Groq API (AI integration), Nodemailer, Bootstrap, Chart.js, Power BI / data fundamentals
+
+---
 
 ## Featured Projects
 
-### AutiSmart — Final Year Project
+### AutiSmart — Team Final Year Project (S-Tier)
+**Role:** Full-Stack Development & AI Integration  
+**Stack:** React, Vite, Node.js, Express, MongoDB, Mongoose, JWT, Nodemailer, Groq API  
+AI-assisted autism-support platform: role-based auth, child profiles, structured assessments, progress tracking, AI-generated quiz content (Groq), rule-based therapy-game recommendations, Emotion Explorer activities. Team FYP at FAST-NUCES (FYP-I A+, FYP-II A-). Academic prototype — not a clinical diagnostic tool.  
+Case study: https://alishah1029384756.github.io/AliShah1029384756/projects/autismart.html  
+Repo: https://github.com/AliShah1029384756/Fyp-Autismart
 
-Team-based FAST-NUCES final-year project: an AI-assisted autism assessment and therapy-support platform covering child management, assessments, progress tracking, AI-powered recommendations, reports, and therapy-oriented activities.
+### ClinicOS (A-Tier)
+**Stack:** React, Vite, Node.js, Express, MongoDB, Mongoose, JWT, RBAC  
+Therapy operations platform: session scheduling/status/attendance, treatment plans with goals, therapist profiles, role-aware workflows (therapist, admin, caregiver, patient). Portfolio/academic project; local execution.  
+Case study: https://alishah1029384756.github.io/AliShah1029384756/projects/clinicos.html  
+Repo: https://github.com/AliShah1029384756/ClinicOS
 
-- Case Study: https://alishah1029384756.github.io/AliShah1029384756/projects/autismart.html
-- Repository: https://github.com/AliShah1029384756/Fyp-Autismart
+### SchoolIEP (A-Tier)
+**Stack:** React, Vite, Node.js, Express, MongoDB, Mongoose, JWT  
+IEP management: student records, parent coordination, IEP lifecycle, learning goals by category, period-based progress reports. Portfolio/academic project; local execution.  
+Case study: https://alishah1029384756.github.io/AliShah1029384756/projects/schooliep.html  
+Repo: https://github.com/AliShah1029384756/SchoolIEP
 
-### ClinicOS
+### Additional Engineering Work
+- **Compiler Project** — lexical analysis, parsing, semantic processing (C / academic toolchain)
+- **P2P Communication System** — networking and distributed communication concepts
+- **EduCore Open Learning Hub** — 400+ curated learning resources (live GitHub Pages hub)
+- **University Course Projects** — 17+ documented academic projects (systems, DB, networks, web)
 
-Healthcare/clinic management software demonstrating authentication, role-based access control, REST APIs, and backend integration.
-
-- Repository: https://github.com/AliShah1029384756/ClinicOS
-
-### SchoolIEP
-
-Education-domain system for structured Individualized Education Program workflows, student records, learning goals, parent coordination, and progress reporting.
-
-- Repository: https://github.com/AliShah1029384756/SchoolIEP
-
-### Compiler Project
-
-University compiler project covering lexical analysis, parsing, semantic processing, intermediate representation, and intermediate code generation concepts.
-
-- Repository: https://github.com/AliShah1029384756/compiler-project
-
-### P2P Communication System
-
-Peer-to-peer communication project demonstrating networking and distributed communication concepts through a practical implementation.
-
-- Repository: https://github.com/AliShah1029384756/p2p-communication-system
-
-### EduCore Open Learning Hub
-
-Student-first open-learning platform with 400+ curated learning resources.
-
-- Live Site: https://alishah1029384756.github.io/educore-open-learning-hub/
-- Repository: https://github.com/AliShah1029384756/educore-open-learning-hub
+---
 
 ## Experience
 
-**Digital Marketing Intern — Atlas Honda Pakistan** | July 2026 – Present  
-Lahore, Pakistan
+**Digital Marketing Intern — Atlas Honda Pakistan**  
+July 2026 – Present · Lahore, Pakistan  
+Corporate digital marketing internship. Role is transparent on the profile; primary career target remains software engineering and full-stack product work.
 
-**CS Educator / Teacher** | 2022 – Present
+**CS Educator / Teacher**  
+2022 – Present  
+- Teach computer science and programming from foundational through university-oriented topics  
+- Support students with problem-solving, projects, and practical technical learning
 
-- Teach computer science and programming from foundational concepts through university-level topics.
-- Support students with problem-solving, projects, and practical technical learning.
+**Hostel Teacher and Warden — FAST-NUCES**  
+2022 – Present · Chiniot-Faisalabad  
+- Mentor resident students on study planning, consistency, and academic progress  
+- Support peer-learning and technical guidance
 
-**Hostel Teacher and Warden — FAST-NUCES** | 2022 – Present  
-Chiniot-Faisalabad
-
-- Mentor resident students on study planning, consistency, and academic progress.
-- Support peer-learning and academic-support activities.
-
-**Peer Mentor / Technical Educator — FAST-NUCES**
-
-- Produce structured learning guides and project-planning resources.
-- Support students in full-stack, systems, and university coursework topics.
+---
 
 ## Education
 
 **Bachelor of Science in Computer Science (BSCS)**  
-FAST-NUCES, Chiniot-Faisalabad Campus · 2022–2026
+FAST-NUCES, Chiniot-Faisalabad Campus · 2022–2026 · Graduated  
+Relevant areas: web engineering, databases, networking, algorithms, systems programming, compiler construction
 
-## Additional Links
+---
 
-- University Projects Repository: https://github.com/AliShah1029384756/university-course-projects
-- Projects Page: https://alishah1029384756.github.io/AliShah1029384756/projects.html
-- Portfolio: https://alishah1029384756.github.io/AliShah1029384756/
+## Links
+
+- Portfolio: https://alishah1029384756.github.io/AliShah1029384756/  
+- Projects: https://alishah1029384756.github.io/AliShah1029384756/projects.html  
+- GitHub: https://github.com/AliShah1029384756  
+- University archive: https://github.com/AliShah1029384756/university-course-projects
