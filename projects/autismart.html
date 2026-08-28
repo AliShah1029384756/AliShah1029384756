@@ -26,6 +26,7 @@
       <div class="nav-links">
         <a href="../index.html" class="nav-link">Home</a>
         <a href="../projects.html" class="nav-link active">Projects</a>
+        <a href="../project-archive.html" class="nav-link">Archive</a>
         <a href="../cv.html" class="nav-link">CV</a>
         <a href="../about.html" class="nav-link">About</a>
         <a href="../sites.html" class="nav-link">Sites</a>
@@ -46,7 +47,6 @@
       </div>
     </header>
 
-    <!-- 1. THE PROBLEM -->
     <section class="project-section">
       <h2>1. The Problem</h2>
       <p>Parents and caregivers of children on the autism spectrum often need structured ways to track behaviours, complete stage-oriented assessments, and receive practical guidance between clinical visits. Existing tools are frequently fragmented: assessments live in one place, progress notes in another, and therapy activities elsewhere.</p>
@@ -54,55 +54,29 @@
       <p><strong>Scope boundary:</strong> This is a team Final Year Project and research-oriented prototype. It is not a clinically validated diagnostic system, medical device, or production healthcare platform.</p>
     </section>
 
-    <!-- 2. THE SOLUTION -->
     <section class="project-section">
       <h2>2. The Solution</h2>
       <p>AutiSmart is a role-based web platform with the following verified capabilities (supported by repository models, services, routes, and documentation):</p>
       <ul class="features-list">
         <li><strong>Role-based authentication</strong> — caregivers, experts, and administrators (JWT + email OTP verification)</li>
         <li><strong>Child profiles & caregiver management</strong> — structured child records linked to caregivers</li>
-        <li><strong>Structured assessment workflows</strong> — multi-category quizzes (Eye Contact, Social Interaction, Communication, Repetitive Behavior, Sensory Sensitivity, Focus & Attention) with result history and level classification</li>
+        <li><strong>Structured assessment workflows</strong> — multi-category quizzes with result history and level classification</li>
         <li><strong>AI-assisted quiz generation</strong> — Groq (Llama 3.3 70B) generates assessment questions and personalised child quizzes</li>
         <li><strong>Therapy-game recommendations</strong> — rule-based ranking of activities from latest assessment category scores</li>
-        <li><strong>Emotion Explorer</strong> — AI-generated emotion scenarios and encouraging feedback for therapy-oriented play</li>
+        <li><strong>Emotion Explorer</strong> — AI-generated emotion scenarios and encouraging feedback</li>
         <li><strong>Progress tracking & reporting</strong> — statistics, history, and dashboard-oriented views</li>
         <li><strong>Administrative controls</strong> — user management, assessment management, platform statistics</li>
       </ul>
       <p>Features such as multimodal audio/video analysis or production clinical pipelines are <strong>not</strong> claimed; they are outside the verified implementation.</p>
     </section>
 
-    <!-- 3. SYSTEM ARCHITECTURE -->
     <section class="project-section">
       <h2>3. System Architecture</h2>
       <p>Classic monolithic full-stack architecture. No microservices or complex infrastructure were introduced.</p>
-      <pre class="code-block" style="overflow-x:auto; background:var(--surface, #0f1419); padding:1.25rem; border-radius:8px; font-size:0.85rem; line-height:1.45;">
-┌──────────────────────────────┐
-│     AutiSmart Frontend       │
-│  React 19 + Vite 7           │
-│  React Router · Axios        │
-│  Bootstrap + Chart.js        │
-└──────────────┬───────────────┘
-               │ REST API (Axios)
-               ▼
-┌──────────────────────────────┐
-│     Express.js Backend       │
-│  Node.js · JWT · RBAC        │
-│  Controllers · Services      │
-│  Data-access layer           │
-└──────────────┬───────────────┘
-               │
-     ┌─────────┼─────────┐
-     ▼         ▼         ▼
-┌─────────┐ ┌────────┐ ┌──────────┐
-│ MongoDB │ │ Groq   │ │Nodemailer│
-│+Mongoose│ │ API    │ │ OTP mail │
-└─────────┘ └────────┘ └──────────┘
-      </pre>
       <p><strong>Key data models:</strong> User (role, OTP), Child, Assessment, AssessmentResult, ChildQuiz, Activity.</p>
-      <p><strong>External services actually integrated:</strong> Groq API (AI generation), Nodemailer (email OTP). Firebase/Twilio appear in dependencies but are not required for the core documented flows.</p>
+      <p><strong>External services actually integrated:</strong> Groq API (AI generation), Nodemailer (email OTP).</p>
     </section>
 
-    <!-- 4. MY CONTRIBUTION -->
     <section class="project-section">
       <h2>4. Team Project vs My Contribution</h2>
       <p><strong>This is a team Final Year Project.</strong> The public repository and this case study represent collective work. Individual ownership of every line of code is not claimed.</p>
@@ -128,115 +102,41 @@
       </div>
     </section>
 
-    <!-- 5. KEY TECHNICAL DECISIONS -->
     <section class="project-section">
       <h2>5. Key Technical Decisions</h2>
-
       <div class="tech-breakdown">
-        <div class="tech-category">
-          <h3>React + Vite frontend</h3>
-          <p><strong>Why:</strong> Fast development iteration, component model suited to dashboards and multi-role UIs, modern tooling.</p>
-          <p><strong>Trade-off:</strong> Client-side rendering; live demo depends on backend availability and CORS configuration.</p>
-        </div>
-        <div class="tech-category">
-          <h3>Node.js / Express REST API</h3>
-          <p><strong>Why:</strong> Single language across stack, rapid endpoint development, straightforward middleware for auth and roles.</p>
-          <p><strong>Trade-off:</strong> Monolithic; all features share one process and deployment unit.</p>
-        </div>
-        <div class="tech-category">
-          <h3>MongoDB + Mongoose</h3>
-          <p><strong>Why:</strong> Flexible document model fits evolving assessment schemas, child profiles, and nested category scores without rigid migrations.</p>
-          <p><strong>Trade-off:</strong> Less rigid relational integrity; application-level consistency required for cross-document references.</p>
-        </div>
-        <div class="tech-category">
-          <h3>JWT + role middleware</h3>
-          <p><strong>Why:</strong> Stateless authentication with explicit role checks (caregiver / expert / admin) for protected routes.</p>
-          <p><strong>Trade-off:</strong> Token revocation and long-lived sessions need careful handling; OTP adds email dependency.</p>
-        </div>
-        <div class="tech-category">
-          <h3>Groq API for AI features</h3>
-          <p><strong>Why:</strong> Fast inference, structured JSON responses, suitable free-tier for academic prototype. Used for quiz generation and Emotion Explorer content.</p>
-          <p><strong>Trade-off:</strong> External dependency; rate limits, cost, and availability affect live demo. Prompt quality and output validation are critical.</p>
-        </div>
-        <div class="tech-category">
-          <h3>Rule-based game recommendations</h3>
-          <p><strong>Why:</strong> Deterministic mapping from assessment category scores to therapy games is transparent, testable, and does not require an LLM call for every recommendation.</p>
-          <p><strong>Trade-off:</strong> Less adaptive than a pure generative approach; mapping table must be maintained as games change.</p>
-        </div>
+        <div class="tech-category"><h3>React + Vite frontend</h3><p><strong>Why:</strong> Fast development iteration, component model suited to dashboards and multi-role UIs.</p></div>
+        <div class="tech-category"><h3>Node.js / Express REST API</h3><p><strong>Why:</strong> Single language across stack, rapid endpoint development, straightforward middleware for auth and roles.</p></div>
+        <div class="tech-category"><h3>MongoDB + Mongoose</h3><p><strong>Why:</strong> Flexible document model fits evolving assessment schemas and child profiles.</p></div>
+        <div class="tech-category"><h3>JWT + role middleware</h3><p><strong>Why:</strong> Stateless authentication with explicit role checks for protected routes.</p></div>
+        <div class="tech-category"><h3>Groq API for AI features</h3><p><strong>Why:</strong> Fast inference, structured JSON responses, suitable free-tier for academic prototype.</p></div>
+        <div class="tech-category"><h3>Rule-based game recommendations</h3><p><strong>Why:</strong> Deterministic mapping from assessment scores to therapy games is transparent and testable.</p></div>
       </div>
     </section>
 
-    <!-- 6. TECHNICAL WALKTHROUGH -->
     <section class="project-section">
-      <h2>6. How the System Works (Typical Flows)</h2>
-
-      <h3>Authentication</h3>
-      <pre class="code-block" style="overflow-x:auto; background:var(--surface, #0f1419); padding:1rem; border-radius:8px; font-size:0.85rem;">Registration → Email OTP verification → JWT issued → Protected API requests (Bearer token) → Role middleware authorisation</pre>
-
-      <h3>Assessment & AI</h3>
-      <pre class="code-block" style="overflow-x:auto; background:var(--surface, #0f1419); padding:1rem; border-radius:8px; font-size:0.85rem;">Caregiver / Admin → Frontend quiz UI
-        → REST API (/api/assessments or child quiz endpoints)
-        → (Optional) Groq service generates questions
-        → Results stored as AssessmentResult (category scores + level)
-        → Recommendation service ranks therapy games from scores
-        → Dashboard / reports return progress data</pre>
-
-      <h3>Emotion Explorer</h3>
-      <pre class="code-block" style="overflow-x:auto; background:var(--surface, #0f1419); padding:1rem; border-radius:8px; font-size:0.85rem;">Child context + level → Groq generates scenarios + distractors
-        → Frontend presents emotion game
-        → Score submitted → Groq generates short encouraging feedback</pre>
-    </section>
-
-    <!-- 7. CURRENT LIMITATIONS -->
-    <section class="project-section">
-      <h2>7. Current Limitations (Honest Scope)</h2>
+      <h2>6. Current Limitations (Honest Scope)</h2>
       <ul class="features-list">
-        <li><strong>Academic prototype</strong> — built and evaluated as a team Final Year Project, not a production clinical system.</li>
-        <li><strong>No clinical validation</strong> — assessments and AI-generated content have not undergone clinical trials or regulatory review. Not a diagnostic tool.</li>
-        <li><strong>Team project</strong> — contributions are collaborative; no single person owns the entire codebase.</li>
-        <li><strong>External service dependency</strong> — live demo relies on MongoDB, email provider, and Groq API. Without credentials or when rate-limited, features degrade or use mock/limited data.</li>
-        <li><strong>Frontend deployment only</strong> — public Vercel link is the frontend; full backend + database require local or private deployment.</li>
-        <li><strong>Limited automated testing evidence</strong> — core flows are demonstrated via seed scripts and manual presentation rather than comprehensive test suites.</li>
-        <li><strong>AI output quality</strong> — generated questions and scenarios depend on prompts and model behaviour; validation and sanitisation are applied, but human review remains advisable.</li>
+        <li><strong>Academic prototype</strong> — team Final Year Project, not a production clinical system.</li>
+        <li><strong>No clinical validation</strong> — not a diagnostic tool or medical device.</li>
+        <li><strong>Team project</strong> — collaborative contributions; no single person owns the entire codebase.</li>
+        <li><strong>External service dependency</strong> — live demo relies on MongoDB, email provider, and Groq API.</li>
+        <li><strong>Frontend deployment only</strong> — public Vercel link is the frontend; full backend requires local/private deployment.</li>
       </ul>
     </section>
 
-    <!-- 8. DEMO / SCREENSHOTS PLACEHOLDERS -->
     <section class="project-section">
-      <h2>8. Interface & Demo</h2>
-      <p>Live frontend (may run with limited/mock data depending on external services):</p>
-      <p><a href="https://auti-smart-rosy.vercel.app" target="_blank" rel="noreferrer noopener" class="btn">Open Live Demo (Frontend) ↗</a></p>
-
-      <h3>Interface walkthrough (screenshots coming)</h3>
-      <p>The following screens exist in the application and are prepared for real screenshots:</p>
-      <ul class="features-list">
-        <li>Login / registration & OTP verification</li>
-        <li>Caregiver dashboard & child profiles</li>
-        <li>Assessment quiz flow & results</li>
-        <li>Therapy games / Emotion Explorer</li>
-        <li>Progress & reporting views</li>
-        <li>Admin management screens</li>
-      </ul>
-      <p><em>Real screenshots and a 90–120 second technical walkthrough video will be added here. No generated or placeholder images are used.</em></p>
-
-      <h3>Technical walkthrough video</h3>
-      <p><strong>Technical walkthrough coming soon.</strong> A short screen recording covering architecture, a sample assessment flow, and the AI recommendation path will be linked here once recorded.</p>
-    </section>
-
-    <!-- MEDICAL DISCLAIMER -->
-    <section class="project-section">
-      <h2>Medical & AI Disclaimer</h2>
-      <p>AutiSmart is an <strong>academic and assistive software prototype</strong>. Its assessments, AI-generated recommendations, and screening-related features are <strong>not</strong> a substitute for professional clinical diagnosis, evaluation, or treatment. The project must not be interpreted as clinically validated or as a medical device.</p>
-    </section>
-
-    <!-- LINKS -->
-    <section class="project-section">
-      <h2>Repository & Links</h2>
+      <h2>7. Repository & Links</h2>
       <div class="project-links-section">
         <a href="https://github.com/AliShah1029384756/Fyp-Autismart" target="_blank" rel="noreferrer noopener" class="btn">Open Final FYP Repository ↗</a>
         <a href="https://auti-smart-rosy.vercel.app" target="_blank" rel="noreferrer noopener" class="btn btn-ghost">Open Live Demo (Frontend) ↗</a>
         <a href="../projects.html" class="btn btn-ghost">Back to Projects</a>
       </div>
+    </section>
+
+    <section class="project-section">
+      <h2>Medical & AI Disclaimer</h2>
+      <p>AutiSmart is an <strong>academic and assistive software prototype</strong>. Its assessments, AI-generated recommendations, and screening-related features are <strong>not</strong> a substitute for professional clinical diagnosis, evaluation, or treatment.</p>
     </section>
   </main>
 
