@@ -103,9 +103,9 @@ Completed a six-week internship; explored digital marketing workflows and relate
 - Teach computer science and programming from foundational concepts through university-level topics.  
 - Support students with problem-solving, projects, and practical technical learning.
 
-**Hostel Teacher and Warden — FAST-NUCES**  
-2022 – Present · Chiniot-Faisalabad  
-- Mentor resident students on study planning, consistency, and academic progress.
+**Hostel Teacher & Warden**  
+2022 – Present  
+- Support resident students with mentoring, welfare, study routines, and day-to-day hostel responsibilities.
 
 ## Education
 
@@ -121,4 +121,4 @@ FAST-NUCES, Chiniot-Faisalabad Campus · **2022–2026** · Graduated
 
 ---
 
-**Last updated: August 2026**
+**Last updated: November 2026**
