@@ -2,7 +2,7 @@
 
 ### Full-Stack Software Engineer | Healthcare & EdTech | AI-Assisted Products
 
-BSCS graduate (FAST-NUCES, 2022–2026). I build practical full-stack systems for healthcare and education workflows with React, Node.js, MongoDB, and carefully integrated AI features.
+BSCS graduate (FAST-NUCES, Chiniot-Faisalabad Campus, 2022–2026). I build practical full-stack systems for healthcare and education workflows with React, Node.js, MongoDB, and carefully integrated AI features.
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3500&pause=900&color=00D9FF&center=true&width=760&lines=Full-Stack+Software+Engineer;Healthcare+%26+EdTech+Systems;React+%C2%B7+Node.js+%C2%B7+MongoDB;FAST-NUCES+BSCS+Graduate;CS+Educator+%26+Mentor" alt="Profile summary animation" />
@@ -94,9 +94,9 @@ A curated archive of **17+ university projects** across systems, databases, netw
 
 ## Experience
 
-**Digital Marketing Intern — Atlas Honda Pakistan**  
-July 2026 – Present · Lahore, Pakistan  
-Current professional role while actively strengthening the software engineering and data/BI profile.
+**Digital Marketing Intern — Atlas Honda Pakistan (Motorcycle Business)**  
+27 June 2026 – 7 August 2026 · Lahore, Pakistan  
+Completed a six-week internship; explored digital marketing workflows and related business/technology context.
 
 **CS Educator / Teacher**  
 2022 – Present  
