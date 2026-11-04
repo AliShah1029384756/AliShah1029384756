@@ -12,7 +12,7 @@ BSCS graduate (FAST-NUCES, 2022–2026). I build practical full-stack systems fo
 
 [![Email](https://img.shields.io/badge/Email-Connect-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shahyed99@gmail.com)
 [![Resume](https://img.shields.io/badge/Resume-PDF-1f6feb?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./assets/Syed-Muhammad-Ali-Naqvi-Resume.pdf)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-naqvi-1a9576331)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/syed-muhammad-ali-naqvi-1a9576331)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Website-00D9FF?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://alishah1029384756.github.io/AliShah1029384756/)
 
 ## What I Build
@@ -115,7 +115,7 @@ FAST-NUCES, Chiniot-Faisalabad Campus · **2022–2026** · Graduated
 ## Contact
 
 - **Email:** [shahyed99@gmail.com](mailto:shahyed99@gmail.com)
-- **LinkedIn:** [linkedin.com/in/ali-naqvi-1a9576331](https://www.linkedin.com/in/ali-naqvi-1a9576331)
+- **LinkedIn:** [linkedin.com/in/syed-muhammad-ali-naqvi-1a9576331](https://www.linkedin.com/in/syed-muhammad-ali-naqvi-1a9576331)
 - **Portfolio:** [alishah1029384756.github.io/AliShah1029384756](https://alishah1029384756.github.io/AliShah1029384756/)
 - **GitHub:** [github.com/AliShah1029384756](https://github.com/AliShah1029384756)
 
