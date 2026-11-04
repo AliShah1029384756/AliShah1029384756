@@ -52,6 +52,14 @@ An education-domain system for structured Individualized Education Program workf
 
 **[📂 Repository](https://github.com/AliShah1029384756/SchoolIEP)** · **[📖 Case Study](https://alishah1029384756.github.io/AliShah1029384756/projects/schooliep.html)**
 
+### 4. EduConnect — Student Support Platform
+
+A university web-programming project bringing student forums, counseling requests, learning resources, profile management, and administrative workflows into one education-support application.
+
+**Tech:** Node.js, Express.js, MongoDB, Mongoose, HTML, CSS, JavaScript, JWT
+
+**[📂 Repository](https://github.com/AliShah1029384756/EduConnect)** · **[📖 Case Study](https://alishah1029384756.github.io/AliShah1029384756/projects/educonnect.html)**
+
 ### 4–6. Supporting Systems
 
 - **Compiler Project** — lexical analysis, parsing, semantic processing, intermediate representation
