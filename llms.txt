@@ -1,6 +1,6 @@
 # Syed Muhammad Ali Naqvi — Portfolio
 
- > Digital home of Syed Muhammad Ali Naqvi, bringing together his professional identity, software engineering, AI exploration, computer science teaching, student mentoring, technical work, and knowledge-sharing initiatives.
+> Digital home of Syed Muhammad Ali Naqvi, bringing together his professional identity, software engineering, AI exploration, computer science teaching, student mentoring, technical work, and knowledge-sharing initiatives.
 
 ## Canonical profile
 - Website: https://alishah1029384756.github.io/AliShah1029384756/
