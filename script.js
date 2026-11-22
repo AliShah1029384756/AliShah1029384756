@@ -78,6 +78,7 @@ if (navToggle && navLinks) {
   window.addEventListener("resize", () => {
     if (window.innerWidth > 768) {
       navLinks.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
       document.body.style.overflow = "";
     }
   });
