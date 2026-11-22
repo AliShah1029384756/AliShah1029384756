@@ -378,8 +378,6 @@ function createCommandOverlay() {
 }
 
 createScrollProgress();
-createFloatingDock();
-createCommandOverlay();
 
 const terminalInput = document.getElementById('terminal-input');
 const terminalOutput = document.getElementById('terminal-output');
