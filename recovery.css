@@ -246,3 +246,18 @@ html[data-theme="light"] .snapshot-chips span {
   background: #f1f5f9;
   border-color: #e2e8f0;
 }
+
+/* Shared navigation: compact primary links with a discoverable Explore menu */
+.nav-explore { position: relative; }
+.nav-explore > summary { list-style: none; cursor: pointer; user-select: none; }
+.nav-explore > summary::-webkit-details-marker { display: none; }
+.nav-explore > summary span { margin-left: 4px; font-size: .8em; }
+.nav-explore[open] > summary { color: var(--brand) !important; background: rgba(99,230,215,.08); border-color: rgba(99,230,215,.18); }
+.nav-explore-menu { position: absolute; top: calc(100% + 8px); right: 0; z-index: 1100; min-width: 210px; padding: 8px; border: 1px solid var(--line-soft); border-radius: 13px; background: var(--glass); box-shadow: var(--shadow); backdrop-filter: blur(18px); }
+.nav-explore-menu .nav-link { display: flex; width: 100%; white-space: nowrap; }
+@media (max-width: 768px) {
+  .nav-explore { width: 100%; }
+  .nav-explore > summary { width: 100%; justify-content: center; text-align: center; }
+  .nav-explore-menu { position: static; min-width: 0; margin: 4px 8px 8px; padding: 6px; box-shadow: none; background: rgba(124,183,255,.035); }
+  .nav-explore-menu .nav-link { justify-content: center; }
+}
