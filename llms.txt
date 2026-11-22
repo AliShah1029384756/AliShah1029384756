@@ -1,6 +1,6 @@
 # Syed Muhammad Ali Naqvi — Portfolio
 
-> Official professional portfolio of Syed Muhammad Ali Naqvi, a FAST-NUCES BSCS graduate, full-stack software developer, AI integrator, and computer science educator.
+ > Digital home of Syed Muhammad Ali Naqvi, bringing together his professional identity, software engineering, AI exploration, computer science teaching, student mentoring, technical work, and knowledge-sharing initiatives.
 
 ## Canonical profile
 - Website: https://alishah1029384756.github.io/AliShah1029384756/
@@ -8,6 +8,13 @@
 - LinkedIn: https://www.linkedin.com/in/syed-muhammad-ali-naqvi-1a9576331
 - CV page: https://alishah1029384756.github.io/AliShah1029384756/cv.html
 - About: https://alishah1029384756.github.io/AliShah1029384756/about.html
+
+## Digital-home purpose
+This website is not only an online CV or recruiter landing page. It is a connected space for multiple audiences:
+- Employers and collaborators: professional experience, skills, CV, and project evidence.
+- Developers: technical projects, implementation notes, and engineering archive.
+- Students and educators: teaching, mentoring, learning hubs, and project guidance.
+- General visitors: personal journey, interests, and the broader body of work.
 
 ## Professional focus
 - Full-stack web application development with React, Node.js, Express, MongoDB, REST APIs, and authentication.
