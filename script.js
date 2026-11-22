@@ -63,12 +63,14 @@ if (navToggle && navLinks) {
   navToggle.addEventListener("click", () => {
     const isActive = navLinks.classList.contains("is-open");
     navLinks.classList.toggle("is-open");
+    navToggle.setAttribute("aria-expanded", isActive ? "false" : "true");
     document.body.style.overflow = isActive ? "" : "hidden";
   });
 
-  navLinks.querySelectorAll(".nav-link").forEach((link) => {
+  navLinks.querySelectorAll("a.nav-link").forEach((link) => {
     link.addEventListener("click", () => {
       navLinks.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
       document.body.style.overflow = "";
     });
   });
