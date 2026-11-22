@@ -107,12 +107,12 @@ A curated archive of **17+ university projects** across systems, databases, netw
 Completed a six-week internship; explored digital marketing workflows and related business/technology context.
 
 **CS Educator / Teacher**  
-2022 – Present  
+August 2022 – Present  
 - Teach computer science and programming from foundational concepts through university-level topics.  
 - Support students with problem-solving, projects, and practical technical learning.
 
 **Hostel Teacher & Warden**  
-2022 – Present  
+August 2022 – Present  
 - Support resident students with mentoring, welfare, study routines, and day-to-day hostel responsibilities.
 
 ## Education
