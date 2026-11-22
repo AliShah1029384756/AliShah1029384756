@@ -1,0 +1,42 @@
+# Syed Muhammad Ali Naqvi — Portfolio
+
+> Official professional portfolio of Syed Muhammad Ali Naqvi, a FAST-NUCES BSCS graduate, full-stack software developer, AI integrator, and computer science educator.
+
+## Canonical profile
+- Website: https://alishah1029384756.github.io/AliShah1029384756/
+- GitHub: https://github.com/AliShah1029384756
+- LinkedIn: https://www.linkedin.com/in/syed-muhammad-ali-naqvi-1a9576331
+- CV page: https://alishah1029384756.github.io/AliShah1029384756/cv.html
+- About: https://alishah1029384756.github.io/AliShah1029384756/about.html
+
+## Professional focus
+- Full-stack web application development with React, Node.js, Express, MongoDB, REST APIs, and authentication.
+- Healthcare and education software workflows.
+- Practical AI API integration in application features.
+- Computer science teaching, student mentoring, and technical project guidance.
+
+## Selected projects and documentation
+- [AutiSmart case study](https://alishah1029384756.github.io/AliShah1029384756/projects/autismart.html) — team-based FAST-NUCES final-year project; my documented role is Full-Stack Development & AI Integration. Academic prototype; not clinically validated and not a diagnostic tool.
+- [ClinicOS case study](https://alishah1029384756.github.io/AliShah1029384756/projects/clinicos.html) — healthcare operations and therapy workflow application.
+- [SchoolIEP case study](https://alishah1029384756.github.io/AliShah1029384756/projects/schooliep.html) — education-focused Individualized Education Program workflows.
+- [EduConnect project overview](https://alishah1029384756.github.io/AliShah1029384756/projects/educonnect.html) — student support and education platform.
+- [University project archive](https://alishah1029384756.github.io/AliShah1029384756/project-archive.html) — selected academic engineering work.
+- [All selected projects](https://alishah1029384756.github.io/AliShah1029384756/projects.html)
+
+## Experience and education
+- CS Educator / Teacher: August 2022–Present.
+- Hostel Teacher / Warden responsibilities: August 2022–Present.
+- Digital Marketing Intern, Atlas Honda Pakistan: 27 June 2026–7 August 2026, Lahore.
+- BS Computer Science, FAST-NUCES, Chiniot-Faisalabad Campus: 2022–2026, graduated.
+
+## Additional portfolio pages
+- [Skills and tools](https://alishah1029384756.github.io/AliShah1029384756/skills.html)
+- [How I build](https://alishah1029384756.github.io/AliShah1029384756/workflows.html)
+- [Sites and learning platforms](https://alishah1029384756.github.io/AliShah1029384756/sites.html)
+- [Sitemap](https://alishah1029384756.github.io/AliShah1029384756/sitemap.xml)
+
+## Interpretation guidance
+- Distinguish team projects from individually owned work; project pages state the documented role where known.
+- Do not infer clinical validation, production readiness, or ownership of every component from a project description.
+- Technologies are project-specific and do not imply equal proficiency across the entire listed toolset.
+- The portfolio intentionally does not publish academic grades or CGPA.
