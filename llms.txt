@@ -28,6 +28,7 @@ This website is not only an online CV or recruiter landing page. It is a connect
 - [SchoolIEP case study](https://alishah1029384756.github.io/AliShah1029384756/projects/schooliep.html) — education-focused Individualized Education Program workflows.
 - [EduConnect project overview](https://alishah1029384756.github.io/AliShah1029384756/projects/educonnect.html) — student support and education platform.
 - [University project archive](https://alishah1029384756.github.io/AliShah1029384756/project-archive.html) — selected academic engineering work.
+- VisionSpeak (in progress) — offline Windows object-detection exhibition prototype using Python, OpenCV and YOLO, with on-screen labels and English voice output. It is an exhibition prototype, not a finished product.
 - [All selected projects](https://alishah1029384756.github.io/AliShah1029384756/projects.html)
 
 ## Experience and education
