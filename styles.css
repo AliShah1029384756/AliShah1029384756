@@ -121,3 +121,50 @@ footer a { transition:color .2s ease; }
 .project-intro-pills span{padding:7px 11px;border:1px solid var(--line);border-radius:999px;color:var(--text-dim);font:500 .7rem "JetBrains Mono",monospace;background:rgba(124,183,255,.045)}
 .projects-control-panel{scroll-margin-top:90px}
 @media(max-width:600px){.portfolio-preview{margin-top:22px;border-radius:13px}.portfolio-preview figcaption{align-items:flex-start;flex-direction:column;gap:5px}.portfolio-preview figcaption strong{text-align:left;font-size:.8rem}.journey-selector .quick-action{min-height:unset;padding:17px}.project-intro-pills span{font-size:.64rem}.projects-intro-panel{padding:20px}}
+
+
+/* 2026 digital-home refinement: calm hierarchy, readable rhythm, and accessible surfaces */
+:root { --content-width: 1160px; --radius-card: 20px; }
+html { scroll-padding-top: 92px; }
+body { line-height: 1.68; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+main.container, .logs-page { padding-bottom: 76px; }
+.container { width: min(var(--content-width), calc(100% - 40px)); }
+section { scroll-margin-top: 96px; }
+.page-header { padding-top: clamp(52px, 8vw, 92px); padding-bottom: clamp(28px, 5vw, 52px); }
+.page-header h1 { max-width: 900px; margin-bottom: 18px; }
+.page-header > p, .section-lead, .about-section > p { max-width: 780px; line-height: 1.8; }
+.panel, .project-item, .tech-category, .skill-category, .flagship-item, .philosophy-card, .stat-card, .quick-action, .cv-sheet { border-radius: var(--radius-card); }
+.panel, .project-item, .tech-category, .skill-category, .flagship-item, .philosophy-card, .stat-card { transition: border-color .22s ease, transform .22s ease, box-shadow .22s ease; }
+.panel:hover, .project-item:hover, .tech-category:hover, .skill-category:hover, .flagship-item:hover { border-color: rgba(99,230,215,.25); }
+.panel p, .project-item p, .about-section p, .cv-block p { line-height: 1.78; }
+.panel h2, .about-section h2, .cv-block h2 { letter-spacing: -.025em; }
+.btn, .btn-link, .theme-toggle, .nav-toggle, .filter-btn { min-height: 44px; }
+.btn, .btn-link { border-radius: 12px; }
+.nav-link { min-height: 42px; display: inline-flex; align-items: center; justify-content: center; }
+.nav-toggle { min-width: 44px; }
+.nav-explore > summary { min-height: 42px; display: inline-flex; align-items: center; }
+.global-nav { z-index: 1200; }
+.nav-explore-menu { z-index: 1300; }
+footer { margin-top: 36px; padding: 26px 20px 34px; border-top: 1px solid var(--line-soft); color: var(--text-dim); text-align: center; }
+footer p { margin: 6px 0; }
+footer a { color: var(--brand); }
+::selection { background: rgba(99,230,215,.25); color: var(--text); }
+img { max-width: 100%; height: auto; }
+@media (max-width: 768px) {
+  .container { width: min(100% - 28px, var(--content-width)); }
+  .global-nav .nav-container { min-height: 66px; }
+  .nav-links { z-index: 1250; }
+  .nav-explore > summary { width: 100%; }
+  .nav-explore-menu { max-height: min(48vh, 360px); overflow-y: auto; }
+  .page-header { padding-top: 48px; }
+  .panel, .project-item, .tech-category, .skill-category, .flagship-item { padding: clamp(17px, 4vw, 24px); }
+}
+@media (max-width: 420px) {
+  .container { width: calc(100% - 24px); }
+  .nav-logo { max-width: 170px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .hero h1 { overflow-wrap: anywhere; }
+  .btn, .btn-link { width: 100%; justify-content: center; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto !important; }
+}
