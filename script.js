@@ -419,3 +419,32 @@ if (terminalInput && terminalOutput) {
   });
 }
 
+
+
+// Accessible navigation refinements: predictable close behavior on touch, keyboard, and resize.
+(function improveNavigation() {
+  const toggle = document.querySelector(".nav-toggle");
+  const links = document.querySelector(".nav-links");
+  if (!toggle || !links) return;
+  const closeMenu = () => {
+    links.classList.remove("is-open");
+    toggle.setAttribute("aria-expanded", "false");
+    document.body.style.overflow = "";
+  };
+  toggle.setAttribute("aria-controls", "nav-links");
+  if (!links.id) links.id = "nav-links";
+  toggle.addEventListener("click", () => {
+    if (links.classList.contains("is-open")) closeMenu();
+    else {
+      links.classList.add("is-open");
+      toggle.setAttribute("aria-expanded", "true");
+      document.body.style.overflow = "hidden";
+    }
+  });
+  links.querySelectorAll("a").forEach(link => link.addEventListener("click", closeMenu));
+  document.addEventListener("keydown", event => { if (event.key === "Escape") closeMenu(); });
+  document.addEventListener("click", event => {
+    if (links.classList.contains("is-open") && !links.contains(event.target) && !toggle.contains(event.target)) closeMenu();
+  });
+  window.addEventListener("resize", () => { if (window.innerWidth > 768) closeMenu(); });
+})();
