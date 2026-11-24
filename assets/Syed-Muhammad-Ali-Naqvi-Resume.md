@@ -5,7 +5,7 @@ BSCS Graduate · FAST-NUCES (2022–2026) · React · Node.js · MongoDB · REST
 
 **Email:** shahyed99@gmail.com  
 **GitHub:** https://github.com/AliShah1029384756  
-**LinkedIn:** https://www.linkedin.com/in/ali-naqvi-1a9576331  
+**LinkedIn:** https://www.linkedin.com/in/syed-muhammad-ali-naqvi-1a9576331  
 **Portfolio:** https://alishah1029384756.github.io/AliShah1029384756/  
 **Location:** Gujrat / Lahore, Punjab, Pakistan
 
@@ -13,7 +13,7 @@ BSCS Graduate · FAST-NUCES (2022–2026) · React · Node.js · MongoDB · REST
 
 ## Professional Summary
 
-BSCS graduate from FAST-NUCES focused on full-stack web engineering for healthcare and education workflows. Builds end-to-end applications with React, Node.js, Express, MongoDB, JWT authentication, and carefully integrated AI features. Flagship work includes a team Final Year Project (AutiSmart) and two domain systems (ClinicOS, SchoolIEP). Complements engineering with multi-year CS teaching and mentoring. Complements engineering with ongoing CS teaching, student mentoring and hostel supervision; completed a Digital Marketing Internship at Atlas Honda Pakistan in 2026.
+BSCS graduate from FAST-NUCES focused on full-stack web engineering for healthcare and education workflows. Builds end-to-end applications with React, Node.js, Express, MongoDB, JWT authentication, and carefully integrated AI features. Flagship work includes a team Final Year Project (AutiSmart) and two domain systems (ClinicOS, SchoolIEP). Complements engineering with ongoing CS education, STEM project mentoring and hostel supervision; completed a Digital Marketing Internship at Atlas Honda Pakistan in 2026.
 
 ---
 
@@ -67,7 +67,7 @@ August 2022 – Present
 - Teach computer science and programming from foundational through university-oriented topics  
 - Support students with problem-solving, projects, and practical technical learning
 
-**Hostel Supervisor / Warden — Al Bethat Boys School & College**  
+**Hostel Warden — BETHAT Trust Student Hostel**  
 August 2022 – Present  
 - Mentor resident students on study planning, consistency, and academic progress  
 - Support peer-learning and technical guidance
